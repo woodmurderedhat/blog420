@@ -1,0 +1,153 @@
+<!-- Social Share Buttons -->
+<div class="social-share">
+  <h4 class="share-title">Share this post:</h4>
+  <div class="share-buttons">
+    <!-- Twitter -->
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url }}&via={{ site.twitter.username }}" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="share-btn share-twitter"
+       title="Share on Twitter"
+       aria-label="Share on Twitter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+      </svg>
+      Tweet
+    </a>
+    
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="share-btn share-facebook"
+       title="Share on Facebook"
+       aria-label="Share on Facebook">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+      </svg>
+      Share
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | uri_escape }}" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="share-btn share-linkedin"
+       title="Share on LinkedIn"
+       aria-label="Share on LinkedIn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+        <circle cx="4" cy="4" r="2"/>
+      </svg>
+      Share
+    </a>
+    
+    <!-- Reddit -->
+    <a href="https://reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title | uri_escape }}" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="share-btn share-reddit"
+       title="Share on Reddit"
+       aria-label="Share on Reddit">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="9" cy="10" r="1"/>
+        <circle cx="15" cy="10" r="1"/>
+        <path d="M22 11.08c0-1.52-1.24-2.76-2.76-2.76-.76 0-1.45.31-1.94.82-1.91-1.17-4.5-1.93-7.3-2.04L11.28 3l3.86.87c.06 1.03.92 1.84 1.96 1.84 1.09 0 1.98-.89 1.98-1.98s-.89-1.98-1.98-1.98c-.82 0-1.52.5-1.82 1.21L11.1 2.09c-.2-.05-.4.04-.49.21L9.25 7.04c-2.83.09-5.46.85-7.38 2.03-.49-.52-1.18-.84-1.95-.84C1.24 8.32 0 9.56 0 11.08c0 1.02.56 1.91 1.38 2.39-.04.21-.06.43-.06.65 0 3.31 3.86 6 8.62 6s8.62-2.69 8.62-6c0-.22-.02-.44-.06-.65.82-.48 1.38-1.37 1.38-2.39zM8.5 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm6.65 3.05c-.55.55-1.62.83-3.15.83s-2.6-.28-3.15-.83c-.14-.14-.14-.37 0-.52.14-.14.37-.14.52 0 .4.4 1.22.62 2.63.62s2.23-.22 2.63-.62c.14-.14.37-.14.52 0 .14.15.14.38 0 .52zm-.15-3.05c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+      </svg>
+      Reddit
+    </a>
+    
+    <!-- Copy Link -->
+    <button class="share-btn share-copy" 
+            onclick="copyToClipboard('{{ page.url | absolute_url }}')"
+            title="Copy link"
+            aria-label="Copy link">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/>
+        <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/>
+      </svg>
+      Copy
+    </button>
+  </div>
+</div>
+
+<script>
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.currentTarget;
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polyline points="20 6 9 17 4 12"/></svg> Copied!';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+    }, 2000);
+    
+    if (window.gamification) {
+      window.gamification.addXP(5, 'Link Copied!');
+    }
+  });
+}
+</script>
+
+<style>
+.social-share {
+  margin: 3rem 0 2rem;
+  padding: 2rem;
+  background: var(--primary-color);
+  border: 3px solid var(--accent-color);
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.share-title {
+  font-family: 'Press Start 2P', cursive;
+  color: var(--accent-color);
+  font-size: 0.7rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: var(--secondary-color);
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.share-btn:hover {
+  background: var(--light-bg);
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.share-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 600px) {
+  .share-buttons {
+    gap: 8px;
+  }
+  
+  .share-btn {
+    padding: 8px 12px;
+    font-size: 0.5rem;
+  }
+}
+</style>

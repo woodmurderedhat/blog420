@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+description: "Discover retro gaming nostalgia, pixel art tutorials, and modern games with classic aesthetics. Join our gamified reading experience with achievements, XP, and interactive features."
 ---
 
 <section class="home">

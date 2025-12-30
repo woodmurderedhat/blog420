@@ -2,15 +2,22 @@
 layout: default
 ---
 
-<article class="post">
+<!-- Breadcrumbs for SEO -->
+{% include breadcrumbs.html %}
+
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
     <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%B %d, %Y" }}
       </time>
-      {% if page.author %}
-        <span class="post-author">by {{ page.author }}</span>
+      <meta itemprop="dateModified" content="{{ page.modified_date | default: page.date | date_to_xmlschema }}"  />
+      {% if page.author %} itemprop="author" itemscope itemtype="https://schema.org/Person">
+          by <span itemprop="name">{{ page.author }}</span>
+        </span>
+      {% endif %}
+      <meta itemprop="publisher" content="{{ site.title }}" />ss="post-author">by {{ page.author }}</span>
       {% endif %}
     </div>
     {% if page.tags %}
@@ -19,12 +26,15 @@ layout: default
           <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag">{{ tag }}</a>
         {% endfor %}
       </div>
-    {% endif %}
+    {% endif %} itemprop="articleBody"
   </header>
 
   <div class="post-content">
     {{ content }}
   </div>
+
+  <!-- Social Share Buttons -->
+  {% include social-share.html %}
 
   {% if site.posts.size > 1 %}
     <nav class="post-navigation">
