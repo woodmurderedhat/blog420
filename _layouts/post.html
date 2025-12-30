@@ -12,13 +12,13 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%B %d, %Y" }}
       </time>
-      <meta itemprop="dateModified" content="{{ page.modified_date | default: page.date | date_to_xmlschema }}"  />
-      {% if page.author %} itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <meta itemprop="dateModified" content="{{ page.modified_date | default: page.date | date_to_xmlschema }}" />
+      {% if page.author %}
+        <span class="post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
           by <span itemprop="name">{{ page.author }}</span>
         </span>
       {% endif %}
-      <meta itemprop="publisher" content="{{ site.title }}" />ss="post-author">by {{ page.author }}</span>
-      {% endif %}
+      <meta itemprop="publisher" content="{{ site.title }}" />
     </div>
     {% if page.tags %}
       <div class="post-tags">
@@ -26,10 +26,10 @@ layout: default
           <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag">{{ tag }}</a>
         {% endfor %}
       </div>
-    {% endif %} itemprop="articleBody"
+    {% endif %}
   </header>
 
-  <div class="post-content">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 
