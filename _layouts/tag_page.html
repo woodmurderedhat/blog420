@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="tag-page">
+  <h1 class="tag-title">Posts tagged with "{{ page.tag }}"</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <li class="post-item">
+          <a href="{{ post.url | relative_url }}" class="post-link">
+            {{ post.title }}
+          </a>
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+            {{ post.date | date: "%B %d, %Y" }}
+          </time>
+          {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

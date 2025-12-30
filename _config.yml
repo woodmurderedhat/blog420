@@ -1,0 +1,55 @@
+title: 420360 Blog
+description: A Simple Blog for 420360
+author: Stephanus
+email: woodmurderedhat@gmail.com
+
+# GitHub Pages settings
+github: [metadata]
+url: https://woodmurderedhat.github.io
+baseurl: /blog420
+
+# Jekyll settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-tagging
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Tag settings
+tag_page_dir: tags
+tag_page_layout: tag_page
+tag_permalink_style: pretty
+
+# Collections
+collections:
+  - drafts
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - node_modules

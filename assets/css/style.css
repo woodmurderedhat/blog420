@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --text-color: #333;
+  --light-bg: #ecf0f1;
+  --border-color: #bdc3c7;
+  --spacing: 1rem;
+  --max-width: 800px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: #f8f9fa;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.site-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem var(--spacing);
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.site-header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.site-title a {
+  color: white;
+}
+
+.site-title a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.site-description {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: white;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.site-nav a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* Main content */
+.site-content {
+  max-width: var(--max-width);
+  margin: 0 auto var(--spacing);
+  padding: 0 var(--spacing);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem var(--spacing);
+  margin-top: 3rem;
+}
+
+/* Post list */
+.post-list {
+  list-style: none;
+}
+
+.post-item {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: white;
+  border-left: 4px solid var(--secondary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.post-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.post-date {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.post-excerpt {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+/* Single post */
+.post {
+  background: white;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--light-bg);
+  padding-bottom: 1.5rem;
+}
+
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.post-meta {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.post-author {
+  margin-left: 1rem;
+}
+
+.post-tags {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--light-bg);
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.tag:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+}
+
+.post-content {
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.post-content h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem;
+  color: var(--primary-color);
+}
+
+.post-content h3 {
+  font-size: 1.25rem;
+  margin: 1.25rem 0 0.75rem;
+  color: var(--primary-color);
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content ul,
+.post-content ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-content code {
+  background-color: var(--light-bg);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+.post-content pre {
+  background-color: #282c34;
+  color: #abb2bf;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.post-content pre code {
+  background-color: transparent;
+  padding: 0;
+  color: #abb2bf;
+}
+
+.post-content blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #555;
+  font-style: italic;
+}
+
+/* Post navigation */
+.post-navigation {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--light-bg);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.prev-post,
+.next-post {
+  flex: 1;
+  min-width: 200px;
+}
+
+.next-post {
+  text-align: right;
+}
+
+/* Page */
+.page {
+  background: white;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.page-header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--light-bg);
+  padding-bottom: 1rem;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.page-content {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.pagination a,
+.pagination span {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.pagination a {
+  background: white;
+  color: var(--secondary-color);
+}
+
+.pagination a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+}
+
+.pagination .disabled {
+  color: #bdc3c7;
+  background-color: #f0f0f0;
+}
+
+.pagination .current {
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+}
+
+/* Tag page */
+.tag-page {
+  background: white;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tag-title {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .site-header {
+    padding: 1.5rem var(--spacing);
+  }
+
+  .site-title {
+    font-size: 1.75rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+  }
+
+  .post-navigation {
+    flex-direction: column;
+  }
+
+  .next-post {
+    text-align: left;
+  }
+
+  .post-item {
+    padding: 1rem;
+  }
+}
