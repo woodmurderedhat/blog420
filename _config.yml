@@ -5,8 +5,8 @@ email: woodmurderedhat@gmail.com
 
 # GitHub Pages settings
 github: [metadata]
-url: https://woodmurderedhat.github.io
-baseurl: /blog420
+url: https://blog.420360.xyz
+baseurl: ""
 
 # Jekyll settings
 markdown: kramdown
