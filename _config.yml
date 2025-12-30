@@ -13,13 +13,8 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 excerpt_separator: "<!--more-->"
 
-# Pagination
-paginate: 10
-paginate_path: "/page/:num/"
-
 # Plugins
 plugins:
-  - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-feed
 
