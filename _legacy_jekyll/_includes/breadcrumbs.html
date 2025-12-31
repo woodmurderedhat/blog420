@@ -1,0 +1,80 @@
+<!-- Breadcrumb Navigation for SEO -->
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb-list">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ '/' | relative_url }}">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    {% if page.layout == 'post' %}
+    <li class="breadcrumb-separator">&gt;</li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ '/archive/' | relative_url }}">
+        <span itemprop="name">Archive</span>
+      </a>
+      <meta itemprop="position" content="2" />
+    </li>
+    <li class="breadcrumb-separator">&gt;</li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-active">
+      <span itemprop="name">{{ page.title }}</span>
+      <meta itemprop="position" content="3" />
+    </li>
+    {% elsif page.url != '/' %}
+    <li class="breadcrumb-separator">&gt;</li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-active">
+      <span itemprop="name">{{ page.title }}</span>
+      <meta itemprop="position" content="2" />
+    </li>
+    {% endif %}
+  </ol>
+</nav>
+
+<style>
+.breadcrumbs {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  font-family: 'VT323', monospace;
+  font-size: 1.1rem;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb-list li {
+  display: inline;
+}
+
+.breadcrumb-list a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.breadcrumb-list a:hover {
+  color: var(--alt-accent);
+  text-shadow: 0 0 5px var(--alt-accent);
+}
+
+.breadcrumb-separator {
+  color: var(--text-color);
+  opacity: 0.5;
+}
+
+.breadcrumb-active {
+  color: var(--text-color);
+}
+
+@media (max-width: 600px) {
+  .breadcrumbs {
+    font-size: 1rem;
+  }
+}
+</style>

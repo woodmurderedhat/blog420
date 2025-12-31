@@ -1,0 +1,69 @@
+title: 420360 Blog
+description: Retro gaming nostalgia, pixel art tutorials, and modern games with classic aesthetics. Level up your gaming knowledge with achievements and interactive content.
+author: Stephanus
+email: woodmurderedhat@gmail.com
+
+# GitHub Pages settings
+github: [metadata]
+url: https://blog.420360.xyz
+baseurl: ""
+
+# SEO Settings
+lang: en-US
+timezone: UTC
+tagline: "Retro Gaming & Pixel Art - Gamified Reading Experience"
+
+# Social Media
+twitter:
+  username: 420360blog
+  card: summary_large_image
+
+social:
+  name: 420360 Blog
+  links:
+    - https://blog.420360.xyz
+    - https://github.com/yourusername
+
+# Logo and Images
+logo: /assets/images/logo.png
+social_image: /assets/images/social-share.png
+
+# SEO Optimizations
+google_analytics: # Add your GA4 tracking ID here
+google_site_verification: # Add your verification code here
+bing_site_verification: # Add your Bing verification code here
+
+# Jekyll settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Collections
+collections:
+  - drafts
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - node_modules

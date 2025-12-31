@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<!-- Breadcrumbs for SEO -->
+{% include breadcrumbs.html %}
+
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %d, %Y" }}
+      </time>
+      <meta itemprop="dateModified" content="{{ page.modified_date | default: page.date | date_to_xmlschema }}" />
+      {% if page.author %}
+        <span class="post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          by <span itemprop="name">{{ page.author }}</span>
+        </span>
+      {% endif %}
+      <meta itemprop="publisher" content="{{ site.title }}" />
+    </div>
+    {% if page.tags %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <!-- Social Share Buttons -->
+  {% include social-share.html %}
+
+  {% if site.posts.size > 1 %}
+    <nav class="post-navigation">
+      {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="prev-post">
+          ← {{ page.previous.title }}
+        </a>
+      {% endif %}
+      {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="next-post">
+          {{ page.next.title }} →
+        </a>
+      {% endif %}
+    </nav>
+  {% endif %}
+</article>
