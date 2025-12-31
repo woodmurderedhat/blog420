@@ -10,4 +10,4 @@ Here you'll find:
 - Modern games with classic aesthetics
 
 ## Recent Posts
-Check out the sidebar or the graph view to explore the content.
+Fresh from the vault — latest posts are below.
