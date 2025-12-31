@@ -1,6 +1,6 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Greyscale minimalist theme
 
 * {
   margin: 0;
@@ -9,18 +9,17 @@
 }
 
 :root {
-  --primary-color: #1a1a2e;
-  --secondary-color: #16213e;
-  --accent-color: #00ff41;
-  --alt-accent: #ff006e;
-  --text-color: #f5f5f5;
-  --light-bg: #0f3460;
-  --border-color: #00ff41;
+  --primary-color: #1a1a1a;
+  --secondary-color: #2a2a2a;
+  --accent-color: #ffffff;
+  --alt-accent: #cccccc;
+  --text-color: #e0e0e0;
+  --light-bg: #333333;
+  --border-color: #444444;
   --spacing: 1rem;
   --max-width: 900px;
-  --pixel-border: 4px;
   --body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --display-font: 'Press Start 2P', cursive;
+  --display-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --mono-font: 'Courier New', monospace;
 }
 
@@ -28,32 +27,19 @@ body {
   font-family: var(--body-font);
   line-height: 1.75;
   color: var(--text-color);
-  background-color: #0a0a0a;
-  background-image: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 255, 65, 0.03) 2px,
-    rgba(0, 255, 65, 0.03) 4px
-  );
+  background-color: #0f0f0f;
   font-size: 1rem;
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
   letter-spacing: 0.3px;
 }
 
 a {
   color: var(--accent-color);
-  text-decoration: none;
-  text-shadow: 0 0 5px var(--accent-color);
+  text-decoration: underline;
   transition: all 0.3s;
 }
 
 a:hover {
   color: var(--alt-accent);
-  text-shadow: 0 0 8px var(--alt-accent);
-  text-decoration: none;
 }
 
 /* Header */
@@ -62,26 +48,8 @@ a:hover {
   color: var(--accent-color);
   padding: 2rem var(--spacing);
   margin-bottom: 2rem;
-  border-bottom: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+  border-bottom: 1px solid var(--border-color);
   position: relative;
-}
-
-.site-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: repeating-linear-gradient(
-    90deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 255, 65, 0.05) 2px,
-    rgba(0, 255, 65, 0.05) 4px
-  );
-  pointer-events: none;
 }
 
 .site-header-inner {
@@ -93,22 +61,21 @@ a:hover {
 
 .site-title {
   font-family: var(--display-font);
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
-  text-shadow: 4px 4px 0px var(--secondary-color), 0 0 10px var(--accent-color);
-  letter-spacing: 2px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
   line-height: 1.3;
 }
 
 .site-title a {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .site-title a:hover {
   text-decoration: none;
   color: var(--alt-accent);
-  text-shadow: 4px 4px 0px var(--secondary-color), 0 0 15px var(--alt-accent);
 }
 
 .site-description {
@@ -132,17 +99,16 @@ a:hover {
 .site-nav a {
   color: var(--accent-color);
   padding: 0.5rem 1rem;
-  border: 2px solid var(--accent-color);
+  border: 1px solid var(--border-color);
   background-color: var(--secondary-color);
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-  transition: all 0.1s;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
 .site-nav a:hover {
   text-decoration: none;
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
   background-color: var(--light-bg);
+  border-color: var(--accent-color);
 }
 
 /* Main content */
@@ -158,8 +124,7 @@ a:hover {
   color: var(--accent-color);
   text-align: center;
   padding: 2rem var(--spacing);
-  border-top: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+  border-top: 1px solid var(--border-color);
   font-family: var(--body-font);
   font-size: 0.9rem;
   margin-top: 3rem;
@@ -175,32 +140,29 @@ a:hover {
   padding: 1.5rem;
   margin-bottom: 2rem;
   background: var(--secondary-color);
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 65, 0.2);
+  border: 1px solid var(--border-color);
   transition: all 0.2s;
 }
 
 .post-item:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 0, 110, 0.3);
-  border-color: var(--alt-accent);
+  background: var(--light-bg);
+  border-color: var(--accent-color);
 }
 
 .post-link {
   font-family: var(--display-font);
   font-size: 1.4rem;
-  font-weight: normal;
+  font-weight: 600;
   color: var(--accent-color);
   display: block;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 0px var(--primary-color);
   line-height: 1.4;
+  text-decoration: none;
 }
 
 .post-link:hover {
   color: var(--alt-accent);
-  text-decoration: none;
-  text-shadow: 2px 2px 0px var(--primary-color), 0 0 10px var(--alt-accent);
+  text-decoration: underline;
 }
 
 .post-date {
@@ -224,13 +186,12 @@ a:hover {
 .post {
   background: var(--secondary-color);
   padding: 2rem;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  border: 1px solid var(--border-color);
 }
 
 .post-header {
   margin-bottom: 2rem;
-  border-bottom: var(--pixel-border) dashed var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1.5rem;
 }
 
@@ -239,7 +200,7 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--accent-color);
-  text-shadow: 3px 3px 0px var(--primary-color);
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -263,24 +224,21 @@ a:hover {
 
 .tag {
   display: inline-block;
-  background-color: var(--primary-color);
+  background-color: transparent;
   color: var(--accent-color);
   padding: 0.5rem 0.8rem;
-  border: 2px solid var(--accent-color);
+  border: 1px solid var(--border-color);
   font-size: 0.85rem;
   font-family: var(--body-font);
   font-weight: 600;
   transition: all 0.2s;
-  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .tag:hover {
   background-color: var(--light-bg);
-  color: var(--alt-accent);
-  border-color: var(--alt-accent);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
   text-decoration: none;
-  transform: translate(-1px, -1px);
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .post-content {
@@ -295,7 +253,7 @@ a:hover {
   font-size: 1.6rem;
   margin: 2rem 0 1rem;
   color: var(--accent-color);
-  text-shadow: 2px 2px 0px var(--primary-color);
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -304,6 +262,7 @@ a:hover {
   font-size: 1.2rem;
   margin: 1.5rem 0 0.75rem;
   color: var(--accent-color);
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -328,9 +287,9 @@ a:hover {
 
 .post-content code {
   background-color: var(--primary-color);
-  color: var(--accent-color);
+  color: var(--alt-accent);
   padding: 0.3rem 0.6rem;
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--border-color);
   font-family: var(--mono-font);
   font-size: 0.95rem;
   letter-spacing: 0.2px;
@@ -338,12 +297,11 @@ a:hover {
 
 .post-content pre {
   background-color: #000000;
-  color: var(--accent-color);
+  color: var(--alt-accent);
   padding: 1.5rem;
-  border: var(--pixel-border) solid var(--accent-color);
+  border: 1px solid var(--border-color);
   overflow-x: auto;
   margin: 1.5rem 0;
-  box-shadow: inset 0 0 10px rgba(0, 255, 65, 0.2);
   line-height: 1.6;
 }
 
@@ -351,16 +309,15 @@ a:hover {
   background-color: transparent;
   padding: 0;
   border: none;
-  color: var(--accent-color);
+  color: var(--alt-accent);
 }
 
 .post-content blockquote {
-  border-left: var(--pixel-border) solid var(--alt-accent);
+  border-left: 3px solid var(--border-color);
   padding-left: 1.5rem;
   margin: 1.5rem 0;
   color: var(--text-color);
-  font-style: normal;
-  background-color: rgba(255, 0, 110, 0.1);
+  font-style: italic;
   padding: 1rem 1rem 1rem 1.5rem;
   line-height: 1.7;
 }
@@ -371,16 +328,11 @@ a:hover {
   height: auto;
   display: block;
   margin: 2rem auto;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
+  border: 1px solid var(--border-color);
 }
 
 .post-content img:hover {
-  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 65, 0.5);
-  transform: translate(-2px, -2px);
+  opacity: 0.9;
 }
 
 .post-content figure {
@@ -391,11 +343,10 @@ a:hover {
 .post-content figcaption {
   font-family: var(--body-font);
   font-size: 0.9rem;
-  color: var(--accent-color);
+  color: var(--alt-accent);
   margin-top: 1rem;
   padding: 0.5rem;
-  background-color: var(--primary-color);
-  border: 2px solid var(--accent-color);
+  text-align: center;
   letter-spacing: 0.3px;
 }
 
@@ -403,7 +354,7 @@ a:hover {
 .post-navigation {
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: var(--pixel-border) dashed var(--accent-color);
+  border-top: 1px solid var(--border-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -415,20 +366,19 @@ a:hover {
   flex: 1;
   min-width: 200px;
   padding: 1rem;
-  background-color: var(--primary-color);
-  border: 2px solid var(--accent-color);
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
   font-family: var(--body-font);
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.3px;
+  transition: all 0.2s;
 }
 
 .prev-post:hover,
 .next-post:hover {
   background-color: var(--light-bg);
-  transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+  border-color: var(--accent-color);
 }
 
 .next-post {
@@ -439,13 +389,12 @@ a:hover {
 .page {
   background: var(--secondary-color);
   padding: 2rem;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  border: 1px solid var(--border-color);
 }
 
 .page-header {
   margin-bottom: 2rem;
-  border-bottom: var(--pixel-border) dashed var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1rem;
 }
 
@@ -453,7 +402,7 @@ a:hover {
   font-family: var(--display-font);
   font-size: 2rem;
   color: var(--accent-color);
-  text-shadow: 3px 3px 0px var(--primary-color);
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -478,44 +427,39 @@ a:hover {
 .pagination a,
 .pagination span {
   padding: 0.8rem 1.2rem;
-  border: 2px solid var(--accent-color);
-  background-color: var(--primary-color);
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-color);
+  background-color: var(--secondary-color);
   transition: all 0.2s;
 }
 
 .pagination a {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .pagination a:hover {
   background-color: var(--light-bg);
-  color: var(--alt-accent);
-  border-color: var(--alt-accent);
+  border-color: var(--accent-color);
   text-decoration: none;
-  transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .pagination .disabled {
   color: #666;
   background-color: var(--secondary-color);
-  border-color: #666;
+  border-color: #555;
 }
 
 .pagination .current {
   background-color: var(--light-bg);
-  color: var(--alt-accent);
-  border-color: var(--alt-accent);
-  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Tag page */
 .tag-page {
   background: var(--secondary-color);
   padding: 2rem;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  border: 1px solid var(--border-color);
 }
 
 .tag-title {
@@ -523,7 +467,7 @@ a:hover {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   font-family: var(--display-font);
-  text-shadow: 3px 3px 0px var(--primary-color);
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -576,115 +520,5 @@ a:hover {
 
   .post-content {
     font-size: 0.95rem;
-  }
-}
-
-/* ========================================
-   GAMIFICATION STYLES
-   ======================================== */
-
-/* Reading Progress Bar */
-.reading-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: var(--primary-color);
-  z-index: 9999;
-  box-shadow: 0 2px 10px rgba(0, 255, 65, 0.5);
-}
-
-.reading-progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--accent-color), var(--alt-accent));
-  width: 0%;
-  transition: width 0.1s ease;
-  box-shadow: 0 0 10px var(--accent-color);
-}
-
-/* Level Display */
-.level-display {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: var(--secondary-color);
-  border: 3px solid var(--accent-color);
-  padding: 10px 15px;
-  z-index: 1000;
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 65, 0.3);
-  font-family: var(--display-font);
-  min-width: 120px;
-}
-
-.level-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
-.level-label {
-  color: var(--accent-color);
-  font-size: 0.7rem;
-}
-
-.level-value {
-  color: var(--alt-accent);
-  font-size: 1rem;
-  text-shadow: 2px 2px 0px var(--primary-color);
-}
-
-.xp-bar {
-  height: 8px;
-  background-color: var(--primary-color);
-  border: 2px solid var(--accent-color);
-  position: relative;
-  overflow: hidden;
-}
-
-.xp-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--accent-color), #00ff88);
-  transition: width 0.5s ease;
-  box-shadow: 0 0 10px var(--accent-color);
-}
-
-.stats-toggle {
-  margin-top: 8px;
-  width: 100%;
-  background: var(--primary-color);
-  border: 2px solid var(--accent-color);
-  color: var(--accent-color);
-  padding: 5px;
-  cursor: pointer;
-  font-size: 0.7rem;
-  font-family: var(--body-font);
-  transition: all 0.2s;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-
-.stats-toggle:hover {
-  background: var(--light-bg);
-  transform: translate(-1px, -1px);
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-}
-
-/* Responsive Gamification */
-@media (max-width: 600px) {
-  .level-display {
-    top: 10px;
-    right: 10px;
-    padding: 8px 10px;
-    min-width: 100px;
-  }
-
-  .level-label {
-    font-size: 0.6rem;
-  }
-
-  .level-value {
-    font-size: 0.8rem;
   }
 }
