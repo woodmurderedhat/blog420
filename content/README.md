@@ -1,99 +1,84 @@
-# Blog Setup Instructions
+# 📁 Content Organization
 
-Your Jekyll blog is now ready! Here's how to get it running:
+This folder contains all the content for your blog. Here's how it's organized:
 
-## Prerequisites
-
-- Ruby 2.7 or higher
-- Git
-- GitHub account
-
-## Local Setup
-
-1. **Install dependencies:**
-   ```bash
-   cd blog420
-   bundle install
-   ```
-
-2. **Run locally:**
-   ```bash
-   bundle exec jekyll serve
-   ```
-   
-   Your blog will be available at `http://localhost:4000`
-
-3. **View sample post:**
-   Navigate to see the welcome post and explore the archive and tags pages.
-
-## Deployment to GitHub Pages
-
-1. **Initialize git repository:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Jekyll blog setup"
-   ```
-
-2. **Create a GitHub repository:**
-   - Go to [github.com](https://github.com) and create a new repository
-   - Name it whatever you like (e.g., `my-blog` or `blog420`)
-
-3. **Push to GitHub:**
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-4. **Enable GitHub Pages:**
-   - Go to your repository settings
-   - Under "Pages", select "GitHub Actions" as the deployment method
-   - The workflow in `.github/workflows/pages.yml` will automatically build and deploy your site
-
-5. **Access your blog:**
-   - Your site will be published at `https://YOUR_USERNAME.github.io/YOUR_REPO`
-   - Update the `url` and `baseurl` in `_config.yml` if needed
-
-## Creating Posts
-
-To add a new post:
-
-1. Create a new file in `_posts/` with the format: `YYYY-MM-DD-post-title.md`
-2. Add the YAML front matter (see the sample post for format)
-3. Write your markdown content
-4. Commit and push to GitHub
-5. The site will automatically rebuild and deploy!
-
-## Customization
-
-- **`_config.yml`**: Edit site title, description, author, and other settings
-- **`assets/css/style.css`**: Modify the styling
-- **`_layouts/`**: Customize HTML templates
-- **`_includes/`**: Add reusable template components
-
-## File Structure
+## Folder Structure
 
 ```
-blog420/
-├── _posts/                 # Your blog posts (markdown files)
-├── _layouts/               # HTML templates for different page types
-├── _includes/              # Reusable template components
-├── assets/
-│   └── css/               # Stylesheets
-├── index.md               # Homepage (shows recent posts)
-├── archive.md             # Archive page (browse by year)
-├── tags.md                # Tags page (browse by tag)
-├── _config.yml            # Jekyll configuration
-├── Gemfile                # Ruby dependencies
-└── .github/workflows/
-    └── pages.yml          # GitHub Actions deployment workflow
+content/
+├── posts/          📝 Blog posts (dated articles)
+├── pages/          📄 Static pages (guides, documentation)
+├── templates/      📋 Post templates for Obsidian
+├── assets/         🖼️ Images, files, and media
+├── index.md        🏠 Homepage
+└── README.md       📖 This file
 ```
 
-## Need Help?
+## 📝 Posts (`posts/`)
+All your blog articles go here. Use the naming convention:
+- Format: `YYYY-MM-DD-post-title.md`
+- Example: `posts/2025-12-31-my-awesome-post.md`
 
-- [Jekyll Documentation](https://jekyllrb.com/docs/)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Markdown Guide](https://www.markdownguide.org/)
+## 📄 Pages (`pages/`)
+Static pages that aren't dated blog posts:
+- Guides and tutorials
+- Documentation
+- About pages
+- Any permanent content
 
-Happy blogging!
+## 📋 Templates (`templates/`)
+Reusable templates for creating new content in Obsidian:
+- `blog-post.md` - Full blog post template
+- `quick-post.md` - Quick post template
+
+## 🖼️ Assets (`assets/`)
+Media files and resources:
+- Images
+- Downloads
+- Other static files
+
+---
+
+## 🚀 Quick Start in Obsidian
+
+### Create a New Blog Post
+1. Right-click `posts/` folder → New note
+2. Name it: `YYYY-MM-DD-your-title.md`
+3. Insert template: `blog-post`
+4. Write and save!
+
+### Create a New Page
+1. Right-click `pages/` folder → New note
+2. Name it descriptively (e.g., `about.md`)
+3. Write your content
+4. Save!
+
+### Add Images
+1. Drag images to `assets/` folder
+2. Reference in posts: `![Alt text](../assets/image.png)`
+3. Or use Obsidian syntax: `![[image.png]]`
+
+---
+
+## 🔗 Internal Linking
+
+Link between posts and pages using wikilinks:
+- `[[posts/2025-12-31-my-post]]` - Links to a post
+- `[[pages/about]]` - Links to a page
+- `[[posts/my-post|Custom Text]]` - Link with custom text
+
+Quartz will automatically handle these links when building your site.
+
+---
+
+## 🛠️ Building & Deploying
+
+See [GITHUB_PAGES_SETUP.md](../GITHUB_PAGES_SETUP.md) for deployment instructions.
+
+To build locally:
+```powershell
+npx quartz build --serve
+```
+
+Then visit http://localhost:8080
+
