@@ -8,19 +8,25 @@
 
   & > .graph-outer {
     border-radius: 5px;
-    border: 1px solid var(--lightgray);
+    border: 1px solid var(--secondary);
     box-sizing: border-box;
     height: 250px;
     margin: 0.5em 0;
     position: relative;
     overflow: hidden;
+    background-color: var(--light);
+    background-image:
+      linear-gradient(90deg, color-mix(in srgb, var(--secondary) 15%, transparent) 1px, transparent 1px),
+      linear-gradient(180deg, color-mix(in srgb, var(--tertiary) 12%, transparent) 1px, transparent 1px);
+    background-size: 24px 24px;
+    box-shadow: 0 0 20px color-mix(in srgb, var(--secondary) 25%, transparent);
 
     & > .global-graph-icon {
       cursor: pointer;
       background: none;
-      border: none;
-      color: var(--dark);
-      opacity: 0.5;
+      border: 1px solid color-mix(in srgb, var(--secondary) 60%, transparent);
+      color: var(--secondary);
+      opacity: 0.85;
       width: 24px;
       height: 24px;
       position: absolute;
@@ -29,11 +35,13 @@
       top: 0;
       right: 0;
       border-radius: 4px;
-      background-color: transparent;
-      transition: background-color 0.5s ease;
+      background-color: color-mix(in srgb, var(--secondary) 12%, transparent);
+      transition: background-color 0.3s ease, border-color 0.3s ease, opacity 0.3s ease;
       cursor: pointer;
       &:hover {
-        background-color: var(--lightgray);
+        background-color: color-mix(in srgb, var(--secondary) 22%, transparent);
+        border-color: color-mix(in srgb, var(--secondary) 80%, transparent);
+        opacity: 1;
       }
     }
   }
@@ -45,7 +53,10 @@
     top: 0;
     width: 100vw;
     height: 100%;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
+    background: radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--secondary) 18%, transparent), transparent 35%),
+      radial-gradient(circle at 80% 30%, color-mix(in srgb, var(--tertiary) 16%, transparent), transparent 38%),
+      rgba(0, 0, 0, 0.45);
     display: none;
     overflow: hidden;
 
@@ -54,7 +65,7 @@
     }
 
     & > .global-graph-container {
-      border: 1px solid var(--lightgray);
+      border: 1px solid var(--secondary);
       background-color: var(--light);
       border-radius: 5px;
       box-sizing: border-box;
@@ -64,6 +75,9 @@
       transform: translate(-50%, -50%);
       height: 80vh;
       width: 80vw;
+      box-shadow:
+        0 0 0 1px color-mix(in srgb, var(--tertiary) 35%, transparent),
+        0 0 30px color-mix(in srgb, var(--secondary) 30%, transparent);
 
       @media all and not ($desktop) {
         width: 90%;

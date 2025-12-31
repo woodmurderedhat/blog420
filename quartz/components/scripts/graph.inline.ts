@@ -196,21 +196,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   // calculate color
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
-    if (isCurrent) {
-      return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
-    } else {
-      return computedStyleMap["--gray"]
-    }
+    if (isCurrent) return computedStyleMap["--secondary"]
+    if (visited.has(d.id) || d.id.startsWith("tags/")) return computedStyleMap["--tertiary"]
+    return computedStyleMap["--gray"]
   }
 
   function nodeRadius(d: NodeData) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 2 + Math.sqrt(numLinks)
+    return Math.max(3, Math.round(2 + Math.sqrt(numLinks)))
   }
+
+  const nodeSize = (d: NodeData) => Math.max(8, Math.round(nodeRadius(d) * 2.4))
 
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
@@ -254,15 +252,15 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const tweenGroup = new TweenGroup()
 
     for (const l of linkRenderData) {
-      let alpha = 1
+      let alpha = hoveredNodeId ? (l.active ? 1 : 0.25) : 0.85
 
       // if we are hovering over a node, we want to highlight the immediate neighbours
       // with full alpha and the rest with default alpha
       if (hoveredNodeId) {
-        alpha = l.active ? 1 : 0.2
+        alpha = l.active ? 1 : 0.25
       }
 
-      l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
+      l.color = l.active ? computedStyleMap["--secondary"] : computedStyleMap["--gray"]
       tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
     }
 
@@ -279,8 +277,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     tweens.get("label")?.stop()
     const tweenGroup = new TweenGroup()
 
-    const defaultScale = 1 / scale
-    const activeScale = defaultScale * 1.1
+    const defaultScale = Math.min(1.1, 1 / scale)
+    const activeScale = defaultScale * 1.08
     for (const n of nodeRenderData) {
       const nodeId = n.simulationData.id
 
@@ -378,7 +376,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       interactive: false,
       eventMode: "none",
       text: n.text,
-      alpha: 0,
+      alpha: 0.35,
       anchor: { x: 0.5, y: 1.2 },
       style: {
         fontSize: fontSize * 15,
@@ -389,20 +387,25 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     })
     label.scale.set(1 / scale)
 
-    let oldLabelOpacity = 0
+    let oldLabelOpacity = label.alpha
     const isTagNode = nodeId.startsWith("tags/")
+    const size = nodeSize(n)
+    const half = size / 2
+    const hitRadius = Math.max(size * 0.75, nodeRadius(n))
+    const fillColor = isTagNode ? computedStyleMap["--light"] : color(n)
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
       eventMode: "static",
-      hitArea: new Circle(0, 0, nodeRadius(n)),
+      hitArea: new Circle(0, 0, hitRadius),
       cursor: "pointer",
     })
-      .circle(0, 0, nodeRadius(n))
-      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n) })
+      .rect(-half, -half, size, size)
+      .fill({ color: fillColor })
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha
+        label.alpha = 1
         if (!dragging) {
           renderPixiFromD3()
         }
@@ -441,8 +444,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkRenderDatum: LinkRenderData = {
       simulationData: l,
       gfx,
-      color: computedStyleMap["--lightgray"],
-      alpha: 1,
+      color: computedStyleMap["--gray"],
+      alpha: 0.85,
       active: false,
     }
 
@@ -511,12 +514,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
           // zoom adjusts opacity of labels too
           const scale = transform.k * opacityScale
-          let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
+          const zoomLowerBound = 0.85
+          let scaleOpacity = Math.max((scale - zoomLowerBound) / 3, 0)
+          scaleOpacity = Math.min(scaleOpacity, 1)
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
           for (const label of labelsContainer.children) {
             if (!activeNodes.includes(label)) {
-              label.alpha = scaleOpacity
+              label.alpha = Math.max(label.alpha, scaleOpacity)
             }
           }
         }),
@@ -541,7 +546,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
       l.gfx
         .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-        .stroke({ alpha: l.alpha, width: 1, color: l.color })
+        .stroke({ alpha: l.alpha, width: 1.25, color: l.color })
     }
 
     tweens.forEach((t) => t.update(time))
