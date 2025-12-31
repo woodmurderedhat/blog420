@@ -24,6 +24,17 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate SEO images
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pillow
+          python scripts/generate_seo_images.py
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
