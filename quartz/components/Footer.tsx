@@ -1,20 +1,22 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
-import { i18n } from "../i18n"
 
 interface Options {
   links: Record<string, string>
 }
 
 export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
-    const links = opts?.links ?? []
+    const defaultLinks: Record<string, string> = {
+      GitHub: "https://github.com/woodmurderedhat/",
+      Discord: "https://discord.gg/fvD5C56vsA",
+    }
+    const links = { ...defaultLinks, ...(opts?.links ?? {}) }
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://420360.xyz/">420360.xyz</a> © {year}
+          Built for <a href="https://420360.xyz/">420360.xyz</a> · © {year}
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
