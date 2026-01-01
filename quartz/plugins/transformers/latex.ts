@@ -70,6 +70,10 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
               },
             ],
           }
+        case "typst":
+        case "mathjax":
+        default:
+          return undefined
       }
     },
   }

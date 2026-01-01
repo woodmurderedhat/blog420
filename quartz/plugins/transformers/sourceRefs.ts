@@ -1,7 +1,6 @@
 import { QuartzTransformerPlugin } from "../types"
-import { Root } from "mdast"
-import { visit } from "unist-util-visit"
-import { Text, Link } from "mdast"
+import { Root, PhrasingContent, Text } from "mdast"
+import { visit, SKIP } from "unist-util-visit"
 
 export const SourceRefs: QuartzTransformerPlugin = () => {
   return {
@@ -11,16 +10,16 @@ export const SourceRefs: QuartzTransformerPlugin = () => {
         () => {
           return (tree: Root, file) => {
             const sources = file.data.frontmatter?.sources
-            if (!sources || sources.length === 0) return
+            if (!sources || !Array.isArray(sources) || sources.length === 0) return
 
             visit(tree, "text", (node: Text, index, parent) => {
-              if (!parent || index === null) return
+              if (!parent || index === undefined || index === null) return
 
               const text = node.value
               // Match [1], [2], etc. not already in links
               const regex = /\[(\d+)\]/g
               let match
-              const parts = []
+              const parts: PhrasingContent[] = []
               let lastIndex = 0
 
               while ((match = regex.exec(text)) !== null) {
@@ -31,7 +30,7 @@ export const SourceRefs: QuartzTransformerPlugin = () => {
                   parts.push({
                     type: "text",
                     value: text.slice(lastIndex, match.index),
-                  })
+                  } as Text)
                 }
 
                 // Add the citation link
@@ -48,7 +47,7 @@ export const SourceRefs: QuartzTransformerPlugin = () => {
                       {
                         type: "text",
                         value: `[${num}]`,
-                      },
+                      } as Text,
                     ],
                   })
                 } else {
@@ -56,7 +55,7 @@ export const SourceRefs: QuartzTransformerPlugin = () => {
                   parts.push({
                     type: "text",
                     value: match[0],
-                  })
+                  } as Text)
                 }
 
                 lastIndex = regex.lastIndex
@@ -67,12 +66,14 @@ export const SourceRefs: QuartzTransformerPlugin = () => {
                 parts.push({
                   type: "text",
                   value: text.slice(lastIndex),
-                })
+                } as Text)
               }
 
               // Replace the node if we found citations
               if (parts.length > 0) {
                 parent.children.splice(index, 1, ...parts)
+                // Return SKIP to avoid revisiting the newly inserted nodes
+                return [SKIP, index]
               }
             })
           }

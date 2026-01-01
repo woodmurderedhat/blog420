@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -11,11 +12,12 @@ export const sharedPageComponents: SharedLayout = {
         title: "Recent Posts",
         limit: 4,
         showTags: false,
-        linkToMore: "posts" as const,
+        linkToMore: "posts" as SimpleSlug,
         filter: (page) => page.slug?.startsWith("posts/") ?? false,
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
+    Component.SourceList(),
   ],
   footer: Component.Footer({
     links: {
@@ -52,9 +54,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-  ],
-  afterBody: [
-    Component.SourceList(),
   ],
 }
 
