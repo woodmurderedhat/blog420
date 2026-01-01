@@ -19,9 +19,9 @@ Let me tell you about it 👇
 
 This game said "what if we made a platformer that's harder than your math homework BUT also gives you feelings?"
 
-The pixel art? *Immaculate*  
-The gameplay? *Tight as heck*  
-The story about mental health? *Why am I crying in a platformer*
+The pixel art? _Immaculate_  
+The gameplay? _Tight as heck_  
+The story about mental health? _Why am I crying in a platformer_
 
 Madeline's hair changes color with her powers and that's the kind of attention to detail that makes me EMOTIONAL 😭
 
@@ -32,7 +32,7 @@ Madeline's hair changes color with her powers and that's the kind of attention t
 
 One (1) person made this. ONE. While AAA studios have teams of 500 people making soulless cash grabs, ConcernedApe was out here creating the most wholesome life sim known to humanity.
 
-The pixel art is so charming it hurts. Every item, every character, every season - it's all *chef's kiss* 👨‍🍳💋
+The pixel art is so charming it hurts. Every item, every character, every season - it's all _chef's kiss_ 👨‍🍳💋
 
 Also this game ruined my sleep schedule and I'm not even mad about it.
 
@@ -43,7 +43,7 @@ Also this game ruined my sleep schedule and I'm not even mad about it.
 
 ### Undertale (2015) - The Game That Broke the Internet 💀
 
-Listen, I know we've all moved on from the *intense* Undertale phase of the internet, but we can't deny this game absolutely SERVED.
+Listen, I know we've all moved on from the _intense_ Undertale phase of the internet, but we can't deny this game absolutely SERVED.
 
 Toby Fox really said "I'm gonna make a game that subverts every RPG trope, give it incredible music, make you cry over a skeleton, and do it all in pixel art" and then DID THAT 😤
 
@@ -113,6 +113,7 @@ Even big studios are getting the memo:
 ## What This Means for Gaming 🎮
 
 We're in a golden age and some of y'all don't even realize it. Indie devs are:
+
 - Making the games they WANT to make
 - Not compromising for shareholders
 - Actually finishing games before release (wild concept)
@@ -124,7 +125,7 @@ And it's WORKING. These games are selling. They're winning awards. They're makin
 
 Modern pixel art games aren't trying to be retro - they're using a proven art style to focus on what makes games actually good: gameplay, story, and SOUL.
 
-AAA studios could never understand this level of *passion* 😤
+AAA studios could never understand this level of _passion_ 😤
 
 ## What's Your Favorite? 👇
 
@@ -136,4 +137,4 @@ Personally, I'm still playing Stardew in 2025 and I'm not ashamed.
 **Likelihood of Playing These Instead of AAA Games**: Very high  
 **Chance the Pixel Renaissance Continues**: Guaranteed 📈
 
-*This post was written while listening to Celeste OST and having FEELINGS*
+_This post was written while listening to Celeste OST and having FEELINGS_

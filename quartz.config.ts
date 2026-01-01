@@ -66,17 +66,17 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ 
+      Plugin.ObsidianFlavoredMarkdown({
         enableInHtmlEmbed: true,
       }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ 
+      Plugin.CrawlLinks({
         markdownLinkResolution: "shortest",
         openLinksInNewTab: false,
       }),
       Plugin.Description(),
-      Plugin.Latex({ 
+      Plugin.Latex({
         renderEngine: "katex",
       }),
       Plugin.SourceRefs(),

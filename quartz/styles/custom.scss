@@ -18,12 +18,14 @@
   --border-color: var(--gray);
   --spacing: 1rem;
   --max-width: 900px;
-  --body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --display-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --mono-font: 'Courier New', monospace;
+  --body-font:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --display-font:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono-font: "Courier New", monospace;
 }
 
-:root[saved-theme='dark'] {
+:root[saved-theme="dark"] {
   --primary-color: var(--light);
   --secondary-color: var(--lightgray);
   --accent-color: var(--tertiary);

@@ -24,7 +24,7 @@ export const SourceRefs: QuartzTransformerPlugin = () => {
 
               while ((match = regex.exec(text)) !== null) {
                 const num = parseInt(match[1])
-                
+
                 // Add text before the match
                 if (match.index > lastIndex) {
                   parts.push({

@@ -10,16 +10,19 @@ draft: false
 ---
 
 ## Introduction
+
 A ski-town bar in Crans-Montana went up in flames around 01:30 local time. Authorities say "several dozen" are feared dead. Not the headline anyone wanted to wake up to on January 1.
 
 ## Main Content
 
 ### The Facts So Far
+
 - Fire started during New Year's Eve celebrations; cause still under investigation.
 - Officials currently rule out an attack; think accident, but the probe is live.
 - Emergency crews are still accounting for guests and staff.
 
 ### Why It Matters
+
 - Packed venues + winter heating + fireworks are a bad combo; expect regulators to revisit fire codes for alpine resorts.
 - Tourism season just started—local economy takes a hit when safety is in question.
 
@@ -33,9 +36,11 @@ A ski-town bar in Crans-Montana went up in flames around 01:30 local time. Autho
 > Social feeds will circulate unverified victim lists. Wait for official statements before sharing.
 
 ## Key Takeaways
+
 - Investigation is ongoing; no evidence of attack as of now.
 - Expect scrutiny on venue capacity and fire safety in ski towns.
 - Travel plans to Crans-Montana may face short-term disruptions.
 
 ## Conclusion
+
 The story is still developing. Check local authorities before heading to the resort, and keep an eye on how Swiss regulators respond over the next few days.

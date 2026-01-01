@@ -4,9 +4,10 @@ Welcome to the ultimate guide for turning your Dwarf Fortress adventures into co
 
 ## Why Tell Dwarf Fortress Stories?
 
-Dwarf Fortress is a game of **emergent storytelling**. Every fortress generates unique tales: legendary dwarves performing impossible feats, catastrophic failures born from tiny mistakes, and moments of triumph carved out of chaos. The game doesn't tell you these stories—*you live them*. This guide helps you *tell them*.
+Dwarf Fortress is a game of **emergent storytelling**. Every fortress generates unique tales: legendary dwarves performing impossible feats, catastrophic failures born from tiny mistakes, and moments of triumph carved out of chaos. The game doesn't tell you these stories—_you live them_. This guide helps you _tell them_.
 
 Your stories will:
+
 - Preserve memories of incredible playthroughs
 - Share the magic of Dwarf Fortress with non-players
 - Transform raw gameplay into art
@@ -71,6 +72,7 @@ Before you write, gather the raw materials. Use the **Dwarf Fortress Story Templ
 ### Key Data to Capture
 
 **1. Fortress Profile**
+
 - Fortress name
 - Founded: [date]
 - Population: [current]
@@ -79,26 +81,29 @@ Before you write, gather the raw materials. Use the **Dwarf Fortress Story Templ
 
 **2. Major Events (Timeline)**
 List 3-5 pivotal moments in chronological order:
+
 - When it happened (in-game year)
 - What happened (brief description)
 - Who was involved
 - What changed
 
 Example:
+
 ```
 Year 123, Spring: Urist McForgemaster entered a fey mood
-and created the legendary "Spire of Eternal Flame," a 
-masterwork adamantine crown. The artifact became the 
+and created the legendary "Spire of Eternal Flame," a
+masterwork adamantine crown. The artifact became the
 fortress's most treasured possession.
 
-Year 125, Autumn: Goblin siege arrived. Urist led the 
-military defense personally, killing 47 goblins before 
-taking a crossbow bolt to the spine. He survived but 
+Year 125, Autumn: Goblin siege arrived. Urist led the
+military defense personally, killing 47 goblins before
+taking a crossbow bolt to the spine. He survived but
 became catatonic.
 ```
 
 **3. Legendary Dwarves**
 For each notable dwarf (up to 3-5 for a short story):
+
 - Name
 - Profession/specialty (warrior, smith, miner, etc.)
 - Key trait or personality quirk
@@ -106,16 +111,19 @@ For each notable dwarf (up to 3-5 for a short story):
 - Current status (alive, dead, legendary, broken, etc.)
 
 **4. Locations & Landmarks**
+
 - Grand hall, throne room, shrine, workshop, etc.
 - Why it matters to the story
 - Visual description (if you have screenshots)
 
 **5. Artifacts & Treasures**
+
 - Name and type
 - Creator (if known)
 - What makes it special
 
 **6. Conflicts & Stakes**
+
 - What was threatened?
 - What was lost or gained?
 - Emotional impact
@@ -123,6 +131,7 @@ For each notable dwarf (up to 3-5 for a short story):
 **7. The Central Question**
 What is the core tension your story explores?
 Examples:
+
 - Can a single dwarf save a fortress from collapse?
 - What happens when ambition becomes obsession?
 - How do you recover from catastrophic failure?
@@ -136,15 +145,18 @@ Transform your gameplay data into a story arc. Use this simple formula:
 ### Story Arc: Setup → Conflict → Climax → Resolution
 
 **Setup (Opening)**
+
 - Introduce the fortress and its dwarves
 - Establish the stakes and the central question
 - Create atmosphere and tone
 - Word count: 15-25% of total
 
 Example hook:
-> *"Stellarim had stood for three generations, a beacon of dwarven prosperity carved into the mountainside. Its halls gleamed with gold and adamantine. Its forges burned hot. But in the heart of the fortress, in a small stone room deep beneath the surface, Urist McForgemaster was losing his mind."*
+
+> _"Stellarim had stood for three generations, a beacon of dwarven prosperity carved into the mountainside. Its halls gleamed with gold and adamantine. Its forges burned hot. But in the heart of the fortress, in a small stone room deep beneath the surface, Urist McForgemaster was losing his mind."_
 
 **Conflict (Rising Action)**
+
 - Introduce complications and obstacles
 - Show dwarves responding to pressure
 - Build tension through scenes and decisions
@@ -152,12 +164,14 @@ Example hook:
 - Word count: 50-60% of total
 
 **Climax (Peak Tension)**
+
 - The moment of highest stakes
 - A choice, battle, or revelation
 - Everything converges
 - Word count: 10-15% of total
 
 **Resolution (Falling Action & Ending)**
+
 - Aftermath and consequences
 - How the fortress and its dwarves change
 - What the story means
@@ -202,7 +216,7 @@ Dwarves in Fortress Mode don't speak, but your story can give them voice.
 
 Dwarf Fortress stories thrive on dark humor and the absurd. A single mistake cascading into disaster is inherently funny.
 
-> *"The legendary miners broke through into a cavern filled with forgotten beasts. In the chaos, someone left a door open. The fortress cats, having nothing better to do, followed the retreating dwarves up seventeen levels, stopping only when they reached the throne room where the baron sat in contemplation. He was very upset about the cats."*
+> _"The legendary miners broke through into a cavern filled with forgotten beasts. In the chaos, someone left a door open. The fortress cats, having nothing better to do, followed the retreating dwarves up seventeen levels, stopping only when they reached the throne room where the baron sat in contemplation. He was very upset about the cats."_
 
 ### Technique 5: Build Atmosphere
 
@@ -214,16 +228,16 @@ Match your tone to the story. A fortress in decline feels different than one in 
 
 ### Technique 6: Create Emotional Stakes
 
-Don't just describe what happened—explain why it *matters*.
+Don't just describe what happened—explain why it _matters_.
 
-> *"Urist McForgemaster wasn't just any dwarf. He was the one who saved the fortress during the first siege. He trained every soldier. He had a wife and three children who believed he was invincible. And now he lay in the hospital, paralyzed from the waist down, staring at the ceiling with eyes that saw nothing."*
+> _"Urist McForgemaster wasn't just any dwarf. He was the one who saved the fortress during the first siege. He trained every soldier. He had a wife and three children who believed he was invincible. And now he lay in the hospital, paralyzed from the waist down, staring at the ceiling with eyes that saw nothing."_
 
 ### Technique 7: Use Specific Details
 
 Generic descriptions feel flat. Dwarf Fortress is full of specific, weird details—use them.
 
 **Instead of:** "The fortress was under attack."
-**Try:** "The goblins came from the east, three squads of them, their leather armor marked with the symbol of the Iron Throne. They carried wooden spears and steel swords—steel stolen from *their own civilization*, melted down and reforged. It was insulting."
+**Try:** "The goblins came from the east, three squads of them, their leather armor marked with the symbol of the Iron Throne. They carried wooden spears and steel swords—steel stolen from _their own civilization_, melted down and reforged. It was insulting."
 
 ---
 
@@ -244,6 +258,7 @@ A screenshot of the moment goblins breach the walls, or of your legendary artifa
 
 **4. ASCII Art**
 Raw Dwarf Fortress ASCII can be embedded in a code block for flavor:
+
 ```
 Legend: @ = dwarf, # = wall, . = floor, ~ = magma
       #####
@@ -269,6 +284,7 @@ The **Dwarf Fortress Story Template** is designed to guide you through story cre
 ### Template Structure
 
 **Frontmatter** (automatically filled):
+
 ```yaml
 title: [Your Story Title]
 date: [Creation Date]
@@ -278,6 +294,7 @@ word_count_target: [depends on story complexity]
 ```
 
 **Gameplay Data Form** (fill in as you play):
+
 - Fortress profile
 - Timeline of events
 - Character profiles
@@ -286,6 +303,7 @@ word_count_target: [depends on story complexity]
 - Central question
 
 **Story Scaffolding** (fill in section by section):
+
 - Opening hook
 - World/fortress introduction
 - Character introductions (with conditional prompts)
@@ -385,4 +403,4 @@ Some said Urist's legendary status cursed the fortress. Others said he simply sa
 
 Now go forth and let your fortress tell its tale.
 
-*May your fortresses stand tall, your dwarves fight bravely, and your stories captivate audiences for generations to come.*
+_May your fortresses stand tall, your dwarves fight bravely, and your stories captivate audiences for generations to come._

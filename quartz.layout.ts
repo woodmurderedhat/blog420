@@ -20,8 +20,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.SourceList(),
   ],
   footer: Component.Footer({
-    links: {
-    },
+    links: {},
   }),
 }
 

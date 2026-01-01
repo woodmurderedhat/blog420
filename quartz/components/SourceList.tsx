@@ -2,11 +2,13 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 
 const SourceList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
-  const sources = fileData.frontmatter?.sources
-  if (sources && sources.length > 0) {
+  const sources = fileData.frontmatter?.sources as string[] | undefined
+  if (sources && Array.isArray(sources) && sources.length > 0) {
     return (
       <div class={classNames(displayClass, "sources")}>
-        <p><strong>Sources</strong></p>
+        <p>
+          <strong>Sources</strong>
+        </p>
         <ol>
           {sources.map((source: string, index: number) => (
             <li id={`source-${index + 1}`}>
