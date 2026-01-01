@@ -125,4 +125,4 @@ And then he was gone, leaving Udil alone in the throne room with the marble pill
 
 ---
 
-**Next in the series:** _The Three Peaks: Part 6 - The Military Mind_
+**Next in the series:** *The Three Peaks: Part 6 - The Military Mind*

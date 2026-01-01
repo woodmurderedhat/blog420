@@ -17,17 +17,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "test:watch": "tsx --test --watch",
-    "test:verbose": "tsx --test --reporter=verbose",
-    "test:plugin": "tsx --test quartz/plugins/transformers/sourceRefs.test.ts",
-    "validate": "node scripts/validate-build.mjs",
-    "build": "npm run validate && npx quartz build",
-    "build:fast": "npx quartz build --concurrency=1",
-    "build:incremental": "npx quartz build --watch",
-    "lint": "tsc --noEmit",
-    "lint:fix": "npx prettier . --write",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "precommit": "npm run lint && npm run test && npm run check"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
     "npm": ">=10.9.2",

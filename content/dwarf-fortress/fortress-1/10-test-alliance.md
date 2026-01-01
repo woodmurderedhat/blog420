@@ -125,4 +125,4 @@ And Urist, aged but unbowed, continued to work with the artifact, but now his cr
 
 ---
 
-**Next in the series:** _The Three Peaks: Part 11 - The Reckoning_
+**Next in the series:** *The Three Peaks: Part 11 - The Reckoning*

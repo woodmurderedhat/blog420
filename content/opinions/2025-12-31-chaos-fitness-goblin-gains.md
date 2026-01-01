@@ -9,19 +9,16 @@ draft: false
 ---
 
 ## Introduction
-
 You want gains but also sleep and snacks. Welcome to chaos fitness: short, punchy, zero intimidation.
 
 ## Main Content
 
 ### The 20-Minute Ritual
-
 - 5 min warmup: flail like you're late for the bus.
 - 10 min supersets: push-ups + squats + rows with a backpack full of books.
 - 5 min finisher: plank until your playlist hits the drop.
 
 ### Nutrition for Gremlins
-
 - Protein in anything: eggs, beans, leftover chicken—don't overthink it.
 - Hydrate before caffeine; yes, water first, you chaotic legend.
 - Sleep like it's your main quest.
@@ -36,11 +33,9 @@ You want gains but also sleep and snacks. Welcome to chaos fitness: short, punch
 > Don't ego-lift with bad form. Your joints will invoice you later.
 
 ## Key Takeaways
-
 - Short workouts still count if you repeat them.
 - Food is fuel, not a math puzzle.
 - Recovery is the cheat code.
 
 ## Conclusion
-
 Move, eat, sleep, repeat. Goblin gains are built on repetition, not aesthetics.

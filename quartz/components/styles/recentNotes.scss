@@ -24,9 +24,7 @@
         border-radius: 12px;
         background: linear-gradient(135deg, var(--light, #f8fbff), var(--lightgray, #e8ecf5));
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-        transition:
-          transform 120ms ease,
-          box-shadow 120ms ease;
+        transition: transform 120ms ease, box-shadow 120ms ease;
       }
 
       .section:hover {

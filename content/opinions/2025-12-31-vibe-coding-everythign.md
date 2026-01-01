@@ -7,7 +7,6 @@ tags: [engineering, productivity, humor, brain, rant]
 excerpt: "A neuro-spicy rant on why vibe coding feels great but quietly sets your codebase on fire."
 draft: false
 ---
-
 # 🧠🔥 VIBE CODING IS A WAR CRIME AGAINST YOUR BRAIN 🔥🧠
 
 **A Completely Serious Neuroscientific Screed Written While the Dopamine Is Still Hot**
@@ -28,8 +27,11 @@ Vibe coding feels good because your brain is being chemically gaslit. It is the 
 Vibe coding is what happens when:
 
 - 🧠 Prefrontal Cortex (logic, planning, shame) = **OFFLINE**
+    
 - 🐒 Limbic System (impulse, reward, goblin energy) = **FULL SEND**
+    
 - ⚡ Dopamine = **FLOOD STAGE WARNING**
+    
 
 You are no longer “engineering.”  
 You are **free-associating with syntax**.
@@ -55,9 +57,13 @@ Important reminder:
 Vibe coding mainlines dopamine by:
 
 - Writing code fast 🏎️💨
+    
 - Avoiding tests 🫣
+    
 - Ignoring edge cases 🙈
+    
 - Calling chaos “elegant” 🪩
+    
 
 Every time the program _runs_, your nucleus accumbens goes:
 
@@ -78,10 +84,15 @@ Your working memory can hold about **5 things**.
 Vibe coding regularly demands you remember:
 
 - Why this function exists
+    
 - What this variable represents
+    
 - Which branch is “temporary”
+    
 - What past-you _meant_
+    
 - Why this only breaks on Tuesdays
+    
 
 Your hippocampus sees this and says:
 
@@ -95,7 +106,7 @@ This is why 48 hours later you open the file and experience:
 😐  
 😐
 
-> “Who the \*\*\*\* wrote this?”
+> “Who the **** wrote this?”
 
 IT WAS YOU.  
 YOU WERE POSSESSED BY THE VIBES 👻
@@ -107,14 +118,20 @@ YOU WERE POSSESSED BY THE VIBES 👻
 Good code:
 
 - Reduces extraneous load 🧘‍♂️
+    
 - Clarifies intent 🔍
+    
 - Forms schemas 🧩
+    
 
 Vibe code:
 
 - Names things “stuff” and “temp2” 🤡
+    
 - Has functions doing **7 emotionally unrelated actions**
+    
 - Relies on ✨implicit understanding✨ (imaginary)
+    
 
 Your brain is now juggling flaming chainsaws while riding a unicycle on a treadmill.
 
@@ -129,23 +146,33 @@ This is why vibe coding feels “draining but fun,” like a rave held inside yo
 The Default Mode Network (DMN) is for:
 
 - Daydreams ☁️
+    
 - Art 🎨
+    
 - Lore 📜
+    
 - “What if…” thoughts 🌌
+    
 
 It is NOT for:
 
 - Boundary conditions ❌
+    
 - Deterministic systems ❌
+    
 - Anything with users ❌❌❌
+    
 
 Vibe coding is DMN-driven development.
 
 It produces software that is:
 
 - Aesthetically pleasing ✨
+    
 - Spiritually coherent 🔮
+    
 - **Causally unstable** 💣
+    
 
 Reality does not care about your narrative arc.
 
@@ -156,8 +183,11 @@ Reality does not care about your narrative arc.
 Because vibe coding avoids:
 
 - Tests ❌
+    
 - Adversarial thinking ❌
+    
 - Formal reasoning ❌
+    
 
 Your brain never gets negative feedback.
 
@@ -167,9 +197,13 @@ Accuracy does not.
 This is how you get commits named:
 
 - “final”
+    
 - “final2”
+    
 - “actually_final”
+    
 - “ok_for_real_now”
+    
 
 Neuroscience calls this **illusory superiority**.  
 Git calls it **history**.
@@ -181,14 +215,20 @@ Git calls it **history**.
 Complex systems need:
 
 - Explicit interfaces
+    
 - Clear invariants
+    
 - Predictable state changes
+    
 
 Vibe systems have:
 
 - ✨emergent behavior✨
+    
 - 🫥 hidden dependencies
+    
 - 🧨 cascading failures
+    
 
 Everything is connected.  
 Nothing is documented.  
@@ -204,14 +244,20 @@ This is **ritual magic with semicolons** 🕯️
 Vibe coding:
 
 - Avoids friction 😌
+    
 - Avoids doubt 🛌
+    
 - Avoids thinking too hard 🧠🚫
+    
 
 But learning requires **desirable difficulty**:
 
 - Effort 😤
+    
 - Precision 🔬
+    
 - Slowness 🐢
+    
 
 Discomfort is not failure.  
 It is your prefrontal cortex lifting weights 🏋️‍♂️
@@ -224,12 +270,17 @@ Engineering is strength training.
 ## 9. MEME SUMMARY (PRINT THIS ON YOUR BRAIN) 🧠🖨️
 
 - 🐒 Limbic system writes vibe code
+    
 - 🧠 Prefrontal cortex writes software
+    
 - ⚡ Dopamine is a liar
+    
 - 🧪 “It runs” ≠ “It works”
+    
 - 👤 Future you hates you
+    
 - ✨ The vibes are not a spec ✨
-
+    
 ---
 
 ## BONUS: EMERGENCY ANTI-VIBE CHECKLIST 🧰🚑
@@ -239,6 +290,7 @@ Engineering is strength training.
 - Write a three-bullet intent note at the top of the file before coding more
 - Split the biggest function in half; if you can’t summarize it in one breath, it’s two functions
 - Ask, “What breaks in prod?” and add one guardrail for that answer
+    
 
 ---
 
@@ -251,8 +303,11 @@ It is **neurochemical improv jazz** being asked to run payroll.
 Use vibes to:
 
 - Explore ideas 💡
+    
 - Sketch nonsense 🖍️
+    
 - Prototype chaos 🧪
+    
 
 Then CUT THE FEED.
 

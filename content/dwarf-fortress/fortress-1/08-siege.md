@@ -133,4 +133,4 @@ But they both knew that survival and success were not the same thing. And neithe
 
 ---
 
-**Next in the series:** _The Three Peaks: Part 9 - The Weight of Crowns_
+**Next in the series:** *The Three Peaks: Part 9 - The Weight of Crowns*

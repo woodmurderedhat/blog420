@@ -5,7 +5,6 @@ Your content folder has been reorganized for better management in both Obsidian 
 ## ✅ What Changed
 
 ### Before:
-
 ```
 content/
 ├── 2025-12-20-retro-gaming-nostalgia-hits-different.md
@@ -16,7 +15,6 @@ content/
 ```
 
 ### After:
-
 ```
 content/
 ├── posts/                      📝 All blog posts
@@ -48,20 +46,17 @@ content/
 ## 🎯 How to Use in Obsidian
 
 ### Creating a New Blog Post
-
 1. Navigate to `posts/` folder in Obsidian
 2. Create new note: `YYYY-MM-DD-title.md` (e.g., `2025-12-31-my-post.md`)
 3. Use Cmd/Ctrl+P → "Insert template" → Select `blog-post`
 4. Fill in the frontmatter and write!
 
 ### Creating a Static Page
-
 1. Navigate to `pages/` folder
 2. Create new note with descriptive name (e.g., `about.md`, `projects.md`)
 3. Write your content (no strict format required)
 
 ### Adding Images
-
 1. Drop images into `assets/` folder
 2. Reference in markdown:
    - Standard: `![Alt text](../assets/image.png)`
@@ -78,7 +73,6 @@ content/
 ## 🔗 Your Blog URLs
 
 The folder structure doesn't change your URLs:
-
 - `posts/2025-12-31-my-post.md` → `blog.420360.xyz/posts/2025-12-31-my-post`
 - `pages/about.md` → `blog.420360.xyz/pages/about`
 

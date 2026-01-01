@@ -22,16 +22,15 @@ Capture this data as you play or immediately after key events. This becomes the 
 
 **World Name:** [The name of your generated world]
 
-**Founded:** Year \_**\_ , Season \_\_**
+**Founded:** Year ____ , Season ____
 
-**Current Population:** \_\_\_\_ dwarves
+**Current Population:** ____ dwarves
 
 **Map Features:** [mountain, volcano, forest, riverbank, etc.]
 
 **Map Hazards:** [magma, caves, forgotten beasts, aquifer, etc.]
 
 **Notable Landmarks/Rooms:**
-
 - [e.g., Grand Hall of [name]]
 - [e.g., Legendary [Artifact] Workshop]
 - [e.g., War Room / Defense Preparations]
@@ -43,36 +42,31 @@ Capture this data as you play or immediately after key events. This becomes the 
 List the key moments that shaped your fortress (in chronological order). Include the in-game year, what happened, who was involved, and why it mattered.
 
 **Event 1:**
-
-- **Year & Season:** \_\_\_\_
+- **Year & Season:** ____
 - **What Happened:** [Brief description]
 - **Key Dwarves Involved:** [Names]
 - **Impact:** [What changed because of this?]
 
 **Event 2:**
-
-- **Year & Season:** \_\_\_\_
+- **Year & Season:** ____
 - **What Happened:** [Brief description]
 - **Key Dwarves Involved:** [Names]
 - **Impact:** [What changed because of this?]
 
 **Event 3:**
-
-- **Year & Season:** \_\_\_\_
+- **Year & Season:** ____
 - **What Happened:** [Brief description]
 - **Key Dwarves Involved:** [Names]
 - **Impact:** [What changed because of this?]
 
-**Event 4:** _(Optional)_
-
-- **Year & Season:** \_\_\_\_
+**Event 4:** *(Optional)*
+- **Year & Season:** ____
 - **What Happened:** [Brief description]
 - **Key Dwarves Involved:** [Names]
 - **Impact:** [What changed because of this?]
 
-**Event 5:** _(Optional)_
-
-- **Year & Season:** \_\_\_\_
+**Event 5:** *(Optional)*
+- **Year & Season:** ____
 - **What Happened:** [Brief description]
 - **Key Dwarves Involved:** [Names]
 - **Impact:** [What changed because of this?]
@@ -186,22 +180,20 @@ For each notable dwarf in your story, record the following. Focus on dwarves who
 ### Artifacts & Legendary Items (If Any)
 
 **Artifact 1:**
-
 - **Name:** [e.g., Spire of Eternal Flame]
 - **Type:** [Crown, Weapon, Statue, etc.]
 - **Material:** [Adamantine, Steel, Bone, etc.]
 - **Creator:** [Which dwarf made it? If unknown, note that]
-- **Year Created:** \_\_\_\_
+- **Year Created:** ____
 - **What Makes It Special:** [Describe its significance to your story]
 - **Current Location:** [Where is it now?]
 
 **Artifact 2 (Optional):**
-
 - **Name:** [e.g., Goblin-Slayer]
 - **Type:** [Crown, Weapon, Statue, etc.]
 - **Material:** [Adamantine, Steel, Bone, etc.]
 - **Creator:** [Which dwarf made it?]
-- **Year Created:** \_\_\_\_
+- **Year Created:** ____
 - **What Makes It Special:** [Describe its significance]
 - **Current Location:** [Where is it now?]
 
@@ -210,21 +202,18 @@ For each notable dwarf in your story, record the following. Focus on dwarves who
 ### Key Locations & Landmarks
 
 **Location 1:**
-
 - **Name:** [e.g., Grand Hall of Stellarim]
 - **What Is It:** [Room type and purpose]
 - **Why It Matters:** [Why is this location important to your story?]
 - **Visual Details:** [How does it look? What makes it distinctive?]
 
 **Location 2:**
-
 - **Name:** [e.g., The Forge of Legends]
 - **What Is It:** [Room type and purpose]
 - **Why It Matters:** [Why is this location important?]
 - **Visual Details:** [How does it look?]
 
 **Location 3 (Optional):**
-
 - **Name:** [e.g., The War Room]
 - **What Is It:** [Room type and purpose]
 - **Why It Matters:** [Why is this location important?]
@@ -237,7 +226,6 @@ For each notable dwarf in your story, record the following. Focus on dwarves who
 What is your story really about? What tension or conflict drives the narrative?
 
 **Central Question:** [Choose one or create your own]
-
 - Can a single dwarf save a fortress from collapse?
 - What happens when ambition becomes obsession?
 - How do you recover from catastrophic failure?
@@ -270,7 +258,6 @@ Use this section to outline your story following the Story Arc: Setup → Confli
 ### Opening Hook (Setup)
 
 Write a compelling opening sentence or paragraph that hooks the reader. This should:
-
 - Introduce the fortress or central dwarf
 - Pose the central question or hint at conflict
 - Establish tone and atmosphere
@@ -286,7 +273,6 @@ Write a compelling opening sentence or paragraph that hooks the reader. This sho
 Describe the fortress and its context. Help readers understand what they're reading about.
 
 **Section to Write:**
-
 - What does the fortress look like?
 - What is its reputation or status?
 - What is its current situation (thriving, under threat, recovering, etc.)?
@@ -299,7 +285,6 @@ Describe the fortress and its context. Help readers understand what they're read
 ### Character Introductions (Setup)
 
 Introduce your legendary dwarves one at a time. For each, include:
-
 - Their name and role
 - A visual or behavioral detail that makes them memorable
 - Why they matter to the story
@@ -329,7 +314,6 @@ This is the first major event from your timeline. Show it happening through narr
 **What Happens:** [Briefly state what occurred]
 
 **Scene:** Write this section to show:
-
 - What the dwarves experience (sensory details)
 - How they react
 - What they learn or what changes
@@ -393,7 +377,6 @@ This is the moment of highest stakes. Where everything converges.
 **What Happens:** [The decisive moment]
 
 **Scene:** Write this section with maximum emotional intensity.
-
 - Use short, punchy sentences if appropriate
 - Include sensory details
 - Show character choices and reactions
@@ -412,7 +395,6 @@ This is the moment of highest stakes. Where everything converges.
 Show the consequences and how the fortress and its dwarves adjust to what happened.
 
 **What Changed:**
-
 - For the fortress:
 - For the dwarves:
 - For the reader's understanding of the story:
@@ -440,21 +422,17 @@ Bring your story to a close. Answer your central question or leave it thoughtful
 If you have screenshots or ASCII art related to your story, embed them here with captions.
 
 **Image 1:**
-
 ```
 [Paste ASCII art or describe where to embed image]
 ```
-
 Caption: [What does this show?]
 
 ---
 
 **Image 2:**
-
 ```
 [Paste ASCII art or describe where to embed image]
 ```
-
 Caption: [What does this show?]
 
 ---
@@ -503,20 +481,17 @@ Before you share your story, review this checklist:
 ## PART 5: AFTER YOU PUBLISH
 
 **Share Your Story:**
-
 - Post on r/dwarffortress
 - Share in Bay12 Forums
 - Publish on your blog or personal site
 - Share in the Dwarf Fortress Discord
 
 **Engage with Feedback:**
-
 - Read comments and suggestions
 - Thank readers for their time
 - Consider revisions or follow-up stories
 
 **Archive & Organize:**
-
 - Save your story template for future fortresses
 - Consider creating a series if you have multiple fortress stories
 

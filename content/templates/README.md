@@ -22,16 +22,13 @@
 ## Available Templates
 
 ### blog-post.md
-
 Full-featured blog post template with:
-
 - Complete frontmatter
 - Section structure
 - Examples of callouts, links, images
 - Common markdown features
 
 ### quick-post.md
-
 Minimal template for quick thoughts and short posts.
 
 ## File Naming Convention

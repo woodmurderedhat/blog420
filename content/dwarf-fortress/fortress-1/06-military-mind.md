@@ -113,4 +113,4 @@ Either way, their story was about to change. And he wasn't sure anymore which ou
 
 ---
 
-**Next in the series:** _The Three Peaks: Part 7 - Desperation and Defenses_
+**Next in the series:** *The Three Peaks: Part 7 - Desperation and Defenses*

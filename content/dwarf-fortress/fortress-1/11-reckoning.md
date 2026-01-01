@@ -118,4 +118,4 @@ Which was exactly as it should be.
 
 ---
 
-**Next in the series:** _The Three Peaks: Part 12 - Legacy_
+**Next in the series:** *The Three Peaks: Part 12 - Legacy*

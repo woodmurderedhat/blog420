@@ -65,7 +65,7 @@ Udil Sparkstone was younger than Urist by fifteen years, but she carried herself
 
 "I'm a smith, not a founder."
 
-"You're a legend," Udil corrected. "Your presence—your reputation—would secure the settlement's legitimacy. Migrants would come. Investors would support the project. The fortress wouldn't be built by dwarves looking to escape Stellarim. It would be built by dwarves coming to _join_ something greater."
+"You're a legend," Udil corrected. "Your presence—your reputation—would secure the settlement's legitimacy. Migrants would come. Investors would support the project. The fortress wouldn't be built by dwarves looking to escape Stellarim. It would be built by dwarves coming to *join* something greater."
 
 Urist studied the map. Three hundred miles to the east. Ten days of travel, perhaps, through grassland and foothills. The eastern mountains rose like teeth in the drawing—high, jagged, promising.
 
@@ -75,7 +75,7 @@ Urist studied the map. Three hundred miles to the east. Ten days of travel, perh
 
 "That's four to five years away from my family," Urist said. "Away from Stellarim."
 
-"Yes," Udil said. "It is. But you'll be building something that lasts forever. Your name will be carved into mountains, Urist. Not just praised in taverns. Carved into _the world_."
+"Yes," Udil said. "It is. But you'll be building something that lasts forever. Your name will be carved into mountains, Urist. Not just praised in taverns. Carved into *the world*."
 
 ---
 
@@ -111,4 +111,4 @@ Neither of them looked back.
 
 ---
 
-**Next in the series:** _The Three Peaks: Part 2 - The Iron Ambition of Irondelve_
+**Next in the series:** *The Three Peaks: Part 2 - The Iron Ambition of Irondelve*

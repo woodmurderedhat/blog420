@@ -17,23 +17,23 @@ Tell me I'm wrong. You can't.
 
 ### 1. The Nostalgia Hit Different 🎮
 
-Look, we grew up on this stuff. Every time I see a chunky 16x16 sprite, my brain releases enough dopamine to power a small city. It's giving _comfort food but make it visual_ ✨
+Look, we grew up on this stuff. Every time I see a chunky 16x16 sprite, my brain releases enough dopamine to power a small city. It's giving *comfort food but make it visual* ✨
 
 ### 2. Constraints Breed Creativity 🎨
 
 When you only have 16 colors to work with, you become an ARTIST. None of that "I'll just add another shader" nonsense. Every pixel matters. It's like writing poetry with limited syllables but somehow making it slap.
 
-Some random game dev with unlimited polygons: _makes generic brown soldier man_
+Some random game dev with unlimited polygons: *makes generic brown soldier man*
 
-Pixel artist with 4 colors: _creates the most expressive character you've ever seen_
+Pixel artist with 4 colors: *creates the most expressive character you've ever seen*
 
 Who did it better? 👀
 
 ### 3. It's Actually Timeless 🕰️
 
-Games from 1985: _still look fire_
+Games from 1985: *still look fire*
 
-Games from 2015: _already aging like milk_
+Games from 2015: *already aging like milk*
 
 I rest my case, your honor 👨‍⚖️
 
@@ -51,12 +51,11 @@ Here's what's popping in 2025:
 ## No Printer, Just Fax 📠
 
 At the end of the day, pixel art hits different because it:
-
 - Respects your time (and storage space)
 - Ages like fine wine 🍷
 - Makes every pixel count
 - Looks good on literally any screen
-- Has that _je ne sais quoi_ that 4K textures wish they had
+- Has that *je ne sais quoi* that 4K textures wish they had
 
 ## The Bottom Line 💯
 
@@ -64,4 +63,4 @@ If you're not vibing with pixel art in 2025, that's a skill issue. Respectfully.
 
 Drop a comment if you agree or if you want to argue (spoiler: you'll lose) 😤
 
-_This post was written on a mechanical keyboard to maximize retro vibes_
+*This post was written on a mechanical keyboard to maximize retro vibes*
