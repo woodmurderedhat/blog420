@@ -95,7 +95,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Plugin.CustomOgImages(), // Disabled - causes build to hang on font fetching
+      Plugin.CustomOgImages(),
     ],
   },
 }

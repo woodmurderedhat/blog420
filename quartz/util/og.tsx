@@ -195,6 +195,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
 
   // Get tags if available
   const tags = fileData.frontmatter?.tags ?? []
+  const author = fileData.frontmatter?.author ?? cfg.pageTitle
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
 
@@ -313,6 +314,22 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
             fontSize: 28,
           }}
         >
+          {author && (
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <svg
+                style={{ marginRight: "0.5rem" }}
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <circle cx="12" cy="7" r="4"></circle>
+                <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
+              </svg>
+              {author}
+            </div>
+          )}
           {date && (
             <div style={{ display: "flex", alignItems: "center" }}>
               <svg
