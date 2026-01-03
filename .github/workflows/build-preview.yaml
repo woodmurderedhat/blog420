@@ -3,11 +3,12 @@ name: Build Preview Deployment
 on:
   pull_request:
     types: [opened, synchronize]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build-preview:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
     runs-on: ubuntu-latest
     name: Build Preview
     steps:
