@@ -76,11 +76,12 @@ async function processOgImage(
   const titleSuffix = cfg.pageTitleSuffix ?? ""
   const title =
     (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
-  const description =
-    fileData.frontmatter?.excerpt ??
+  let description = (fileData.frontmatter?.excerpt ??
     fileData.frontmatter?.socialDescription ??
     fileData.frontmatter?.description ??
-    unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
+    unescapeHTML((fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description) as string)) as string;
+
+  description = description || "";
 
   const stream = await generateSocialImage(
     {
@@ -101,9 +102,17 @@ async function processOgImage(
   })
 }
 
+const crtOptions: SocialImageOptions = {
+  ...defaultOptions,
+  imageStructure: defaultImage,
+  colorScheme: "darkMode", // Ensure colorScheme is defined
+  width: 1200, // Provide default width
+  height: 630, // Provide default height
+}
+
 export const CustomOgImagesEmitterName = "CustomOgImages"
 export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = (userOpts) => {
-  const fullOptions = { ...defaultOptions, ...userOpts }
+  const fullOptions: SocialImageOptions = { ...crtOptions, ...userOpts }
 
   return {
     name: CustomOgImagesEmitterName,
@@ -160,6 +169,7 @@ export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = 
             const defaultOgImagePath = `https://${baseUrl}/static/og-image.png`
             const ogImagePath = userDefinedOgImagePath ?? generatedOgImagePath ?? defaultOgImagePath
             const ogImageMimeType = `image/${getFileExtension(ogImagePath) ?? "png"}`
+
             return (
               <>
                 {!userDefinedOgImagePath && (
