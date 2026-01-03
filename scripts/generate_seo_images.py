@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Tuple
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
+import shutil
 
 # Retro palette
 PALETTE = {
@@ -25,6 +26,7 @@ FONT_CANDIDATES = [
 ]
 
 OUTPUT_DIR = Path("content/assets/images")
+STATIC_DIR = Path("quartz/static")
 
 
 def get_font(size: int) -> ImageFont.FreeTypeFont:
@@ -202,11 +204,24 @@ def make_social(path: Path) -> None:
 
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    STATIC_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Generate favicons and copy a canonical icon.png into quartz/static so the Quartz favicon emitter uses it.
     make_favicon(16, OUTPUT_DIR / "favicon-16x16.png")
     make_favicon(32, OUTPUT_DIR / "favicon-32x32.png")
+    make_logo(64, STATIC_DIR / "icon.png")
+    shutil.copyfile(OUTPUT_DIR / "favicon-16x16.png", STATIC_DIR / "favicon-16x16.png")
+    shutil.copyfile(OUTPUT_DIR / "favicon-32x32.png", STATIC_DIR / "favicon-32x32.png")
+
+    # Apple touch + social cards (written to both content assets and static for head tags / OG defaults).
     make_apple_icon(OUTPUT_DIR / "apple-touch-icon.png")
+    shutil.copyfile(OUTPUT_DIR / "apple-touch-icon.png", STATIC_DIR / "apple-touch-icon.png")
+
     make_logo(512, OUTPUT_DIR / "logo.png")
+    shutil.copyfile(OUTPUT_DIR / "logo.png", STATIC_DIR / "logo.png")
+
     make_social(OUTPUT_DIR / "social-share.png")
+    shutil.copyfile(OUTPUT_DIR / "social-share.png", STATIC_DIR / "og-image.png")
 
 
 if __name__ == "__main__":

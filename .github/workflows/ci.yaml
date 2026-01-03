@@ -43,8 +43,8 @@ jobs:
       - name: Test
         run: npm test
 
-      - name: Ensure Quartz builds, check bundle info
-        run: npx quartz build --bundleInfo -d docs
+      - name: Ensure Quartz builds, check bundle info (with SEO images)
+        run: npm run build -- --bundleInfo -d docs
 
   publish-tag:
     if: false
