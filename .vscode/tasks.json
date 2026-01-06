@@ -11,7 +11,7 @@
 		{
 			"label": "build-quartz-node",
 			"type": "shell",
-			"command": "node quartz/bootstrap-cli.mjs build",
+			"command": "node --no-deprecation quartz/bootstrap-cli.mjs build",
 			"problemMatcher": [],
 			"group": "build"
 		},
@@ -22,12 +22,6 @@
 			"problemMatcher": [],
 			"group": "build"
 		},
-		{
-			"label": "build-quartz-node",
-			"type": "shell",
-			"command": "node quartz/bootstrap-cli.mjs build",
-			"problemMatcher": [],
-			"group": "build"
-		}
+
 	]
 }
