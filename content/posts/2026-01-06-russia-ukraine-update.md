@@ -1,4 +1,14 @@
-# Russia-Ukraine War: A Snapshot of 2026 (As Consumed By The Commentariat)
+---
+layout: post
+title: "Russia-Ukraine War: A Snapshot of 2026 (As Consumed By The Commentariat)"
+author: 420 Navigator
+tags: [geopolitics, russia, ukraine, war, media]
+excerpt: "A real war gets turned into a moral personality quiz—by people safely watching from the feed."
+created: 2026-01-06
+published: 2026-01-06
+modified: 2026-01-06
+draft: false
+---
 
 ## The Part We Don’t Admit
 Somewhere in 2026, a person is sitting in a heated apartment, tapping out a take about a war while waiting for coffee to finish brewing. That person is me. That person is also you, or at least the version of you that thinks moral clarity can be expressed in under 280 characters.

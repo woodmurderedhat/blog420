@@ -7,8 +7,8 @@ tags: [venezuela, geopolitics, united-nations, us-foreign-policy, sanctions]
 excerpt: "A fast military move, a slow diplomatic meltdown, and civilians stuck in the middle."
 draft: false
 ---
-
 ## The Real Flashpoint Is Us
+
 Here’s the part nobody likes: the Venezuela “flashpoint” isn’t just about sovereignty, sanctions, or whether the UN has the spine of a wet paper bag. It’s about what *we* turn into when we think we’re only being judged by people who already agree with us.
 
 You can watch it happen in real time. A country with real human beings—people who want electricity that stays on, medicine that exists, a job that pays, and a future that doesn’t feel like a prank—becomes a moral gym for outsiders. We don’t go there to help. We go there to lift rhetorical weights and admire ourselves in the mirror.
@@ -16,6 +16,7 @@ You can watch it happen in real time. A country with real human beings—people 
 The main target here isn’t “America” or “the UN” or “Maduro.” The main target is the modern spectator sport of geopolitical virtue: the way we use other people’s disasters as content, identity, and a convenient excuse to never shut up.
 
 ## Step One: The Raid, The Takes, The Dopamine
+
 Let’s say a dramatic military operation happens: naval interdictions, a sudden capture, officials moved across borders, the whole “history book speedrun” vibe. On paper, you get serious questions—legal ones, strategic ones, humanitarian ones.
 
 In practice? We treat it like a new season dropped without warning.
@@ -27,6 +28,7 @@ And look—I’m not above it. I’m also the kind of idiot who feels a tiny, sh
 Here’s the quiet trick: when violence becomes a plot twist, civilians become extras. You can tell because we only mention them as a category—“Venezuelans,” “refugees,” “the humanitarian situation”—like they’re a weather report. “Chance of suffering: high.”
 
 ## Step Two: The UN, Misread On Purpose
+
 Then comes the UN discourse, which is a special kind of performance because it lets everyone cosplay as a principled adult.
 
 The UN’s operational posture is boring and pragmatic: talk to whoever actually holds the keys, keep aid routes open, document abuses, try not to get everyone killed. This is immediately translated online into two equally stupid statements:
@@ -43,6 +45,7 @@ The Security Council does the familiar dance: condemnations, warnings about prec
 But the real comedy is the way we weaponize the UN as a prop. If the UN says something that supports your preferred narrative, it’s suddenly the sacred guardian of order. If it says something inconvenient, it’s suddenly a corrupt bureaucracy full of freeloaders. We don’t want institutions; we want receipts.
 
 ## Step Three: Sanctions As Moral Furniture
+
 Now we get to sanctions, the political equivalent of putting a “Live Laugh Love” sign in your kitchen and calling it interior design.
 
 Sanctions are treated as if they are morally pure because they’re not bullets. Which is a hell of a low bar. It’s “violence, but with paperwork.” The case for them is always described in the language of leverage and pressure, like an economy is a stress ball and the people living in it are just… irrelevant.
@@ -54,6 +57,7 @@ So what do we do? We pick the version that flatters our politics and then call t
 The part nobody wants to say out loud is that sanctions are often a way to *feel like you did something* while ensuring you don’t actually have to do anything messy, expensive, or politically risky. It’s a moral subscription service. You pay in slogans.
 
 ## Step Four: “Legitimacy” As A Choose-Your-Own-Adventure
+
 Then comes the legitimacy argument, which is where adults revert into middle school with better phones.
 
 One camp says: “He’s a dictator, not a legitimate head of state.” Another says: “Sovereignty means you don’t get to snatch leaders because you think they deserve it.” Both camps are capable of being right about parts of the problem.
@@ -69,6 +73,7 @@ The system is built on compromise between ideals and power. It always has been. 
 And when people talk about “precedent,” what they usually mean is, “I’m worried about what happens when the other team uses this move.” Which, fine. Honest. But say that.
 
 ## Step Five: The Humanitarian Reality Nobody Clicks
+
 Meanwhile, the humanitarian baseline is already brutal: shortages, repression, displacement, and a society that has been hollowed out by years of dysfunction.
 
 Escalation doesn’t just add violence; it adds instability. Instability is the thing that turns every small hardship into a life-ruining event. No electricity becomes no refrigeration becomes no medicine becomes no work becomes another family leaving.
@@ -80,6 +85,7 @@ This is where I’m supposed to say something inspiring about “centering Venez
 Most of us would rather argue.
 
 ## The Mirror Ending
+
 Here is the uncomfortable punchline: the flashpoint isn’t only in Caracas or New York or Washington. It’s in the parts of our brains that crave moral certainty, clean villains, and the sweet relief of being “right.”
 
 We are living in an era where cruelty can be repackaged as policy and apathy can be repackaged as realism. And in the middle, ordinary people get turned into a rhetorical resource—mined for tragedy whenever we need to win an argument.
