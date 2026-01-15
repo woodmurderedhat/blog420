@@ -52,4 +52,3 @@ if (typeof test === "function") {
     expect((file.data as any).archivedAt).toBeUndefined()
   })
 }
-
