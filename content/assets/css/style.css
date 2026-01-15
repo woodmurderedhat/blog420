@@ -25,11 +25,12 @@
   --max-width: 1100px;
   --pixel-border: 2px; /* subtler border */
   --radius: 8px;
-  --easing: cubic-bezier(.2,.8,.2,1);
+  --easing: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 body {
-  font-family: "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", monospace;
+  font-family:
+    "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", monospace;
   line-height: 1.8;
   color: var(--text-color);
   background: linear-gradient(180deg, #050505 0%, #0a0a0a 100%);
@@ -39,7 +40,8 @@ body {
 }
 
 /* Keep pixel rendering for images only */
-.post-content img, .post-content figure img {
+.post-content img,
+.post-content figure img {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -54,7 +56,7 @@ body.compact {
   --max-width: 920px;
   --radius: 6px;
   font-size: 15px;
-  --easing: cubic-bezier(.25,.8,.25,1);
+  --easing: cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 /* Targeted compact tweaks */
@@ -114,19 +116,46 @@ body.compact .post {
 .xp-notification,
 .achievement-unlock,
 .stats-panel {
-  transition: padding 220ms var(--easing), margin 220ms var(--easing), gap 200ms var(--easing), font-size 180ms var(--easing), line-height 180ms var(--easing), transform 200ms var(--easing), box-shadow 250ms var(--easing), opacity 150ms var(--easing);
+  transition:
+    padding 220ms var(--easing),
+    margin 220ms var(--easing),
+    gap 200ms var(--easing),
+    font-size 180ms var(--easing),
+    line-height 180ms var(--easing),
+    transform 200ms var(--easing),
+    box-shadow 250ms var(--easing),
+    opacity 150ms var(--easing);
 }
 
 /* Dense utility class: use for compact lists and small UI widgets */
 .dense {
   font-size: 0.95em;
 }
-.dense .site-nav { gap: 0.6rem; }
-.dense .post-item { padding: calc(var(--space-xs) * 0.8); }
-.dense .post-content li { margin-bottom: 0.25rem; }
-.dense .reading-mode-toggle, .dense .scroll-to-top { width: 40px; height: 40px; font-size: 1.15rem; }
-.dense .level-display { padding: 6px 8px; min-width: 90px; font-size: 0.85rem; }
-.dense .xp-notification, .dense .achievement-unlock { padding: 10px 12px; max-width: 240px; }
+.dense .site-nav {
+  gap: 0.6rem;
+}
+.dense .post-item {
+  padding: calc(var(--space-xs) * 0.8);
+}
+.dense .post-content li {
+  margin-bottom: 0.25rem;
+}
+.dense .reading-mode-toggle,
+.dense .scroll-to-top {
+  width: 40px;
+  height: 40px;
+  font-size: 1.15rem;
+}
+.dense .level-display {
+  padding: 6px 8px;
+  min-width: 90px;
+  font-size: 0.85rem;
+}
+.dense .xp-notification,
+.dense .achievement-unlock {
+  padding: 10px 12px;
+  max-width: 240px;
+}
 
 /* Compact gamification adjustments */
 body.compact .level-display {
@@ -150,9 +179,14 @@ body.compact .achievement-unlock {
   max-width: 240px;
 }
 
-body.compact .level-up-content { padding: 24px; }
+body.compact .level-up-content {
+  padding: 24px;
+}
 
-body.compact .stats-panel { padding: 18px; max-width: 520px; }
+body.compact .stats-panel {
+  padding: 18px;
+  max-width: 520px;
+}
 
 /* Settings panel */
 .settings-panel {
@@ -162,16 +196,18 @@ body.compact .stats-panel { padding: 18px; max-width: 520px; }
   width: 320px;
   max-width: calc(100% - 24px);
   background: var(--secondary-color);
-  border: 1px solid rgba(0,255,65,0.06);
+  border: 1px solid rgba(0, 255, 65, 0.06);
   color: var(--text-color);
   padding: var(--space-lg);
   border-radius: calc(var(--radius));
-  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
   transform-origin: top right;
   transform: translateY(-8px) scale(0.98);
   opacity: 0;
   pointer-events: none;
-  transition: transform 200ms var(--easing), opacity 160ms var(--easing);
+  transition:
+    transform 200ms var(--easing),
+    opacity 160ms var(--easing);
   z-index: 10005;
 }
 
@@ -198,7 +234,7 @@ body.compact .stats-panel { padding: 18px; max-width: 520px; }
 
 .switch-button {
   background: var(--primary-color);
-  border: 2px solid rgba(0,255,65,0.12);
+  border: 2px solid rgba(0, 255, 65, 0.12);
   color: var(--accent-color);
   padding: 6px 8px;
   border-radius: 6px;
@@ -209,36 +245,43 @@ body.compact .stats-panel { padding: 18px; max-width: 520px; }
 
 /* Mode indicator badges */
 .mode-indicator .badge {
-  background: rgba(0,0,0,0.12);
+  background: rgba(0, 0, 0, 0.12);
   color: var(--accent-color);
   padding: 6px 8px;
   border-radius: 6px;
   font-family: "Press Start 2P", cursive;
   font-size: 0.7rem;
   opacity: 0.28;
-  transition: opacity 160ms var(--easing), transform 160ms var(--easing);
+  transition:
+    opacity 160ms var(--easing),
+    transform 160ms var(--easing);
 }
 
-.mode-indicator .badge:hover { transform: translateY(-2px); opacity: 0.95 }
+.mode-indicator .badge:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
 
 .settings-panel .site-defaults pre {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 0.85rem;
   color: var(--text-color);
 }
 
-.settings-panel .settings-apply-site { background: rgba(255,255,255,0.02); }
+.settings-panel .settings-apply-site {
+  background: rgba(255, 255, 255, 0.02);
+}
 
 .settings-button {
   background: var(--secondary-color);
-  border: 2px solid rgba(0,255,65,0.12);
+  border: 2px solid rgba(0, 255, 65, 0.12);
   color: var(--accent-color);
   width: 40px;
   height: 36px;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 6px;
-  box-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Respect user's reduced motion preference */
@@ -284,7 +327,7 @@ a:hover {
   color: var(--accent-color);
   padding: var(--space-lg) var(--spacing);
   margin-bottom: var(--space-lg);
-  border-bottom: 1px solid rgba(0,255,65,0.12);
+  border-bottom: 1px solid rgba(0, 255, 65, 0.12);
   position: relative;
 }
 
@@ -311,7 +354,7 @@ a:hover {
   font-size: 1.6rem;
   margin-bottom: 0.75rem;
   font-weight: 400;
-  text-shadow: 0 2px 6px rgba(0,255,65,0.06);
+  text-shadow: 0 2px 6px rgba(0, 255, 65, 0.06);
   letter-spacing: 1.5px;
 }
 
@@ -345,7 +388,7 @@ a:hover {
 .site-nav a {
   color: var(--accent-color);
   padding: 0.5rem 0.9rem;
-  border: 1px solid rgba(0,255,65,0.12);
+  border: 1px solid rgba(0, 255, 65, 0.12);
   background-color: transparent;
   border-radius: calc(var(--radius) / 2);
   transition: all 0.12s var(--easing);
@@ -354,7 +397,7 @@ a:hover {
 .site-nav a:hover {
   text-decoration: none;
   transform: translateY(-2px);
-  background-color: rgba(0,255,65,0.03);
+  background-color: rgba(0, 255, 65, 0.03);
   box-shadow: none;
 }
 
@@ -372,7 +415,7 @@ a:hover {
   color: var(--accent-color);
   text-align: center;
   padding: var(--space-lg) var(--spacing);
-  border-top: 1px solid rgba(0,255,65,0.08);
+  border-top: 1px solid rgba(0, 255, 65, 0.08);
   font-family: "Press Start 2P", cursive;
   font-size: 0.8rem;
   margin-top: calc(var(--space-lg) * 1.5);
@@ -386,17 +429,19 @@ a:hover {
 .post-item {
   padding: var(--space-lg);
   margin-bottom: var(--space-lg);
-  background: rgba(22,33,62,0.95);
-  border: 1px solid rgba(0,255,65,0.08);
+  background: rgba(22, 33, 62, 0.95);
+  border: 1px solid rgba(0, 255, 65, 0.08);
   border-radius: var(--radius);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
-  transition: transform 0.18s var(--easing), box-shadow 0.18s var(--easing);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+  transition:
+    transform 0.18s var(--easing),
+    box-shadow 0.18s var(--easing);
 }
 
 .post-item:hover {
   transform: translateY(-6px);
-  box-shadow: 0 18px 36px rgba(0,0,0,0.6);
-  border-color: rgba(255,0,110,0.08);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 0, 110, 0.08);
 }
 
 .post-link {
@@ -434,16 +479,16 @@ a:hover {
 
 /* Single post */
 .post {
-  background: rgba(22,33,62,0.98);
+  background: rgba(22, 33, 62, 0.98);
   padding: var(--spacing);
-  border: 1px solid rgba(0,255,65,0.06);
+  border: 1px solid rgba(0, 255, 65, 0.06);
   border-radius: calc(var(--radius) + 2px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
 .post-header {
   margin-bottom: var(--space-lg);
-  border-bottom: 1px dashed rgba(0,255,65,0.08);
+  border-bottom: 1px dashed rgba(0, 255, 65, 0.08);
   padding-bottom: var(--space-xs);
 }
 
@@ -563,7 +608,7 @@ a:hover {
 }
 
 .post-content blockquote {
-  border-left: 4px solid rgba(255,0,110,0.12);
+  border-left: 4px solid rgba(255, 0, 110, 0.12);
   padding-left: calc(var(--space-lg));
   margin: calc(var(--space-lg)) 0;
   color: var(--text-color);
@@ -580,12 +625,12 @@ a:hover {
   display: block;
   margin: var(--space-lg) auto;
   border-radius: calc(var(--radius) / 2);
-  border: 1px solid rgba(0,255,65,0.06);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+  border: 1px solid rgba(0, 255, 65, 0.06);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
 
 .post-content img:hover {
-  box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
   transform: translateY(-6px);
 }
 
@@ -640,16 +685,16 @@ a:hover {
 
 /* Page */
 .page {
-  background: rgba(22,33,62,0.98);
+  background: rgba(22, 33, 62, 0.98);
   padding: var(--space-lg);
-  border: 1px solid rgba(0,255,65,0.06);
+  border: 1px solid rgba(0, 255, 65, 0.06);
   border-radius: var(--radius);
-  box-shadow: 0 18px 36px rgba(0,0,0,0.55);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.55);
 }
 
 .page-header {
   margin-bottom: var(--space-lg);
-  border-bottom: 1px dashed rgba(0,255,65,0.08);
+  border-bottom: 1px dashed rgba(0, 255, 65, 0.08);
   padding-bottom: var(--space-xs);
 }
 

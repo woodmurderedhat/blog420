@@ -88,7 +88,7 @@ People keep asking “how does this repo actually work?” and “how do you glu
 
 - Posts live at `content/posts/YYYY-MM-DD-slug.md`. URL slug follows file name.
 - Pages live in `content/pages/` with friendly names (e.g., `START_HERE.md`).
-- Developer logs (like this) in `content/developer notes/` ,  spaces are fine; Quartz handles URL encoding.
+- Developer logs (like this) in `content/developer notes/` , spaces are fine; Quartz handles URL encoding.
 - Assets: prefer relative links (`/assets/images/...`). Keep them under `content/assets/` so they’re copied over.
 
 ## Obsidian Conventions (so links don’t cry)
@@ -211,9 +211,9 @@ We avoid heavy plugins that mutate frontmatter or file headers. Keep it lean to 
 
 ## Meme Break (because dopamine)
 
-- “It works on my machine” ,  famous last words before a red Actions check.
-- “Just one more tweak” ,  commits at 3:17 AM, vibes immaculate, syntax questionable.
-- “Static sites are boring” ,  says who? This one’s blasting at PageSpeed 100 and wearing sunglasses.
+- “It works on my machine” , famous last words before a red Actions check.
+- “Just one more tweak” , commits at 3:17 AM, vibes immaculate, syntax questionable.
+- “Static sites are boring” , says who? This one’s blasting at PageSpeed 100 and wearing sunglasses.
 
 ## Mini FAQ
 
