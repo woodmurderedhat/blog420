@@ -109,4 +109,4 @@ And suddenly, the eastern mountains became very interesting to every faction wit
 
 ---
 
-**Next in the series:** *The Three Peaks: Part 5 - Stellarim's Calculation*
+**Next in the series:** _The Three Peaks: Part 5 - Stellarim's Calculation_

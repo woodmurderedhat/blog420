@@ -5,20 +5,20 @@ This directory should contain the following images for optimal SEO:
 ## Required Files
 
 ### Favicons
+
 - **favicon-16x16.png** (16×16px)
   - Small favicon for browser tabs
   - PNG format, transparent background optional
-  
 - **favicon-32x32.png** (32×32px)
   - Standard favicon for modern browsers
   - PNG format, transparent background optional
-  
 - **apple-touch-icon.png** (180×180px)
   - iOS home screen icon
   - PNG format, no transparency (use solid background)
   - Square format
 
 ### Social Sharing
+
 - **logo.png** (512×512px minimum)
   - Your blog logo
   - Square format
@@ -36,6 +36,7 @@ This directory should contain the following images for optimal SEO:
 ### Using Online Tools
 
 **Favicon Generator:**
+
 1. Go to https://realfavicongenerator.net/
 2. Upload your logo (any size)
 3. Customize colors and design
@@ -43,6 +44,7 @@ This directory should contain the following images for optimal SEO:
 5. Extract and place files in this directory
 
 **Social Share Image:**
+
 1. Go to https://www.canva.com
 2. Create "Facebook Post" (1200×630px)
 3. Add your blog name, tagline, and retro graphics
@@ -52,6 +54,7 @@ This directory should contain the following images for optimal SEO:
 ### Design Tips
 
 **Favicon (16×16, 32×32):**
+
 - Use simple, recognizable icon
 - High contrast colors
 - Test at small sizes
@@ -59,18 +62,21 @@ This directory should contain the following images for optimal SEO:
 - Consider retro pixel art style
 
 **Apple Touch Icon (180×180):**
+
 - Rounded corners optional (iOS adds them)
 - Use solid background color
 - Center your logo/icon
 - Make it pop on home screen
 
 **Logo (512×512):**
+
 - Clear, professional design
 - Works at various sizes
 - Represents your brand
 - Consider pixel art theme
 
 **Social Share (1200×630):**
+
 - Include blog name prominently
 - Add tagline/description
 - Use eye-catching graphics
@@ -80,12 +86,14 @@ This directory should contain the following images for optimal SEO:
 ## Retro Gaming Theme Suggestions
 
 ### Color Palette
+
 - Primary: #00ff41 (Matrix green)
 - Secondary: #ff006e (Hot pink)
 - Background: #1a1a2e (Dark blue-black)
 - Text: #e0e0e0 (Light gray)
 
 ### Style Ideas
+
 - Pixel art graphics
 - 8-bit/16-bit aesthetic
 - Game controller icons
@@ -96,12 +104,14 @@ This directory should contain the following images for optimal SEO:
 ## Example Content
 
 ### Social Share Image Text Ideas
+
 - "420360 Blog - Retro Gaming & Pixel Art"
 - "Level Up Your Gaming Knowledge"
 - "Where Nostalgia Meets Interactive Reading"
 - "🎮 Gamified Reading Experience"
 
 ### Logo Ideas
+
 - Pixel art game controller
 - Retro "Play" button
 - 8-bit style "420360"
@@ -113,6 +123,7 @@ This directory should contain the following images for optimal SEO:
 If you need temporary placeholders, use these dimensions:
 
 **PowerShell command to check dimensions:**
+
 ```powershell
 Get-ChildItem *.png | ForEach-Object {
     Add-Type -AssemblyName System.Drawing

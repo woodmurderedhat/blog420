@@ -1,8 +1,8 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 * {
   margin: 0;
@@ -24,12 +24,17 @@
 }
 
 body {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   line-height: 1.6;
   color: var(--text-color);
   background-color: #0a0a0a;
-  background-image: 
-    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 65, 0.03) 2px, rgba(0, 255, 65, 0.03) 4px);
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.03) 2px,
+    rgba(0, 255, 65, 0.03) 4px
+  );
   font-size: 1.2rem;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
@@ -61,13 +66,19 @@ a:hover {
 }
 
 .site-header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0, 255, 65, 0.05) 2px, rgba(0, 255, 65, 0.05) 4px);
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.05) 2px,
+    rgba(0, 255, 65, 0.05) 4px
+  );
   pointer-events: none;
 }
 
@@ -79,11 +90,13 @@ a:hover {
 }
 
 .site-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.8rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  text-shadow: 4px 4px 0px var(--secondary-color), 0 0 10px var(--accent-color);
+  text-shadow:
+    4px 4px 0px var(--secondary-color),
+    0 0 10px var(--accent-color);
   letter-spacing: 2px;
 }
 
@@ -94,21 +107,23 @@ a:hover {
 .site-title a:hover {
   text-decoration: none;
   color: var(--alt-accent);
-  text-shadow: 4px 4px 0px var(--secondary-color), 0 0 15px var(--alt-accent);
+  text-shadow:
+    4px 4px 0px var(--secondary-color),
+    0 0 15px var(--alt-accent);
 }
 
 .site-description {
   font-size: 1.3rem;
   color: var(--text-color);
   margin-bottom: 1.5rem;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
 }
 
 .site-nav {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.7rem;
 }
 
@@ -143,7 +158,7 @@ a:hover {
   padding: 2rem var(--spacing);
   border-top: var(--pixel-border) solid var(--accent-color);
   box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.6rem;
   margin-top: 3rem;
 }
@@ -158,18 +173,22 @@ a:hover {
   margin-bottom: 2rem;
   background: var(--secondary-color);
   border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 65, 0.2);
+  box-shadow:
+    8px 8px 0px rgba(0, 0, 0, 0.7),
+    0 0 15px rgba(0, 255, 65, 0.2);
   transition: all 0.2s;
 }
 
 .post-item:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 0, 110, 0.3);
+  box-shadow:
+    12px 12px 0px rgba(0, 0, 0, 0.7),
+    0 0 25px rgba(255, 0, 110, 0.3);
   border-color: var(--alt-accent);
 }
 
 .post-link {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1rem;
   font-weight: normal;
   color: var(--accent-color);
@@ -181,7 +200,9 @@ a:hover {
 .post-link:hover {
   color: var(--alt-accent);
   text-decoration: none;
-  text-shadow: 2px 2px 0px var(--primary-color), 0 0 10px var(--alt-accent);
+  text-shadow:
+    2px 2px 0px var(--primary-color),
+    0 0 10px var(--alt-accent);
 }
 
 .post-date {
@@ -189,7 +210,7 @@ a:hover {
   font-size: 0.9rem;
   display: block;
   margin-bottom: 0.5rem;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
 }
 
 .post-excerpt {
@@ -204,7 +225,9 @@ a:hover {
   background: var(--secondary-color);
   padding: 2rem;
   border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  box-shadow:
+    10px 10px 0px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(0, 255, 65, 0.3);
 }
 
 .post-header {
@@ -214,7 +237,7 @@ a:hover {
 }
 
 .post-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--accent-color);
@@ -246,7 +269,7 @@ a:hover {
   padding: 0.4rem 0.8rem;
   border: 2px solid var(--accent-color);
   font-size: 0.7rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   transition: all 0.2s;
   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
@@ -267,7 +290,7 @@ a:hover {
 }
 
 .post-content h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.2rem;
   margin: 2rem 0 1rem;
   color: var(--accent-color);
@@ -276,7 +299,7 @@ a:hover {
 }
 
 .post-content h3 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.9rem;
   margin: 1.5rem 0 0.75rem;
   color: var(--accent-color);
@@ -306,7 +329,7 @@ a:hover {
   color: var(--accent-color);
   padding: 0.2rem 0.6rem;
   border: 1px solid var(--accent-color);
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 1.1rem;
 }
 
@@ -344,14 +367,18 @@ a:hover {
   display: block;
   margin: 2rem auto;
   border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  box-shadow:
+    8px 8px 0px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(0, 255, 65, 0.3);
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
 
 .post-content img:hover {
-  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 65, 0.5);
+  box-shadow:
+    12px 12px 0px rgba(0, 0, 0, 0.7),
+    0 0 30px rgba(0, 255, 65, 0.5);
   transform: translate(-2px, -2px);
 }
 
@@ -361,7 +388,7 @@ a:hover {
 }
 
 .post-content figcaption {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.6rem;
   color: var(--accent-color);
   margin-top: 1rem;
@@ -389,7 +416,7 @@ a:hover {
   background-color: var(--primary-color);
   border: 2px solid var(--accent-color);
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.6rem;
 }
 
@@ -409,7 +436,9 @@ a:hover {
   background: var(--secondary-color);
   padding: 2rem;
   border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  box-shadow:
+    10px 10px 0px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(0, 255, 65, 0.3);
 }
 
 .page-header {
@@ -419,7 +448,7 @@ a:hover {
 }
 
 .page-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   color: var(--accent-color);
   text-shadow: 3px 3px 0px var(--primary-color);
@@ -438,7 +467,7 @@ a:hover {
   gap: 1rem;
   margin: 2rem 0;
   flex-wrap: wrap;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.7rem;
 }
 
@@ -482,14 +511,16 @@ a:hover {
   background: var(--secondary-color);
   padding: 2rem;
   border: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  box-shadow:
+    10px 10px 0px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(0, 255, 65, 0.3);
 }
 
 .tag-title {
   color: var(--accent-color);
   margin-bottom: 1.5rem;
   font-size: 1.3rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   text-shadow: 3px 3px 0px var(--primary-color);
   line-height: 1.6;
 }
@@ -532,11 +563,11 @@ a:hover {
   .post-item {
     padding: 1rem;
   }
-  
+
   .post-content h2 {
     font-size: 1rem;
   }
-  
+
   .post-content h3 {
     font-size: 0.8rem;
   }
@@ -575,8 +606,10 @@ a:hover {
   border: 3px solid var(--accent-color);
   padding: 10px 15px;
   z-index: 1000;
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 65, 0.3);
-  font-family: 'Press Start 2P', cursive;
+  box-shadow:
+    5px 5px 0px rgba(0, 0, 0, 0.7),
+    0 0 15px rgba(0, 255, 65, 0.3);
+  font-family: "Press Start 2P", cursive;
   min-width: 120px;
 }
 
@@ -640,8 +673,10 @@ a:hover {
   border: 3px solid var(--accent-color);
   padding: 15px 20px;
   z-index: 10000;
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.5);
-  font-family: 'Press Start 2P', cursive;
+  box-shadow:
+    5px 5px 0px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(0, 255, 65, 0.5);
+  font-family: "Press Start 2P", cursive;
   transform: translateX(400px);
   opacity: 0;
   transition: all 0.3s ease;
@@ -691,7 +726,7 @@ a:hover {
 }
 
 .level-up-content h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 2rem;
   margin-bottom: 20px;
@@ -700,10 +735,12 @@ a:hover {
 }
 
 .level-number {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 4rem;
   color: var(--alt-accent);
-  text-shadow: 4px 4px 0px var(--primary-color), 0 0 20px var(--alt-accent);
+  text-shadow:
+    4px 4px 0px var(--primary-color),
+    0 0 20px var(--alt-accent);
   margin: 20px 0;
 }
 
@@ -714,7 +751,7 @@ a:hover {
 }
 
 .pixel-button {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background: var(--primary-color);
   border: 3px solid var(--accent-color);
   color: var(--accent-color);
@@ -740,7 +777,9 @@ a:hover {
   border: 3px solid #ffd700;
   padding: 15px;
   z-index: 10000;
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 215, 0, 0.6);
+  box-shadow:
+    5px 5px 0px rgba(0, 0, 0, 0.7),
+    0 0 30px rgba(255, 215, 0, 0.6);
   max-width: 300px;
   transform: translateX(400px);
   opacity: 0;
@@ -764,14 +803,14 @@ a:hover {
 }
 
 .achievement-label {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: #ffd700;
   font-size: 0.5rem;
   margin-bottom: 5px;
 }
 
 .achievement-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 0.6rem;
   line-height: 1.4;
@@ -797,7 +836,7 @@ a:hover {
 }
 
 .celebration-content h3 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 1.2rem;
   margin: 15px 0;
@@ -806,7 +845,7 @@ a:hover {
 .celebration-content p {
   color: var(--alt-accent);
   font-size: 1.5rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 .pixel-trophy {
@@ -823,7 +862,7 @@ a:hover {
 }
 
 .reactions-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 0.8rem;
   margin-bottom: 1.5rem;
@@ -866,7 +905,7 @@ a:hover {
 }
 
 .reaction-count {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 0.7rem;
 }
@@ -892,8 +931,13 @@ a:hover {
 }
 
 @keyframes reactionPop {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.2); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 /* Stats Panel */
@@ -914,7 +958,7 @@ a:hover {
 }
 
 .stats-panel-content h3 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 1.2rem;
   margin-bottom: 20px;
@@ -930,7 +974,7 @@ a:hover {
   color: var(--accent-color);
   padding: 5px 10px;
   cursor: pointer;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 0.8rem;
 }
 
@@ -953,14 +997,14 @@ a:hover {
 }
 
 .stat-label {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 0.5rem;
   margin-bottom: 10px;
 }
 
 .stat-value {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--alt-accent);
   font-size: 1.2rem;
 }
@@ -972,7 +1016,7 @@ a:hover {
 }
 
 .achievements-section h4 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 0.7rem;
   margin-bottom: 15px;
@@ -985,7 +1029,7 @@ a:hover {
 }
 
 .achievements-list li {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   color: var(--text-color);
   font-size: 1.1rem;
   padding: 8px;
@@ -1047,7 +1091,7 @@ a:hover {
   border: 4px solid var(--accent-color);
   padding: 30px 50px;
   z-index: 10003;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--accent-color);
   font-size: 1rem;
   box-shadow: 0 0 50px rgba(0, 255, 65, 0.8);
@@ -1059,8 +1103,12 @@ a:hover {
 }
 
 @keyframes rainbowBackground {
-  0% { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(360deg); }
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 /* Animations */
@@ -1083,7 +1131,8 @@ a:hover {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {

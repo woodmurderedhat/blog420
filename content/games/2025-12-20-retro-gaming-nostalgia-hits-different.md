@@ -23,7 +23,7 @@ The batteries are probably dead. It might be sticky for unknown reasons. But you
 
 Modern controllers are all ergonomic and wireless and boring. But that chunky Game Boy? That thing had PRESENCE. You could probably use it as a weapon if needed (please don't).
 
-Holding it again is like meeting an old friend. Except the friend is made of plastic and hasn't aged a day while you... well. 
+Holding it again is like meeting an old friend. Except the friend is made of plastic and hasn't aged a day while you... well.
 
 ### The Games Were Just Different ✨
 
@@ -32,7 +32,7 @@ Holding it again is like meeting an old friend. Except the friend is made of pla
 
 Hot take but I'm right: Give me a game with 4 colors and tight gameplay over a 4K cutscene simulator any day 📠
 
-### The Experience Was *Pure* 🌟
+### The Experience Was _Pure_ 🌟
 
 No updates. No patches. No DLC. No season passes. The game was DONE when they shipped it.
 
@@ -61,7 +61,7 @@ These sounds are encoded into our DNA at this point. Scientists could probably u
 
 Four-way split screen. One TV. No online matchmaking. Just you and your friends in the same room, talking trash in real-time.
 
-The chaos. The controller throwing. The "NO SCREEN WATCHING" accusations. 
+The chaos. The controller throwing. The "NO SCREEN WATCHING" accusations.
 
 Peak gaming, honestly 🏆
 
@@ -96,6 +96,7 @@ Here's the thing that hurts: We can play these games anytime now. Emulators exis
 But it's not the same.
 
 It's not about the GAME. It's about:
+
 - Being 10 years old with no responsibilities
 - Summer vacation feeling infinite
 - Your biggest worry being whether you could beat that one boss
@@ -106,7 +107,7 @@ You can't emulate THAT 💔
 
 ## But Actually Though... ✨
 
-Maybe it's okay that we can't recreate those exact feelings. Those memories are perfect because they're frozen in time. 
+Maybe it's okay that we can't recreate those exact feelings. Those memories are perfect because they're frozen in time.
 
 The games are still great (well, most of them - looking at you, Superman 64). We can still enjoy them. We can share them with new generations.
 
@@ -135,6 +136,7 @@ Plot twist: Retro gaming is HUGE right now and I'm here for it:
 Retro gaming isn't just about nostalgia (even though yes, obviously, we're all very nostalgic).
 
 It's about appreciating:
+
 - Limitations breeding innovation
 - Pure gameplay over graphics
 - Complete experiences over live service
@@ -172,6 +174,6 @@ And in 2025, that's pretty rare 🌟
 **Chance of Buying Another Old Console**: Very High  
 **Status**: Currently on eBay looking at Game Boy Colors
 
-*This post was written while listening to the Pokémon Red/Blue soundtrack and having a completely normal amount of feelings*
+_This post was written while listening to the Pokémon Red/Blue soundtrack and having a completely normal amount of feelings_
 
-*P.S. If you have my copy of Pokémon Yellow from middle school, please return it. I miss my Pikachu 😭*
+_P.S. If you have my copy of Pokémon Yellow from middle school, please return it. I miss my Pikachu 😭_

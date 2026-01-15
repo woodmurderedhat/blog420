@@ -57,7 +57,7 @@ Use sparingly to highlight definitions, warnings, or sidebars—not for routine 
 - Avoid list dumps unless the section needs them; prefer narrative flow.
 - Profanity is allowed when it reveals behavior, not as filler.
 - Keep sentences in plain ASCII; avoid smart quotes unless copying existing text.
-- Use code fences with language hints when needed (```js, ```bash, etc.).
+- Use code fences with language hints when needed (`js, `bash, etc.).
 - Inline math: `$x + y$`; block math: `$$ x + y $$`.
 
 ## File Naming

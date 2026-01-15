@@ -16,7 +16,7 @@ We’ve replaced self-reflection with self-indulgence, and the only thing we’r
 
 ## The Performance of Possession
 
-Consumerism isn’t about owning things; it’s about being seen owning things. The fitness guy doesn’t just buy a water bottle; he buys the water bottle that says, "I hydrate better than you." The minimalist influencer spends $300 on a lamp that looks like it came from a dumpster, but it’s a *designer* dumpster. The "authentic" mom posts a haul video of ethically sourced toys while her kid plays with the box. The problem isn’t the stuff; it’s the story we tell about the stuff. We’re all narrating our lives like we’re auditioning for a reality show no one asked to watch.
+Consumerism isn’t about owning things; it’s about being seen owning things. The fitness guy doesn’t just buy a water bottle; he buys the water bottle that says, "I hydrate better than you." The minimalist influencer spends $300 on a lamp that looks like it came from a dumpster, but it’s a _designer_ dumpster. The "authentic" mom posts a haul video of ethically sourced toys while her kid plays with the box. The problem isn’t the stuff; it’s the story we tell about the stuff. We’re all narrating our lives like we’re auditioning for a reality show no one asked to watch.
 
 My favorite genre is performative frugality. Today’s episode: someone brags about saving $5 on a $200 purchase, as if the math checks out. They’ll post a thread about how they "hacked" the system, conveniently leaving out the part where they spent three hours researching coupon codes. The hustle is real, but the savings are imaginary. It’s the human equivalent of clipping coupons for a yacht.
 

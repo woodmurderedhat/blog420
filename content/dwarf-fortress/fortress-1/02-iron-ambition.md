@@ -125,4 +125,4 @@ Below them, the fortress of Irondelve continued its martial preparations, and ne
 
 ---
 
-**Next in the series:** *The Three Peaks: Part 3 - The Struggle of Sparkbrook*
+**Next in the series:** _The Three Peaks: Part 3 - The Struggle of Sparkbrook_

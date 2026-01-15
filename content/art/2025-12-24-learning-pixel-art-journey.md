@@ -11,7 +11,7 @@ excerpt: "My journey from 'how hard can it be?' to 'I AM SUFFERING' to actually 
 
 **Me two months ago**: "Pixel art looks easy, it's just squares lol"
 
-**Me now**: *sobbing over anti-aliasing at 3am*
+**Me now**: _sobbing over anti-aliasing at 3am_
 
 Let's talk about my JOURNEY (and by journey I mean my descent into madness) 🎭
 
@@ -26,7 +26,7 @@ I downloaded Aseprite. I watched one (1) YouTube tutorial. I was READY.
 
 The tutorial made it look SO EASY. "Just place pixels intentionally" they said. "It's all about fundamentals" they said.
 
-LIES. DECEPTION. 
+LIES. DECEPTION.
 
 ## Week 2: The Humbling 😤
 
@@ -86,7 +86,7 @@ Working with a 16-color palette isn't restricting - it's LIBERATING. You can't o
 
 ### "The Community is Actually Nice"
 
-Unlike *some* parts of the internet, pixel artists are genuinely supportive. Everyone remembers being bad. Ask questions.
+Unlike _some_ parts of the internet, pixel artists are genuinely supportive. Everyone remembers being bad. Ask questions.
 
 ## Month 2: Plot Twist - I'm Hooked 🎣
 
@@ -120,6 +120,7 @@ But you know what? Every pixel artist started somewhere. Every cool sprite you'v
 ## Where I'm Going From Here 🚀
 
 Goals for the next few months:
+
 - [ ] Make a full character sprite sheet
 - [ ] Learn proper animation timing
 - [ ] Stop using black outlines for EVERYTHING
@@ -138,4 +139,4 @@ But also? It's SO rewarding. There's something magical about placing pixels and 
 
 Now if you'll excuse me, I have a 16x16 sword sprite to finish and it's only taken me 3 hours so far 💀
 
-*Written in Aseprite (yes, you can write in Aseprite, don't ask)*
+_Written in Aseprite (yes, you can write in Aseprite, don't ask)_

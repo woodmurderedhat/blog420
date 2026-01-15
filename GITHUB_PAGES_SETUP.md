@@ -13,11 +13,13 @@ Your blog is now configured to deploy to GitHub Pages automatically. Here's what
 To complete the setup, you need to configure your GitHub repository:
 
 ### 1. Enable GitHub Pages
+
 1. Go to your repository: https://github.com/woodmurderedhat/blog420
 2. Click **Settings** → **Pages** (in the left sidebar)
 3. Under **Source**, select **GitHub Actions**
 
 ### 2. Custom Domain Configuration (Optional but Recommended)
+
 Since you have `blog.420360.xyz` configured:
 
 1. In the same Pages settings, under **Custom domain**, enter: `blog.420360.xyz`
@@ -65,7 +67,7 @@ git push origin main
 
 - **404 Not Found**: Make sure GitHub Pages source is set to "GitHub Actions" in Settings
 - **CSS/JS not loading**: The `.nojekyll` file should fix this
-- **Custom domain not working**: 
+- **Custom domain not working**:
   - Verify DNS records are correct
   - Wait up to 24 hours for DNS propagation
   - Check that CNAME file exists in the deployed site

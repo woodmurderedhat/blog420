@@ -143,4 +143,4 @@ And both wondered if they had just made a terrible mistake or avoided one.
 
 ---
 
-**Next in the series:** *The Three Peaks: Part 10 - The Test of Alliance*
+**Next in the series:** _The Three Peaks: Part 10 - The Test of Alliance_
