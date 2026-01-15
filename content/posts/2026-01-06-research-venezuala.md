@@ -7,9 +7,10 @@ tags: [venezuela, geopolitics, united-nations, us-foreign-policy, sanctions]
 excerpt: "A fast military move, a slow diplomatic meltdown, and civilians stuck in the middle."
 draft: false
 ---
+
 ## The Real Flashpoint Is Us
 
-Here’s the part nobody likes: the Venezuela “flashpoint” isn’t just about sovereignty, sanctions, or whether the UN has the spine of a wet paper bag. It’s about what *we* turn into when we think we’re only being judged by people who already agree with us.
+Here’s the part nobody likes: the Venezuela “flashpoint” isn’t just about sovereignty, sanctions, or whether the UN has the spine of a wet paper bag. It’s about what _we_ turn into when we think we’re only being judged by people who already agree with us.
 
 You can watch it happen in real time. A country with real human beings—people who want electricity that stays on, medicine that exists, a job that pays, and a future that doesn’t feel like a prank—becomes a moral gym for outsiders. We don’t go there to help. We go there to lift rhetorical weights and admire ourselves in the mirror.
 
@@ -23,7 +24,7 @@ In practice? We treat it like a new season dropped without warning.
 
 The internet fills up with people who have never read the UN Charter but are suddenly quoting it like it’s scripture. Others announce that international law is “basically vibes,” which is a cute way of saying, “I am comfortable with power as long as it’s my power.”
 
-And look—I’m not above it. I’m also the kind of idiot who feels a tiny, shameful thrill when something “big” happens, because big events give you the illusion that you’re living in a story instead of just… living. That’s the hook. You can feel righteous *and* entertained. Two-for-one. No refund.
+And look—I’m not above it. I’m also the kind of idiot who feels a tiny, shameful thrill when something “big” happens, because big events give you the illusion that you’re living in a story instead of just… living. That’s the hook. You can feel righteous _and_ entertained. Two-for-one. No refund.
 
 Here’s the quiet trick: when violence becomes a plot twist, civilians become extras. You can tell because we only mention them as a category—“Venezuelans,” “refugees,” “the humanitarian situation”—like they’re a weather report. “Chance of suffering: high.”
 
@@ -33,8 +34,8 @@ Then comes the UN discourse, which is a special kind of performance because it l
 
 The UN’s operational posture is boring and pragmatic: talk to whoever actually holds the keys, keep aid routes open, document abuses, try not to get everyone killed. This is immediately translated online into two equally stupid statements:
 
-1) “The UN endorses the regime.”
-2) “The UN is useless, abolish it.”
+1. “The UN endorses the regime.”
+2. “The UN is useless, abolish it.”
 
 Both are comforting. Both are wrong in the ways that feel emotionally correct.
 
@@ -54,7 +55,7 @@ Critics point out, correctly, that broad economic pressure hits civilians hardes
 
 So what do we do? We pick the version that flatters our politics and then call the other side naïve, evil, or both. The loudest people tend to have the least skin in the game, which is a rule so consistent it might qualify as physics.
 
-The part nobody wants to say out loud is that sanctions are often a way to *feel like you did something* while ensuring you don’t actually have to do anything messy, expensive, or politically risky. It’s a moral subscription service. You pay in slogans.
+The part nobody wants to say out loud is that sanctions are often a way to _feel like you did something_ while ensuring you don’t actually have to do anything messy, expensive, or politically risky. It’s a moral subscription service. You pay in slogans.
 
 ## Step Four: “Legitimacy” As A Choose-Your-Own-Adventure
 

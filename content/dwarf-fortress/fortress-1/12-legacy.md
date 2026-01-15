@@ -129,17 +129,18 @@ The three peaks cast long shadows. And in those shadows, legend grows.
 
 **The End**
 
-*The story of the Three Peaks is concluded, but its influence continues. In the mountains where three fortresses stand allied, in the sealed chambers beneath them, in the minds of generations of dwarves who build on foundations they don't fully understand, the legacy of Urist, Thorgrim, and Mira persists.*
+_The story of the Three Peaks is concluded, but its influence continues. In the mountains where three fortresses stand allied, in the sealed chambers beneath them, in the minds of generations of dwarves who build on foundations they don't fully understand, the legacy of Urist, Thorgrim, and Mira persists._
 
-*Perhaps this is not the ending you expected. Perhaps you wanted conquest or conflict, glory or tragedy. But the greatest stories are not always the most dramatic. They are the ones that show us what we might become if we choose wisely, if we choose kindly, if we choose partnership over power.*
+_Perhaps this is not the ending you expected. Perhaps you wanted conquest or conflict, glory or tragedy. But the greatest stories are not always the most dramatic. They are the ones that show us what we might become if we choose wisely, if we choose kindly, if we choose partnership over power._
 
-*And perhaps, in your own fortress, you are making a choice that will echo forward in ways you can never imagine.*
+_And perhaps, in your own fortress, you are making a choice that will echo forward in ways you can never imagine._
 
-*May that choice be worthy of remembrance.*
+_May that choice be worthy of remembrance._
 
 ---
 
 **Series Statistics:**
+
 - **12 Parts, ~12,000 words**
 - **3 Fortresses: Stellarim (Golden Peak), Irondelve (Deep Black), Sparkbrook (Mountain Haven)**
 - **6 Main Characters: Urist McForgemaster, Udil Sparkstone, Thorgrim Battlemaster, Lokum Steelhammer, Mira Stonecarver, Erith Pickjaw**

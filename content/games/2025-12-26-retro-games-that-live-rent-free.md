@@ -18,7 +18,7 @@ Let's get into it 🎮
 **Year**: 1995  
 **Vibe Check**: ✅ PASSED WITH HONORS
 
-Chrono Trigger isn't just a game, it's a LIFESTYLE. Multiple endings? Time travel? A frog with a sword? The soundtrack that makes you cry in public? 
+Chrono Trigger isn't just a game, it's a LIFESTYLE. Multiple endings? Time travel? A frog with a sword? The soundtrack that makes you cry in public?
 
 This game said "what if we made something so perfect that people would still be talking about it 30 years later" and then DID THAT.
 
@@ -33,9 +33,9 @@ The soundtrack alone could cure seasonal depression. Yasunori Mitsuda understood
 
 This game invented the feeling of being alone in a good way. Samus really said "I don't need backup" and spent the whole game in creepy alien caves collecting missiles.
 
-The atmosphere? *Chef's kiss*  
-The level design? *Impeccable*  
-The baby Metroid scene? *Why are you making me cry over a floating jellyfish*
+The atmosphere? _Chef's kiss_  
+The level design? _Impeccable_  
+The baby Metroid scene? _Why are you making me cry over a floating jellyfish_
 
 Modern games could never hit this hard emotionally with zero dialogue 😭
 
@@ -56,7 +56,7 @@ Also shoutout to that one time the game predicted meme culture by like 20 years 
 
 ![Retro Gaming](https://via.placeholder.com/400x300/1a1a2e/ff006e?text=RETRO+VIBES)
 
-## 4. Castlevania: Symphony of the Night - *That* Dialogue 🧛
+## 4. Castlevania: Symphony of the Night - _That_ Dialogue 🧛
 
 **Year**: 1997  
 **Vibe Check**: ✅ IMMACULATE
@@ -91,10 +91,10 @@ The pixel art storytelling? UNMATCHED. They told a better story with 16-bit spri
 
 ## The Real Truth 💯
 
-These games aren't just good - they're *formative*. They hit different because they didn't have fancy graphics to hide behind. Just pure vibes, impeccable game design, and soundtracks that go unnecessarily hard 🔥
+These games aren't just good - they're _formative_. They hit different because they didn't have fancy graphics to hide behind. Just pure vibes, impeccable game design, and soundtracks that go unnecessarily hard 🔥
 
 ## Discussion Time 👇
 
 What retro games live rent free in YOUR head? Wrong answers only (jk all answers are valid but also mine are better) 😤
 
-*No retro games were harmed in the making of this post, but my feelings were*
+_No retro games were harmed in the making of this post, but my feelings were_

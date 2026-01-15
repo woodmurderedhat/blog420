@@ -127,4 +127,4 @@ Neither of them spoke of fear, though they both felt it.
 
 ---
 
-**Next in the series:** *The Three Peaks: Part 4 - The Artifact of Power*
+**Next in the series:** _The Three Peaks: Part 4 - The Artifact of Power_

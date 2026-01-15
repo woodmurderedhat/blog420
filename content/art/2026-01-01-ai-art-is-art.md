@@ -9,6 +9,7 @@ draft: false
 ---
 
 ## Introduction
+
 People keep saying AI art is not art. They say it like it's obvious. Like gravity. Like math.
 
 It isn't.
@@ -93,6 +94,7 @@ But pain was never a license.
 > Surrealists trusted the unconscious. Generative artists coded systems. AI is just the latest in a long line of artists giving up control.
 
 ## Key Takeaways
+
 - Art is recognized by impact, not production method
 - Machines have been part of art-making for decades (cameras, plotters, algorithms)
 - Intent moved from execution to curation and selection
@@ -100,6 +102,7 @@ But pain was never a license.
 - Pain and suffering were never prerequisites for legitimate art
 
 ## Conclusion
+
 AI art sits comfortably next to surrealism. Next to automatism. Next to generative systems and chance and machines doing things we didn't fully intend.
 
 It behaves like art. It circulates like art. It fucks with people like art.

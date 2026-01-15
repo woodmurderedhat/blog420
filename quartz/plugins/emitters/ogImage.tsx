@@ -79,9 +79,11 @@ async function processOgImage(
   let description = (fileData.frontmatter?.excerpt ??
     fileData.frontmatter?.socialDescription ??
     fileData.frontmatter?.description ??
-    unescapeHTML((fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description) as string)) as string;
+    unescapeHTML(
+      (fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description) as string,
+    )) as string
 
-  description = description || "";
+  description = description || ""
 
   const stream = await generateSocialImage(
     {

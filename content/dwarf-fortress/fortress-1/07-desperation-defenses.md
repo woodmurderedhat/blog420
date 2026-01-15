@@ -133,4 +133,4 @@ And somewhere in the mountains to the east, Urist McForgemaster was unaware that
 
 ---
 
-**Next in the series:** *The Three Peaks: Part 8 - The Siege*
+**Next in the series:** _The Three Peaks: Part 8 - The Siege_

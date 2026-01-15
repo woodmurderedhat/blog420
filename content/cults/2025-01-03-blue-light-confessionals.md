@@ -7,6 +7,7 @@ tags: [social media, culture, satire]
 excerpt: "A guided tour of the attention economy where every tap is a confession."
 draft: false
 ---
+
 ## The Blue Light Confessional
 
 Picture the open office at 9:07 a.m. Someone should be finishing a deck, but half the team is kneeling before the glowing altar of their phones, thumbs flicking like priests at a mass text. I am there too, pretending to check the weather while actually counting how many strangers blessed my photo of a coffee cup. We call it a break, but it is the most earnest prayer we say all day: please, algorithm, tell me I still exist.

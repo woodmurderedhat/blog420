@@ -1,27 +1,26 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"label": "build-quartz",
-			"type": "shell",
-			"command": "npm run quartz -- build",
-			"problemMatcher": [],
-			"group": "build"
-		},
-		{
-			"label": "build-quartz-node",
-			"type": "shell",
-			"command": "node --no-deprecation quartz/bootstrap-cli.mjs build",
-			"problemMatcher": [],
-			"group": "build"
-		},
-		{
-			"label": "npm-install",
-			"type": "shell",
-			"command": "npm install",
-			"problemMatcher": [],
-			"group": "build"
-		},
-
-	]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-quartz",
+      "type": "shell",
+      "command": "npm run quartz -- build",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "build-quartz-node",
+      "type": "shell",
+      "command": "node --no-deprecation quartz/bootstrap-cli.mjs build",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "npm-install",
+      "type": "shell",
+      "command": "npm install",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
 }

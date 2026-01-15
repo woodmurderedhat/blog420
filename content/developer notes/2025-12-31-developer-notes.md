@@ -23,7 +23,7 @@ draft: false
 
 ## Why This Post Exists (aka “fine, I’ll document it”)
 
-People keep asking “how does this repo actually work?” and “how do you glue Obsidian, Quartz, and GitHub without summoning a cursed merge conflict?” Consider this the canonical, slightly unhinged answer. It’s half developer diary, half ops guide, and 100% meme-powered. Bookmark it, roast it, ship it. 
+People keep asking “how does this repo actually work?” and “how do you glue Obsidian, Quartz, and GitHub without summoning a cursed merge conflict?” Consider this the canonical, slightly unhinged answer. It’s half developer diary, half ops guide, and 100% meme-powered. Bookmark it, roast it, ship it.
 
 ## The Core Stack, in Human Words
 
@@ -48,26 +48,31 @@ People keep asking “how does this repo actually work?” and “how do you glu
 ## The Obsidian → Quartz → GitHub → Pages Pipeline (step-by-step, no fluff)
 
 1. **Write in Obsidian** 🖋️
-  - Draft in the vault under `content/` (mirrors repo). Use frontmatter: `title`, `date`, `tags`, `draft`.
-  - Want backlinks? Use regular `[[wiki-links]]`; Quartz resolves them to nice URLs.
+
+- Draft in the vault under `content/` (mirrors repo). Use frontmatter: `title`, `date`, `tags`, `draft`.
+- Want backlinks? Use regular `[[wiki-links]]`; Quartz resolves them to nice URLs.
 
 2. **Local Preview** 👀
-  - Install deps once: `npm install` (or `pnpm install` if you roll that way; repo uses npm by default).
-  - Run: `npx quartz build --serve`
-  - Visit `http://localhost:8080` to sanity-check layout, links, tags, and memes. Fix typos before the internet sees them.
+
+- Install deps once: `npm install` (or `pnpm install` if you roll that way; repo uses npm by default).
+- Run: `npx quartz build --serve`
+- Visit `http://localhost:8080` to sanity-check layout, links, tags, and memes. Fix typos before the internet sees them.
 
 3. **Commit + Push** 🚀
-  - `git add .`
-  - `git commit -m "chore: update notes"` (or something less feral)
-  - `git push origin main`
+
+- `git add .`
+- `git commit -m "chore: update notes"` (or something less feral)
+- `git push origin main`
 
 4. **GitHub Actions Deploy** 🤖
-  - Workflow installs deps, runs `npx quartz build`, publishes `public/` to Pages.
-  - Progress lives in GitHub → Actions. Green check = we vibin’. Red X = read logs, fix, rerun.
+
+- Workflow installs deps, runs `npx quartz build`, publishes `public/` to Pages.
+- Progress lives in GitHub → Actions. Green check = we vibin’. Red X = read logs, fix, rerun.
 
 5. **Live Site** 🌐
-  - Default Pages URL: `https://woodmurderedhat.github.io/blog420/`
-  - Custom domain: `https://blog.420360.xyz` (once DNS + CNAME are set). 
+
+- Default Pages URL: `https://woodmurderedhat.github.io/blog420/`
+- Custom domain: `https://blog.420360.xyz` (once DNS + CNAME are set).
 
 ## Frontmatter Rules (or “how not to brick the build”)
 
@@ -98,7 +103,7 @@ People keep asking “how does this repo actually work?” and “how do you glu
 - Branching: `main` is prod. If you’re experimenting, branch off and PR, but solo dev can commit straight to `main` (you rebel).
 - Keep `public/` untracked (it’s build output). Don’t edit it manually.
 - Add meaningful commit messages. Future-you will thank present-you.
-- If Actions fails, read logs before panic-pushing. 
+- If Actions fails, read logs before panic-pushing.
 
 ## Custom Domain Flex
 
@@ -136,11 +141,11 @@ This blog is part lab notebook, part soapbox. We optimize for:
 - **Static by default**: Fewer moving parts. Speedy, secure, cache-friendly.
 - **Memetic energy**: Docs don’t have to be dry. If memes help you remember the pipeline, that’s a feature.
 
-## The Long Story (strap in, nerds) 
+## The Long Story (strap in, nerds)
 
 ### Origins: Why Quartz over $RANDOM_STATIC_SITE_GENERATOR?
 
-Hugo? Fast but opinionated. Jekyll? Classic but Ruby dependency vibes. Next.js? Overkill for a garden. Quartz hits the sweet spot: markdown-native, backlink-aware, batteries-included for digital gardens, and zero-config hosting on Pages. It respects the Obsidian mental model—notes as nodes, links as edges—without forcing a monolithic CMS. 
+Hugo? Fast but opinionated. Jekyll? Classic but Ruby dependency vibes. Next.js? Overkill for a garden. Quartz hits the sweet spot: markdown-native, backlink-aware, batteries-included for digital gardens, and zero-config hosting on Pages. It respects the Obsidian mental model—notes as nodes, links as edges—without forcing a monolithic CMS.
 
 ### Obsidian as the Content OS
 
@@ -164,11 +169,13 @@ We avoid heavy plugins that mutate frontmatter or file headers. Keep it lean to 
 
 1. **Trigger**: Push to `main`.
 2. **CI Steps**:
-  - Checkout code
-  - Setup Node
-  - Install deps (`npm ci` preferred for lockfile determinism)
-  - Build (`npx quartz build`)
-  - Upload artifact / deploy to Pages
+
+- Checkout code
+- Setup Node
+- Install deps (`npm ci` preferred for lockfile determinism)
+- Build (`npx quartz build`)
+- Upload artifact / deploy to Pages
+
 3. **Result**: Pages serves the freshly built `public/`. CNAME ensures custom domain sticks.
 
 ### Local Dev QoL Tips
@@ -183,7 +190,7 @@ We avoid heavy plugins that mutate frontmatter or file headers. Keep it lean to 
 2. Draft in `content/posts/` or `content/developer notes/` with full frontmatter.
 3. Preview locally, fix links.
 4. Mark `draft: false` when ready.
-5. Commit, push, ship. 
+5. Commit, push, ship.
 
 ### Backups & Safety
 
