@@ -19,6 +19,17 @@ const config: QuartzConfig = {
     baseUrl: "blog.420360.xyz",
     ignorePatterns: ["private", "templates", ".obsidian", "README.md"],
     defaultDateType: "modified",
+    archives: {
+      enabled: true,
+      thresholdMonths: 1,
+      basePath: "/archives/",
+      pageSize: 10,
+      rssEnabled: false,
+      persistFrontmatter: false,
+      excludeFromRSS: true,
+      excludeFromSitemap: true,
+      showInNav: true,
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -59,6 +70,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.ArchiveMarker(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -87,6 +99,7 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
+      Plugin.ArchivePage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,

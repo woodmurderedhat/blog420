@@ -83,6 +83,19 @@ export interface GlobalConfiguration {
    * Region Codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
    */
   locale: ValidLocale
+  // Archive configuration (build-time only flags and archive pages)
+  archives?: {
+    enabled?: boolean
+    thresholdMonths?: number
+    basePath?: string
+    pageSize?: number
+    rssEnabled?: boolean
+    persistFrontmatter?: boolean
+    archivePropertyName?: string
+    excludeFromRSS?: boolean
+    excludeFromSitemap?: boolean
+    showInNav?: boolean
+  }
 }
 
 export interface QuartzConfig {

@@ -5,7 +5,7 @@ import { toSimpleSlug } from "./quartz/util/path"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.ArchiveLink()],
   afterBody: [
     Component.ConditionalRender({
       component: Component.RecentNotes({

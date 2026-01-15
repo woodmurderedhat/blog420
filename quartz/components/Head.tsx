@@ -90,6 +90,8 @@ export default (() => {
         <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
         <link rel="apple-touch-icon" sizes="180x180" href={appleIcon} />
         <meta name="description" content={description} />
+        {/* archived flag is stored directly on the file data by the ArchiveMarker transformer */}
+        {(fileData as any).archived && <meta name="robots" content="noindex,follow" />}
         <meta name="generator" content="Quartz" />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}

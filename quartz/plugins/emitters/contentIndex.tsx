@@ -19,6 +19,7 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+  archived?: boolean
 }
 
 interface Options {
@@ -115,23 +116,32 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
+            archived: (file.data as any).archived === true,
           })
         }
       }
 
       if (opts?.enableSiteMap) {
+        const excludeFromSitemap = !!cfg.archives?.excludeFromSitemap
+        const sitemapIndex = excludeFromSitemap
+          ? new Map(Array.from(linkIndex).filter(([_, v]) => !v.archived))
+          : linkIndex
         yield write({
           ctx,
-          content: generateSiteMap(cfg, linkIndex),
+          content: generateSiteMap(cfg, sitemapIndex),
           slug: "sitemap" as FullSlug,
           ext: ".xml",
         })
       }
 
       if (opts?.enableRSS) {
+        const excludeFromRSS = !!cfg.archives?.excludeFromRSS
+        const rssIndex = excludeFromRSS
+          ? new Map(Array.from(linkIndex).filter(([_, v]) => !v.archived))
+          : linkIndex
         yield write({
           ctx,
-          content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
+          content: generateRSSFeed(cfg, rssIndex, opts.rssLimit),
           slug: (opts?.rssSlug ?? "index") as FullSlug,
           ext: ".xml",
         })
