@@ -92,6 +92,38 @@ export function simplifySlug(fp: FullSlug): SimpleSlug {
   return (res.length === 0 ? "/" : res) as SimpleSlug
 }
 
+export function toSimpleSlug(s: string): SimpleSlug {
+  let out = s.trim()
+
+  // reject obvious absolute URLs
+  if (isAbsoluteURL(out)) {
+    throw new Error(`Invalid SimpleSlug: ${s} appears to be an absolute URL`)
+  }
+
+  // whether user intended a folder (trailing slash) based on original input
+  const folderFromInput = s.trim().endsWith("/") && s.trim().length > 1
+
+  // remove leading slash for multi-character inputs
+  if (out.startsWith("/") && out.length > 1) {
+    out = out.slice(1)
+  }
+
+  // normalize index suffix and strip leading/trailing slashes
+  out = stripSlashes(trimSuffix(out, "index"), true)
+
+  // restore trailing slash for folders if not already present
+  if (folderFromInput && out.length > 0 && !out.endsWith("/")) out = out + "/"
+
+  // represent root as "/"
+  if (out.length === 0) out = "/"
+
+  if (!isSimpleSlug(out)) {
+    throw new Error(`Invalid SimpleSlug: ${s} -> ${out}`)
+  }
+
+  return out as SimpleSlug
+}
+
 export function transformInternalLink(link: string): RelativeURL {
   let [fplike, anchor] = splitAnchor(decodeURI(link))
 

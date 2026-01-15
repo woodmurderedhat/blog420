@@ -397,13 +397,12 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
 // CRT-styled OG image template
 export const crtStyledImage: SocialImageOptions["imageStructure"] = ({
   cfg,
-  userOpts,
+  userOpts: _userOpts,
   title,
   description,
   fileData,
   iconBase64,
 }) => {
-  const { colorScheme } = userOpts // Ensure colorScheme is used
   const fontBreakPoint = 32
   const useSmallerFont = title.length > fontBreakPoint
 
@@ -612,5 +611,5 @@ export const crtStyledImage: SocialImageOptions["imageStructure"] = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
