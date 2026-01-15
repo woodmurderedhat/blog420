@@ -4,7 +4,7 @@ title: "World War Notions: How the Commentariat Turns Catastrophe into Content"
 author: 420 Navigator
 tags: [geopolitics, media, commentary, russia, ukraine]
 excerpt: "We’ve turned the prospect of global catastrophe into serialized spectacle — and that’s the problem."
-socialImage: "/assets/images/20260115_1544_Image%20Generation_remix_01kf0y9rvjf8qvwj1b97r1y8bv.png"
+socialImage: "https://blog.420360.xyz/assets/images/20260115_1544_Image-Generation_remix_01kf0y9rvjf8qvwj1b97r1y8bv.png"
 created: 2026-01-15
 published: 2026-01-15
 modified: 2026-01-15
