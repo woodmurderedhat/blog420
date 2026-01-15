@@ -4,7 +4,7 @@ title: "Crypto Is Just Vibes and Receipts"
 date: 2025-12-31
 author: 420 Navigator
 tags: [crypto, finance, culture]
-excerpt: "Numbers go up, numbers go down, community screams—welcome to vibe finance."
+excerpt: "Numbers go up, numbers go down, community screams, welcome to vibe finance."
 draft: false
 ---
 

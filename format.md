@@ -44,7 +44,7 @@ Quartz supports Obsidian-style callouts:
 > Brief cautionary note.
 ```
 
-Use sparingly to highlight definitions, warnings, or sidebars—not for routine paragraphs.
+Use sparingly to highlight definitions, warnings, or sidebars, not for routine paragraphs.
 
 ## Links and Media
 

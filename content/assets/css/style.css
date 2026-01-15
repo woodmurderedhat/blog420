@@ -18,29 +18,253 @@
   --text-color: #e0e0e0;
   --light-bg: #0f3460;
   --border-color: #00ff41;
-  --spacing: 1rem;
-  --max-width: 900px;
-  --pixel-border: 4px;
+  --space-xxs: 0.5rem;
+  --space-xs: 0.75rem;
+  --spacing: 1.25rem; /* base spacing */
+  --space-lg: 2rem;
+  --max-width: 1100px;
+  --pixel-border: 2px; /* subtler border */
+  --radius: 8px;
+  --easing: cubic-bezier(.2,.8,.2,1);
 }
 
 body {
-  font-family: "VT323", monospace;
-  line-height: 1.6;
+  font-family: "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", monospace;
+  line-height: 1.8;
   color: var(--text-color);
-  background-color: #0a0a0a;
-  background-image: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 255, 65, 0.03) 2px,
-    rgba(0, 255, 65, 0.03) 4px
-  );
-  font-size: 1.2rem;
+  background: linear-gradient(180deg, #050505 0%, #0a0a0a 100%);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Keep pixel rendering for images only */
+.post-content img, .post-content figure img {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
 
+/* Compact mode: add class `compact` to <body> to densify layout */
+body.compact {
+  --space-xxs: 0.35rem;
+  --space-xs: 0.5rem;
+  --spacing: 0.9rem;
+  --space-lg: 1rem;
+  --max-width: 920px;
+  --radius: 6px;
+  font-size: 15px;
+  --easing: cubic-bezier(.25,.8,.25,1);
+}
+
+/* Targeted compact tweaks */
+body.compact .site-nav {
+  gap: 0.6rem;
+  font-size: 0.65rem;
+}
+
+body.compact .site-nav a {
+  padding: 0.35rem 0.6rem;
+}
+
+body.compact .site-header {
+  padding: var(--space-xs) var(--spacing);
+}
+
+body.compact .site-footer {
+  padding: var(--space-xs) var(--spacing);
+  font-size: 0.75rem;
+}
+
+body.compact .post-link {
+  font-size: 0.95rem;
+  margin-bottom: var(--space-xs);
+}
+
+body.compact .post-excerpt {
+  font-size: 1rem;
+}
+
+body.compact .post-content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+body.compact .post-item {
+  padding: var(--space-xs);
+}
+
+body.compact .post {
+  padding: var(--space-xs);
+}
+
+/* Smooth transition for layout morphs */
+.site-header,
+.site-footer,
+.site-content,
+.post-item,
+.post,
+.post-content,
+.site-nav a,
+.post-title,
+.post-link,
+.reading-mode-toggle,
+.scroll-to-top,
+.level-display,
+.xp-notification,
+.achievement-unlock,
+.stats-panel {
+  transition: padding 220ms var(--easing), margin 220ms var(--easing), gap 200ms var(--easing), font-size 180ms var(--easing), line-height 180ms var(--easing), transform 200ms var(--easing), box-shadow 250ms var(--easing), opacity 150ms var(--easing);
+}
+
+/* Dense utility class: use for compact lists and small UI widgets */
+.dense {
+  font-size: 0.95em;
+}
+.dense .site-nav { gap: 0.6rem; }
+.dense .post-item { padding: calc(var(--space-xs) * 0.8); }
+.dense .post-content li { margin-bottom: 0.25rem; }
+.dense .reading-mode-toggle, .dense .scroll-to-top { width: 40px; height: 40px; font-size: 1.15rem; }
+.dense .level-display { padding: 6px 8px; min-width: 90px; font-size: 0.85rem; }
+.dense .xp-notification, .dense .achievement-unlock { padding: 10px 12px; max-width: 240px; }
+
+/* Compact gamification adjustments */
+body.compact .level-display {
+  top: 10px;
+  right: 10px;
+  padding: 8px 10px;
+  min-width: 100px;
+  font-size: 0.85rem;
+}
+
+body.compact .xp-notification {
+  bottom: 80px;
+  right: 12px;
+  padding: 10px 12px;
+  transform: translateX(300px);
+}
+
+body.compact .achievement-unlock {
+  top: 80px;
+  right: 12px;
+  max-width: 240px;
+}
+
+body.compact .level-up-content { padding: 24px; }
+
+body.compact .stats-panel { padding: 18px; max-width: 520px; }
+
+/* Settings panel */
+.settings-panel {
+  position: fixed;
+  top: 64px;
+  right: 12px;
+  width: 320px;
+  max-width: calc(100% - 24px);
+  background: var(--secondary-color);
+  border: 1px solid rgba(0,255,65,0.06);
+  color: var(--text-color);
+  padding: var(--space-lg);
+  border-radius: calc(var(--radius));
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  transform-origin: top right;
+  transform: translateY(-8px) scale(0.98);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 200ms var(--easing), opacity 160ms var(--easing);
+  z-index: 10005;
+}
+
+.settings-panel.show {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.settings-panel .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: var(--space-xs);
+  font-family: "VT323", monospace;
+}
+
+.settings-panel .row label {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.85rem;
+  color: var(--accent-color);
+}
+
+.switch-button {
+  background: var(--primary-color);
+  border: 2px solid rgba(0,255,65,0.12);
+  color: var(--accent-color);
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: 52px;
+  text-align: center;
+}
+
+/* Mode indicator badges */
+.mode-indicator .badge {
+  background: rgba(0,0,0,0.12);
+  color: var(--accent-color);
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.7rem;
+  opacity: 0.28;
+  transition: opacity 160ms var(--easing), transform 160ms var(--easing);
+}
+
+.mode-indicator .badge:hover { transform: translateY(-2px); opacity: 0.95 }
+
+.settings-panel .site-defaults pre {
+  font-family: 'VT323', monospace;
+  font-size: 0.85rem;
+  color: var(--text-color);
+}
+
+.settings-panel .settings-apply-site { background: rgba(255,255,255,0.02); }
+
+.settings-button {
+  background: var(--secondary-color);
+  border: 2px solid rgba(0,255,65,0.12);
+  color: var(--accent-color);
+  width: 40px;
+  height: 36px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+}
+
+/* Respect user's reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .site-footer,
+  .site-content,
+  .post-item,
+  .post,
+  .post-content,
+  .site-nav a,
+  .post-title,
+  .post-link,
+  .reading-mode-toggle,
+  .scroll-to-top,
+  .level-display,
+  .xp-notification,
+  .achievement-unlock,
+  .stats-panel,
+  .settings-panel {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* keep A styles following */
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -58,10 +282,9 @@ a:hover {
 .site-header {
   background-color: var(--primary-color);
   color: var(--accent-color);
-  padding: 2rem var(--spacing);
-  margin-bottom: 2rem;
-  border-bottom: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+  padding: var(--space-lg) var(--spacing);
+  margin-bottom: var(--space-lg);
+  border-bottom: 1px solid rgba(0,255,65,0.12);
   position: relative;
 }
 
@@ -72,13 +295,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: repeating-linear-gradient(
-    90deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 255, 65, 0.05) 2px,
-    rgba(0, 255, 65, 0.05) 4px
-  );
+  background-image: none; /* subtle, clean header */
   pointer-events: none;
 }
 
@@ -91,13 +308,11 @@ a:hover {
 
 .site-title {
   font-family: "Press Start 2P", cursive;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
-  text-shadow:
-    4px 4px 0px var(--secondary-color),
-    0 0 10px var(--accent-color);
-  letter-spacing: 2px;
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+  text-shadow: 0 2px 6px rgba(0,255,65,0.06);
+  letter-spacing: 1.5px;
 }
 
 .site-title a {
@@ -129,25 +344,26 @@ a:hover {
 
 .site-nav a {
   color: var(--accent-color);
-  padding: 0.5rem 1rem;
-  border: 2px solid var(--accent-color);
-  background-color: var(--secondary-color);
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-  transition: all 0.1s;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid rgba(0,255,65,0.12);
+  background-color: transparent;
+  border-radius: calc(var(--radius) / 2);
+  transition: all 0.12s var(--easing);
 }
 
 .site-nav a:hover {
   text-decoration: none;
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-  background-color: var(--light-bg);
+  transform: translateY(-2px);
+  background-color: rgba(0,255,65,0.03);
+  box-shadow: none;
 }
 
 /* Main content */
 .site-content {
   max-width: var(--max-width);
-  margin: 0 auto var(--spacing);
-  padding: 0 var(--spacing);
+  margin: 0 auto;
+  padding: var(--space-lg) var(--spacing);
+  width: 100%;
 }
 
 /* Footer */
@@ -155,12 +371,11 @@ a:hover {
   background-color: var(--primary-color);
   color: var(--accent-color);
   text-align: center;
-  padding: 2rem var(--spacing);
-  border-top: var(--pixel-border) solid var(--accent-color);
-  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+  padding: var(--space-lg) var(--spacing);
+  border-top: 1px solid rgba(0,255,65,0.08);
   font-family: "Press Start 2P", cursive;
-  font-size: 0.6rem;
-  margin-top: 3rem;
+  font-size: 0.8rem;
+  margin-top: calc(var(--space-lg) * 1.5);
 }
 
 /* Post list */
@@ -169,22 +384,19 @@ a:hover {
 }
 
 .post-item {
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  background: var(--secondary-color);
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow:
-    8px 8px 0px rgba(0, 0, 0, 0.7),
-    0 0 15px rgba(0, 255, 65, 0.2);
-  transition: all 0.2s;
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  background: rgba(22,33,62,0.95);
+  border: 1px solid rgba(0,255,65,0.08);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  transition: transform 0.18s var(--easing), box-shadow 0.18s var(--easing);
 }
 
 .post-item:hover {
-  transform: translate(-2px, -2px);
-  box-shadow:
-    12px 12px 0px rgba(0, 0, 0, 0.7),
-    0 0 25px rgba(255, 0, 110, 0.3);
-  border-color: var(--alt-accent);
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px rgba(0,0,0,0.6);
+  border-color: rgba(255,0,110,0.08);
 }
 
 .post-link {
@@ -222,33 +434,32 @@ a:hover {
 
 /* Single post */
 .post {
-  background: var(--secondary-color);
-  padding: 2rem;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow:
-    10px 10px 0px rgba(0, 0, 0, 0.7),
-    0 0 20px rgba(0, 255, 65, 0.3);
+  background: rgba(22,33,62,0.98);
+  padding: var(--spacing);
+  border: 1px solid rgba(0,255,65,0.06);
+  border-radius: calc(var(--radius) + 2px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 
 .post-header {
-  margin-bottom: 2rem;
-  border-bottom: var(--pixel-border) dashed var(--accent-color);
-  padding-bottom: 1.5rem;
+  margin-bottom: var(--space-lg);
+  border-bottom: 1px dashed rgba(0,255,65,0.08);
+  padding-bottom: var(--space-xs);
 }
 
 .post-title {
   font-family: "Press Start 2P", cursive;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: var(--space-xs);
   color: var(--accent-color);
   text-shadow: 3px 3px 0px var(--primary-color);
-  line-height: 1.6;
+  line-height: 1.45;
 }
 
 .post-meta {
   color: var(--text-color);
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: var(--space-xs);
 }
 
 .post-author {
@@ -284,18 +495,19 @@ a:hover {
 }
 
 .post-content {
-  font-size: 1.2rem;
-  margin: 2rem 0;
-  line-height: 1.8;
+  font-size: 1.125rem;
+  margin: calc(var(--space-lg)) 0;
+  line-height: 1.95;
+  max-width: 70ch;
 }
 
 .post-content h2 {
   font-family: "Press Start 2P", cursive;
-  font-size: 1.2rem;
-  margin: 2rem 0 1rem;
+  font-size: 1.25rem;
+  margin: calc(var(--space-lg)) 0 calc(var(--space-xs));
   color: var(--accent-color);
-  text-shadow: 2px 2px 0px var(--primary-color);
-  line-height: 1.6;
+  text-shadow: none;
+  line-height: 1.3;
 }
 
 .post-content h3 {
@@ -336,10 +548,10 @@ a:hover {
 .post-content pre {
   background-color: #000000;
   color: var(--accent-color);
-  padding: 1.5rem;
+  padding: var(--space-lg);
   border: var(--pixel-border) solid var(--accent-color);
   overflow-x: auto;
-  margin: 1.5rem 0;
+  margin: var(--space-lg) 0;
   box-shadow: inset 0 0 10px rgba(0, 255, 65, 0.2);
 }
 
@@ -351,13 +563,14 @@ a:hover {
 }
 
 .post-content blockquote {
-  border-left: var(--pixel-border) solid var(--alt-accent);
-  padding-left: 1.5rem;
-  margin: 1.5rem 0;
+  border-left: 4px solid rgba(255,0,110,0.12);
+  padding-left: calc(var(--space-lg));
+  margin: calc(var(--space-lg)) 0;
   color: var(--text-color);
   font-style: normal;
-  background-color: rgba(255, 0, 110, 0.1);
-  padding: 1rem 1rem 1rem 1.5rem;
+  background-color: rgba(255, 0, 110, 0.04);
+  padding: 1rem 1rem 1rem 1.25rem;
+  border-radius: calc(var(--radius) / 2);
 }
 
 /* Image support */
@@ -365,21 +578,15 @@ a:hover {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 2rem auto;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow:
-    8px 8px 0px rgba(0, 0, 0, 0.7),
-    0 0 20px rgba(0, 255, 65, 0.3);
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
+  margin: var(--space-lg) auto;
+  border-radius: calc(var(--radius) / 2);
+  border: 1px solid rgba(0,255,65,0.06);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
 }
 
 .post-content img:hover {
-  box-shadow:
-    12px 12px 0px rgba(0, 0, 0, 0.7),
-    0 0 30px rgba(0, 255, 65, 0.5);
-  transform: translate(-2px, -2px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+  transform: translateY(-6px);
 }
 
 .post-content figure {
@@ -433,18 +640,17 @@ a:hover {
 
 /* Page */
 .page {
-  background: var(--secondary-color);
-  padding: 2rem;
-  border: var(--pixel-border) solid var(--accent-color);
-  box-shadow:
-    10px 10px 0px rgba(0, 0, 0, 0.7),
-    0 0 20px rgba(0, 255, 65, 0.3);
+  background: rgba(22,33,62,0.98);
+  padding: var(--space-lg);
+  border: 1px solid rgba(0,255,65,0.06);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 36px rgba(0,0,0,0.55);
 }
 
 .page-header {
-  margin-bottom: 2rem;
-  border-bottom: var(--pixel-border) dashed var(--accent-color);
-  padding-bottom: 1rem;
+  margin-bottom: var(--space-lg);
+  border-bottom: 1px dashed rgba(0,255,65,0.08);
+  padding-bottom: var(--space-xs);
 }
 
 .page-title {

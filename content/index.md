@@ -12,4 +12,4 @@ Here you'll find:
 
 ## Recent Posts
 
-Fresh from the vault — latest posts are below.
+Fresh from the vault ,  latest posts are below.

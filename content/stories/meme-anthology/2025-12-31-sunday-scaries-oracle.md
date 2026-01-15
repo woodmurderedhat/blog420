@@ -14,9 +14,9 @@ Sunday night. Laptop glaring. To-do list multiplying like gremlins in a dishwash
 
 ## Prophecy
 
-- First card: "Inbox Zero"—reversed. Laughs in 347 unread.
-- Second card: "Meeting That Could've Been An Email"—upright. Of course.
-- Third card: "Plot Twist"—a friend texts: "Brunch tomorrow?" Hope appears.
+- First card: "Inbox Zero", reversed. Laughs in 347 unread.
+- Second card: "Meeting That Could've Been An Email", upright. Of course.
+- Third card: "Plot Twist", a friend texts: "Brunch tomorrow?" Hope appears.
 
 ## Ending
 

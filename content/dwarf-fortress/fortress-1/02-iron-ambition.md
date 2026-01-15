@@ -15,21 +15,21 @@ Irondelve was not built to be beautiful. It was built to be effective.
 
 While Stellarim rose in marble halls and artisan quarters, Irondelve burrowed deeper into the earth like a wound that would not heal. Its walls were smooth, pragmatic stone. Its rooms were functional, austere, organized with the precision of a military installation. The fortress had been built for one purpose: to expand dwarven territory through force and hold it through superior martial power.
 
-For sixty years, it had succeeded. The fortress had absorbed four smaller settlements, conquered three goblin strongholds, and maintained a standing army of two hundred soldiers—a staggering force for a civilization that rarely maintained such numbers.
+For sixty years, it had succeeded. The fortress had absorbed four smaller settlements, conquered three goblin strongholds, and maintained a standing army of two hundred soldiers, a staggering force for a civilization that rarely maintained such numbers.
 
 The commander of this army was Thorgrim Battlemaster, a dwarf of fifty-five years whose beard bore the silver thread not of merchant achievement but of fifty years of measured violence. Every scar on his body had a campaign behind it. Every tactical decision bore the weight of dwarves' lives.
 
 He stood in the war room of Irondelve, alone, studying the maps that covered every wall.
 
-The mountains were carved with red lines—known dwarven settlements. Blue lines marked goblin territories, growing fewer each year. Black dots marked outposts and forward positions. In the center of the most detailed map, a new marking had appeared: small but significant.
+The mountains were carved with red lines, known dwarven settlements. Blue lines marked goblin territories, growing fewer each year. Black dots marked outposts and forward positions. In the center of the most detailed map, a new marking had appeared: small but significant.
 
 A new fortress to the east. Too far to be Irondelve's direct expansion, but within range of interest.
 
 "That obsession again," a voice said.
 
-Thorgrim didn't turn. He knew that voice—it carried the weight of someone who had earned the right to interrupt even a war room contemplation.
+Thorgrim didn't turn. He knew that voice, it carried the weight of someone who had earned the right to interrupt even a war room contemplation.
 
-Lokum Steelhammer entered, towering a full head above Thorgrim's own considerable height. Lokum was a legend in the truest sense—legendary warrior, legendary in melee weapons, legendary in named kills. His armor was inscribed with the names of enemies he'd defeated in single combat. There were forty-three names.
+Lokum Steelhammer entered, towering a full head above Thorgrim's own considerable height. Lokum was a legend in the truest sense, legendary warrior, legendary in melee weapons, legendary in named kills. His armor was inscribed with the names of enemies he'd defeated in single combat. There were forty-three names.
 
 "The eastern settlements are not our concern," Lokum continued, crossing his massive arms.
 
@@ -89,7 +89,7 @@ Lokum looked at the maps, at the fortress of steel and stone that had been his h
 
 ## The Preparation
 
-Over the next weeks, Irondelve began a subtle military mobilization. Nothing obvious—nothing that would alarm the other dwarven settlements or draw the attention of spies. But to those who knew how to look, the signs were unmistakable.
+Over the next weeks, Irondelve began a subtle military mobilization. Nothing obvious, nothing that would alarm the other dwarven settlements or draw the attention of spies. But to those who knew how to look, the signs were unmistakable.
 
 Supply warehouses were stocked with extra food and equipment. The army increased training intensity. Logistics officers began calculating routes to the east, supply lines, forward positions.
 
@@ -103,7 +103,7 @@ One night, as Lokum sat alone in his quarters, reviewing weapon counts and armor
 
 Lokum went immediately. When he arrived, Thorgrim was bent over a map, his expression harder than Lokum had ever seen it.
 
-"The expedition," Thorgrim said without preamble. "The one we've been monitoring. We have confirmation from our scouts. The legendary smith—Urist McForgemaster from Stellarim—has left that fortress and is leading an expedition to the eastern mountains. He'll arrive in approximately six weeks."
+"The expedition," Thorgrim said without preamble. "The one we've been monitoring. We have confirmation from our scouts. The legendary smith, Urist McForgemaster from Stellarim, has left that fortress and is leading an expedition to the eastern mountains. He'll arrive in approximately six weeks."
 
 Lokum's jaw tightened.
 

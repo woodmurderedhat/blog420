@@ -15,7 +15,7 @@ The first months of the alliance were delicate. Irondelve's soldiers, trained fo
 
 Udil Sparkstone arrived personally from Stellarim with a caravan of supplies and craftsworkers. Her message was formal but carried undertones of approval: Stellarim acknowledged the settlement's alliance with Irondelve and offered commercial and cultural exchange.
 
-The three fortresses were not allies exactly, but neither were they enemies. They were something new—a coalition born of necessity and fear, held together by the legendary reputations of those who led it.
+The three fortresses were not allies exactly, but neither were they enemies. They were something new, a coalition born of necessity and fear, held together by the legendary reputations of those who led it.
 
 Urist continued to study the artifact, learning its properties through careful observation and craft. He discovered that the crown responded to intention, to purpose, to the mental focus of whoever held it. It was not a weapon. It was an amplifier. An enhancer. A tool that magnified craftsmanship and creation.
 
@@ -31,13 +31,13 @@ The ground shook. It was not the gentle tremor they had felt before, but a viole
 
 And in the depths of the mountain, something woke.
 
-Erith reported the damage to Mira immediately. It was significant but not catastrophic. The garrison commander at Sparkbrook reported similar shaking. Urist felt it at the eastern settlement and felt something else: a change in the artifact. The runes began to glow brighter, more urgently, and he felt a presence in his mind—ancient, vast, and infinitely angry.
+Erith reported the damage to Mira immediately. It was significant but not catastrophic. The garrison commander at Sparkbrook reported similar shaking. Urist felt it at the eastern settlement and felt something else: a change in the artifact. The runes began to glow brighter, more urgently, and he felt a presence in his mind, ancient, vast, and infinitely angry.
 
 Scouts were sent down to investigate the deeper levels of the mountains. They returned with news that changed everything.
 
 There was something in the deep places. Something that had been sealed or trapped or sleeping. And the earthquake had freed it.
 
-The reports were vague—darkness, movement, something massive and utterly wrong—but they were consistent across all three fortresses. And they all agreed on one thing: whatever it was, it was moving upward toward populated levels.
+The reports were vague, darkness, movement, something massive and utterly wrong, but they were consistent across all three fortresses. And they all agreed on one thing: whatever it was, it was moving upward toward populated levels.
 
 ---
 
@@ -55,7 +55,7 @@ The three fortress leaders met at the eastern settlement. Mira came from Sparkbr
 
 "Unless," Urist said quietly, "the artifact provides a solution."
 
-He placed his hand on the crown. The runes flared, and every person in the room felt it—a surge of something ancient, of knowledge that wasn't quite words but wasn't quite wordless either.
+He placed his hand on the crown. The runes flared, and every person in the room felt it, a surge of something ancient, of knowledge that wasn't quite words but wasn't quite wordless either.
 
 "It's showing me something," Urist said, his eyes unfocused. "A seal. The creature is sealed, but the earthquake damaged the seal. The artifact... the artifact is a key. A key that can restore the seal, or reinforce it, or..."
 
@@ -65,7 +65,7 @@ He placed his hand on the crown. The runes flared, and every person in the room 
 
 "You're saying the artifact is a weapon," Thorgrim said.
 
-"No," Urist said. "I'm saying the artifact is a lock. And the creature is the reason the lock was created. The ancient dwarves—the ones who built this artifact—they sealed something in the deep places and created the crown as the tool to maintain the seal."
+"No," Urist said. "I'm saying the artifact is a lock. And the creature is the reason the lock was created. The ancient dwarves, the ones who built this artifact, they sealed something in the deep places and created the crown as the tool to maintain the seal."
 
 ---
 
@@ -77,7 +77,7 @@ But there was no alternative.
 
 Thorgrim insisted on accompanying him. "A legendary warrior should walk with a legendary smith," he said simply.
 
-They descended with torches and armed guards, going deeper than any dwarves from the settlements had gone before. The deeper they went, the colder the air became. The stone itself seemed wrong—fractured, marked with scars that suggested violence on a scale they couldn't imagine.
+They descended with torches and armed guards, going deeper than any dwarves from the settlements had gone before. The deeper they went, the colder the air became. The stone itself seemed wrong, fractured, marked with scars that suggested violence on a scale they couldn't imagine.
 
 And then they found it.
 
@@ -85,7 +85,7 @@ The creature was impossible to perceive clearly. It was shadow and substance and
 
 Urist raised the artifact.
 
-The crown flared with light that eclipsed the darkness. The creature retreated, unable to face the illumination. The runes spoke—not in words, but in understanding—and Urist felt the weight of ancient command flowing through him.
+The crown flared with light that eclipsed the darkness. The creature retreated, unable to face the illumination. The runes spoke, not in words, but in understanding, and Urist felt the weight of ancient command flowing through him.
 
 He was not crafting now. He was sealing. He was reinforcing bonds that had held for millennia. He was reminding the creature of its imprisonment and reaffirming the power that kept it bound.
 

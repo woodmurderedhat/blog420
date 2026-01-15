@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add reading mode toggle
   createReadingModeToggle()
 
+  // Add compact/dense toggles to switch layout density
+  createCompactToggle()
+
   // Add scroll-to-top button with XP reward
   createScrollToTop()
 
@@ -99,6 +102,341 @@ function createReadingModeToggle() {
   document.head.appendChild(style)
 }
 
+function createCompactToggle() {
+  const headerInner = document.querySelector('.site-header-inner')
+  if (!headerInner) return
+
+  const container = document.createElement('div')
+  container.className = 'compact-controls'
+  container.style.cssText = `
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    z-index: 2;
+  `
+
+  const compactBtn = document.createElement('button')
+  compactBtn.className = 'compact-toggle'
+  compactBtn.title = 'Toggle Compact Mode'
+  compactBtn.innerHTML = '📐'
+  compactBtn.setAttribute('aria-pressed', 'false')
+
+  const denseBtn = document.createElement('button')
+  denseBtn.className = 'dense-toggle'
+  denseBtn.title = 'Toggle Dense Utilities'
+  denseBtn.innerHTML = '🧩'
+  denseBtn.setAttribute('aria-pressed', 'false')
+
+  const settingsBtn = document.createElement('button')
+  settingsBtn.className = 'settings-button'
+  settingsBtn.title = 'Open Display Settings'
+  settingsBtn.innerHTML = '⚙️'
+  settingsBtn.setAttribute('aria-expanded', 'false')
+
+  container.appendChild(compactBtn)
+  container.appendChild(denseBtn)
+  container.appendChild(settingsBtn)
+  headerInner.appendChild(container)
+
+  // Mode indicator pill (shows current mode badges)
+  const indicator = document.createElement('div')
+  indicator.className = 'mode-indicator'
+  indicator.innerHTML = `<span class="badge compact-badge">Compact</span><span class="badge dense-badge">Dense</span><span class="badge focus-badge">Focus</span>`
+  indicator.style.cssText = `display:flex; gap:6px; align-items:center; position:absolute; left:12px; top:14px; z-index:2;`;
+  headerInner.appendChild(indicator)
+
+  function updateModeIndicator() {
+    const compactOn = document.body.classList.contains('compact')
+    const denseOn = document.body.classList.contains('dense')
+    const focusOn = document.body.classList.contains('focus-mode')
+
+    const cb = document.querySelector('.mode-indicator .compact-badge')
+    const db = document.querySelector('.mode-indicator .dense-badge')
+    const fb = document.querySelector('.mode-indicator .focus-badge')
+
+    if (cb) cb.style.opacity = compactOn ? '1' : '0.28'
+    if (db) db.style.opacity = denseOn ? '1' : '0.28'
+    if (fb) fb.style.opacity = focusOn ? '1' : '0.28'
+
+    // small aria attribute for screen readers
+    indicator.setAttribute('data-state', `compact:${compactOn} dense:${denseOn} focus:${focusOn}`)
+  }
+
+  // expose globally for the settings panel to call
+  window.updateModeIndicator = updateModeIndicator
+
+  updateModeIndicator()
+
+  // Settings button behavior (opens settings panel)
+  settingsBtn.addEventListener('click', function () {
+    // ensure panel exists
+    createSettingsPanel()
+    const panel = document.querySelector('.settings-panel')
+    if (!panel) return
+    const open = panel.classList.toggle('show')
+    panel.setAttribute('aria-hidden', open ? 'false' : 'true')
+    settingsBtn.setAttribute('aria-expanded', open)
+    // update quick-toggle states in panel if present
+    const compBtn = panel.querySelector('.settings-compact')
+    const denseBtnInPanel = panel.querySelector('.settings-dense')
+    if (compBtn) compBtn.setAttribute('aria-pressed', document.body.classList.contains('compact'))
+    if (denseBtnInPanel) denseBtnInPanel.setAttribute('aria-pressed', document.body.classList.contains('dense'))
+  })
+
+  // Load saved state
+  const compactSaved = localStorage.getItem('compactMode') === 'true'
+  const denseSaved = localStorage.getItem('denseMode') === 'true'
+
+  if (compactSaved) {
+    document.body.classList.add('compact')
+    compactBtn.setAttribute('aria-pressed', 'true')
+  }
+  if (denseSaved) {
+    document.body.classList.add('dense')
+    denseBtn.setAttribute('aria-pressed', 'true')
+  }
+
+  function updateButtonState(btn, enabled) {
+    btn.style.opacity = enabled ? '1' : '0.7'
+    btn.style.transform = enabled ? 'translateY(-2px)' : 'none'
+  }
+
+  updateButtonState(compactBtn, compactSaved)
+  updateButtonState(denseBtn, denseSaved)
+
+  compactBtn.addEventListener('click', function () {
+    const enabled = document.body.classList.toggle('compact')
+    localStorage.setItem('compactMode', enabled)
+    compactBtn.setAttribute('aria-pressed', enabled)
+    updateButtonState(compactBtn, enabled)
+    if (enabled && window.gamification) window.gamification.addXP(3, 'Compact Mode!')
+  })
+
+  denseBtn.addEventListener('click', function () {
+    const enabled = document.body.classList.toggle('dense')
+    localStorage.setItem('denseMode', enabled)
+    denseBtn.setAttribute('aria-pressed', enabled)
+    updateButtonState(denseBtn, enabled)
+    if (enabled && window.gamification) window.gamification.addXP(2, 'Dense Utilities!')
+  })
+
+  // Small styles for the buttons
+  const styleEl = document.createElement('style')
+  styleEl.textContent = `
+    .compact-controls button { 
+      background: var(--secondary-color); 
+      border: 2px solid rgba(0,255,65,0.12);
+      color: var(--accent-color); 
+      width: 40px; height: 36px; font-size: 1rem; cursor: pointer;
+      border-radius: 6px; box-shadow: 2px 2px 0 rgba(0,0,0,0.4); opacity: 0.85;
+      transition: transform 0.12s var(--easing), opacity 0.12s var(--easing);
+    }
+    .compact-controls button[aria-pressed="true"] { transform: translateY(-2px); opacity: 1; }
+    .compact-controls button:hover { transform: translateY(-2px); }
+
+    @media (max-width: 600px) {
+      .compact-controls { top: 8px; right: 8px; }
+      .compact-controls button { width: 36px; height: 32px; }
+    }
+  `
+  document.head.appendChild(styleEl)
+}
+
+function createSettingsPanel() {
+  if (document.querySelector('.settings-panel')) return document.querySelector('.settings-panel')
+
+  const panel = document.createElement('div')
+  panel.className = 'settings-panel'
+  panel.setAttribute('role', 'dialog')
+  panel.setAttribute('aria-hidden', 'true')
+  panel.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+      <div style="font-family:'Press Start 2P', cursive; font-size:0.95rem; color:var(--accent-color)">Display Settings</div>
+      <button class="settings-close" aria-label="Close">✖</button>
+    </div>
+    <div class="row"><label>Compact</label><button class="switch-button settings-compact" aria-pressed="false">Off</button></div>
+    <div class="row"><label>Dense</label><button class="switch-button settings-dense" aria-pressed="false">Off</button></div>
+    <div class="row"><label>Focus Mode</label><button class="switch-button settings-focus" aria-pressed="false">Off</button></div>
+    <div class="row"><label>Reduce Motion</label><button class="switch-button settings-motion" aria-pressed="false">Off</button></div>
+  `
+
+  document.body.appendChild(panel)
+
+  // file import/export UI
+  const ioRow = document.createElement('div')
+  ioRow.style.cssText = 'display:flex; gap:8px; margin-top:12px;'
+  ioRow.innerHTML = `<input type="file" accept="application/json" class="settings-import" style="display:none"/><button class="switch-button settings-export">Export</button><button class="switch-button settings-import-btn">Import</button><button class="switch-button settings-apply-site">Apply to Site (download)</button>`
+  panel.appendChild(ioRow)
+
+  panel.querySelector('.settings-import-btn')?.addEventListener('click', function () {
+    panel.querySelector('.settings-import')?.click()
+  })
+
+  panel.querySelector('.settings-import')?.addEventListener('change', function (e) {
+    const f = this.files && this.files[0]
+    if (!f) return
+    const reader = new FileReader()
+    reader.onload = function (ev) {
+      try {
+        const data = JSON.parse(ev.target.result)
+        // apply simple known keys
+        if ('compactMode' in data) {
+          document.body.classList.toggle('compact', !!data.compactMode)
+          localStorage.setItem('compactMode', !!data.compactMode)
+        }
+        if ('denseMode' in data) {
+          document.body.classList.toggle('dense', !!data.denseMode)
+          localStorage.setItem('denseMode', !!data.denseMode)
+        }
+        if ('focusMode' in data) {
+          document.body.classList.toggle('focus-mode', !!data.focusMode)
+        }
+        if ('reduceMotion' in data) {
+          localStorage.setItem('reduceMotion', !!data.reduceMotion)
+          if (data.reduceMotion) document.body.classList.add('reduce-motion')
+          else document.body.classList.remove('reduce-motion')
+        }
+        // sync UI
+        const compBtn = panel.querySelector('.settings-compact')
+        const denseBtn = panel.querySelector('.settings-dense')
+        if (compBtn) { compBtn.setAttribute('aria-pressed', document.body.classList.contains('compact')); compBtn.textContent = document.body.classList.contains('compact') ? 'On' : 'Off' }
+        if (denseBtn) { denseBtn.setAttribute('aria-pressed', document.body.classList.contains('dense')); denseBtn.textContent = document.body.classList.contains('dense') ? 'On' : 'Off' }
+        if (window.updateModeIndicator) window.updateModeIndicator()
+      } catch (err) {
+        alert('Invalid JSON file')
+      }
+    }
+    reader.readAsText(f)
+  })
+
+  panel.querySelector('.settings-export')?.addEventListener('click', function () {
+    const prefs = {
+      compactMode: document.body.classList.contains('compact'),
+      denseMode: document.body.classList.contains('dense'),
+      focusMode: document.body.classList.contains('focus-mode'),
+      reduceMotion: !!localStorage.getItem('reduceMotion') === 'true'
+    }
+    const blob = new Blob([JSON.stringify(prefs, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'my-preferences.json'
+    a.click()
+    URL.revokeObjectURL(url)
+  })
+
+  panel.querySelector('.settings-apply-site')?.addEventListener('click', function () {
+    // we can't write to the server directly from static site. Provide download as a convenience for site admin.
+    const prefs = {
+      compactMode: document.body.classList.contains('compact'),
+      denseMode: document.body.classList.contains('dense'),
+      focusMode: document.body.classList.contains('focus-mode'),
+      reduceMotion: !!localStorage.getItem('reduceMotion') === 'true'
+    }
+    const blob = new Blob([JSON.stringify(prefs, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'site-preferences.json'
+    a.click()
+    URL.revokeObjectURL(url)
+    alert('A preferences JSON was downloaded. To apply site-wide, place it at /assets/config/site-preferences.json and rebuild the site.')
+  })
+
+  // reflect saved state
+  const compactSaved = localStorage.getItem('compactMode') === 'true'
+  const denseSaved = localStorage.getItem('denseMode') === 'true'
+  const focusSaved = document.body.classList.contains('focus-mode')
+  const reduceSaved = localStorage.getItem('reduceMotion') === 'true'
+
+  const compBtn = panel.querySelector('.settings-compact')
+  const denseBtn = panel.querySelector('.settings-dense')
+  const focusBtn = panel.querySelector('.settings-focus')
+  const motionBtn = panel.querySelector('.settings-motion')
+
+  if (compBtn) { compBtn.setAttribute('aria-pressed', compactSaved); compBtn.textContent = compactSaved ? 'On' : 'Off' }
+  if (denseBtn) { denseBtn.setAttribute('aria-pressed', denseSaved); denseBtn.textContent = denseSaved ? 'On' : 'Off' }
+  if (focusBtn) { focusBtn.setAttribute('aria-pressed', focusSaved); focusBtn.textContent = focusSaved ? 'On' : 'Off' }
+  if (motionBtn) { motionBtn.setAttribute('aria-pressed', reduceSaved); motionBtn.textContent = reduceSaved ? 'On' : 'Off' }
+
+  panel.querySelector('.settings-close').addEventListener('click', function () {
+    panel.classList.remove('show')
+    panel.setAttribute('aria-hidden', 'true')
+    document.querySelector('.settings-button')?.setAttribute('aria-expanded', 'false')
+  })
+
+  // Toggle handlers
+  compBtn?.addEventListener('click', function (e) {
+    const enabled = !(this.getAttribute('aria-pressed') === 'true')
+    localStorage.setItem('compactMode', enabled)
+    document.body.classList.toggle('compact', enabled)
+    this.setAttribute('aria-pressed', enabled)
+    this.textContent = enabled ? 'On' : 'Off'
+    document.querySelector('.compact-toggle')?.setAttribute('aria-pressed', enabled)
+    if (window.updateModeIndicator) window.updateModeIndicator()
+  })
+
+  denseBtn?.addEventListener('click', function (e) {
+    const enabled = !(this.getAttribute('aria-pressed') === 'true')
+    localStorage.setItem('denseMode', enabled)
+    document.body.classList.toggle('dense', enabled)
+    this.setAttribute('aria-pressed', enabled)
+    this.textContent = enabled ? 'On' : 'Off'
+    document.querySelector('.dense-toggle')?.setAttribute('aria-pressed', enabled)
+    if (window.updateModeIndicator) window.updateModeIndicator()
+  })
+
+  focusBtn?.addEventListener('click', function (e) {
+    const enabled = !(this.getAttribute('aria-pressed') === 'true')
+    document.body.classList.toggle('focus-mode', enabled)
+    this.setAttribute('aria-pressed', enabled)
+    this.textContent = enabled ? 'On' : 'Off'
+    if (enabled && window.gamification) window.gamification.addXP(5, 'Focus Mode (settings)')
+    if (window.updateModeIndicator) window.updateModeIndicator()
+  })
+
+  motionBtn?.addEventListener('click', function (e) {
+    const enabled = !(this.getAttribute('aria-pressed') === 'true')
+    localStorage.setItem('reduceMotion', enabled)
+    this.setAttribute('aria-pressed', enabled)
+    this.textContent = enabled ? 'On' : 'Off'
+    if (enabled) {
+      document.documentElement.style.setProperty('scroll-behavior', 'auto')
+      document.body.classList.add('reduce-motion')
+    } else {
+      document.documentElement.style.setProperty('scroll-behavior', 'smooth')
+      document.body.classList.remove('reduce-motion')
+    }
+  })
+
+  // close on outside click
+  function outsideClose(e) {
+    if (!panel.contains(e.target) && !e.target.classList?.contains('settings-button')) {
+      panel.classList.remove('show')
+      panel.setAttribute('aria-hidden', 'true')
+      document.querySelector('.settings-button')?.setAttribute('aria-expanded', 'false')
+      document.removeEventListener('click', outsideClose)
+    }
+  }
+  document.addEventListener('click', outsideClose)
+
+  // close on escape
+  function onEscape(e) {
+    if (e.key === 'Escape') {
+      panel.classList.remove('show')
+      panel.setAttribute('aria-hidden', 'true')
+      document.querySelector('.settings-button')?.setAttribute('aria-expanded', 'false')
+      document.removeEventListener('keydown', onEscape)
+    }
+  }
+  document.addEventListener('keydown', onEscape)
+
+  return panel
+}
+
 function createScrollToTop() {
   const button = document.createElement("button")
   button.className = "scroll-to-top"
@@ -159,6 +497,7 @@ function setupKeyboardShortcuts() {
     r: () => document.querySelector(".reactions-buttons")?.scrollIntoView({ behavior: "smooth" }),
     h: () => window.scrollTo({ top: 0, behavior: "smooth" }),
     b: () => window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" }),
+    m: () => document.querySelector('.compact-toggle')?.click(),
   }
 
   document.addEventListener("keydown", function (e) {
@@ -183,7 +522,8 @@ function setupKeyboardShortcuts() {
       <strong>S</strong> - Toggle Stats<br>
       <strong>R</strong> - Jump to Reactions<br>
       <strong>H</strong> - Home (top)<br>
-      <strong>B</strong> - Bottom
+      <strong>B</strong> - Bottom<br>
+      <strong>M</strong> - Toggle Compact Mode
     </div>
   `
   hint.style.cssText = `

@@ -11,7 +11,7 @@ series-part: 5
 
 ## The News Arrives
 
-The messenger who brought the rumors was not one of Udil's people—it was a dwarven trader from the east, one of the routes that connected the distant settlements. He arrived with supplies and goods, and with news that set the fortress buzzing.
+The messenger who brought the rumors was not one of Udil's people, it was a dwarven trader from the east, one of the routes that connected the distant settlements. He arrived with supplies and goods, and with news that set the fortress buzzing.
 
 An artifact. Hidden in the mountains where Urist McForgemaster was building. A legendary artifact of power that predated the known fortresses.
 
@@ -27,7 +27,7 @@ Instead, she requested a meeting with the fortress nobility.
 
 The council chamber in Stellarim's administrative quarter was a room of carefully measured power. The noble families sat at a long table of polished marble, their beards trimmed to precise angles, their expressions calculated.
 
-Udil stood before them, no longer a merchant but functioning in her capacity as chief administrator—a role that gave her authority to speak on matters of fortress policy.
+Udil stood before them, no longer a merchant but functioning in her capacity as chief administrator, a role that gave her authority to speak on matters of fortress policy.
 
 "We have reports from the eastern expedition," she said without preamble. "Apparently, during the survey phase, the team discovered a sealed chamber containing a legendary artifact."
 
@@ -35,7 +35,7 @@ The nobles' expressions shifted. Some leaned forward with interest. Others excha
 
 "What kind of artifact?" the Duchess of Stellarim asked.
 
-"Unknown. The expedition master—Urist McForgemaster—has not sent detailed information. But the preliminary reports suggest an artifact of considerable power and age."
+"Unknown. The expedition master, Urist McForgemaster, has not sent detailed information. But the preliminary reports suggest an artifact of considerable power and age."
 
 "And he didn't send it back to Stellarim?" Baron Ironforge asked, his tone suggesting that this was not only strange but deeply insulting.
 
@@ -45,23 +45,23 @@ The nobles exchanged more glances. The implication was clear: Urist had made a d
 
 "This is rebellion," someone muttered.
 
-"It's pragmatism," Udil said, and the room quieted at her tone. "Urist is legendary. He doesn't think like fortress administrators—he thinks like a founder. To him, the artifact is a tool for establishing his settlement, not a treasure to be shipped home."
+"It's pragmatism," Udil said, and the room quieted at her tone. "Urist is legendary. He doesn't think like fortress administrators, he thinks like a founder. To him, the artifact is a tool for establishing his settlement, not a treasure to be shipped home."
 
 "But that's exactly what it should be," the Duchess said. "Stellarim funded the expedition. Stellarim supplied the resources. Any artifact discovered belongs to Stellarim."
 
-"Technically, yes," Udil agreed. "But practically? Urist has already decided otherwise. And we can either accept that decision or we can force his hand—which would mean withdrawing support, recall, or military action."
+"Technically, yes," Udil agreed. "But practically? Urist has already decided otherwise. And we can either accept that decision or we can force his hand, which would mean withdrawing support, recall, or military action."
 
-"We should do that," Baron Ironforge said immediately. "No dwarf, even a legendary one, has the right to—"
+"We should do that," Baron Ironforge said immediately. "No dwarf, even a legendary one, has the right to, "
 
 "That would be a mistake," Udil interrupted. She had not been given permission to speak, but she did anyway. The nobles leaned back, expecting to hear her explanation. "Because if we force Urist to choose between Stellarim and his settlement, he will choose his settlement. And an expedition that includes a legendary smith and a legendary artifact is a settlement that will grow very quickly. Within five years, it could rival Stellarim in power."
 
-"It could never rival—" the Duchess started.
+"It could never rival, " the Duchess started.
 
 "It could," Udil said quietly. "With Urist's craftsmanship, with a legendary artifact, with the resources we've already invested? It could become greater. So we have a choice: we can be petty and demand the artifact, lose Urist's loyalty, and create a rival fortress that will spend decades resenting us. Or we can be strategic."
 
 "Meaning?" the Duchess asked.
 
-"Meaning we acknowledge the artifact's discovery. We congratulate the expedition. We send additional resources and support—not as enforcement, but as partnership. We establish Stellarim as the patron of this new settlement. And five years from now, when it's thriving, when it's producing legendary crafted goods, when the artifact is generating benefits... we share in that success."
+"Meaning we acknowledge the artifact's discovery. We congratulate the expedition. We send additional resources and support, not as enforcement, but as partnership. We establish Stellarim as the patron of this new settlement. And five years from now, when it's thriving, when it's producing legendary crafted goods, when the artifact is generating benefits... we share in that success."
 
 The nobles were quiet.
 

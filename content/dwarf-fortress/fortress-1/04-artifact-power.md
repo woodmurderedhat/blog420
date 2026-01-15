@@ -17,7 +17,7 @@ They were surveying potential settlement sites in the deep mountain range, sendi
 
 Instead, she found a sealed chamber.
 
-It was carved with deliberate precision from the mountain stone—not a natural cave, but architectural work. The entrance was sealed with a door of hardened material that Katrin, despite her mason training, couldn't immediately identify. It was neither stone nor metal nor wood, but something with properties of all three.
+It was carved with deliberate precision from the mountain stone, not a natural cave, but architectural work. The entrance was sealed with a door of hardened material that Katrin, despite her mason training, couldn't immediately identify. It was neither stone nor metal nor wood, but something with properties of all three.
 
 "Stay back," she told her team, approaching carefully.
 
@@ -25,15 +25,15 @@ As she got closer, something unexpected happened. The door simply... opened. Not
 
 Katrin drew a torch and looked inside.
 
-The chamber was vast—far larger than should have been possible given the mountain's geology. The walls gleamed with something that caught the torchlight and threw it back in fractured patterns. In the center of the chamber sat a single object on a pedestal.
+The chamber was vast, far larger than should have been possible given the mountain's geology. The walls gleamed with something that caught the torchlight and threw it back in fractured patterns. In the center of the chamber sat a single object on a pedestal.
 
 It was a crown.
 
-Not crude, not roughly crafted, but shaped with an artistry that spoke of intentional design and impossible skill. It appeared to be made of a substance similar to adamantine but different—crystalline, catching light in ways that adamantine never did. Runes were carved into the circlet, and Katrin realized with a start that she recognized some of them. They were ancient Dwarven script, predating even the oldest fortress she'd heard of.
+Not crude, not roughly crafted, but shaped with an artistry that spoke of intentional design and impossible skill. It appeared to be made of a substance similar to adamantine but different, crystalline, catching light in ways that adamantine never did. Runes were carved into the circlet, and Katrin realized with a start that she recognized some of them. They were ancient Dwarven script, predating even the oldest fortress she'd heard of.
 
 "By Armok," she whispered.
 
-Her hand reached out before her mind could tell her to be cautious. The moment her fingers touched the crown, the entire chamber ignited with light. Not fire, but pure illumination that came from no visible source. The runes blazed with power, and Katrin felt a surge of something—knowledge? intention? purpose?—pour into her mind.
+Her hand reached out before her mind could tell her to be cautious. The moment her fingers touched the crown, the entire chamber ignited with light. Not fire, but pure illumination that came from no visible source. The runes blazed with power, and Katrin felt a surge of something, knowledge? intention? purpose?, pour into her mind.
 
 When the light faded, she was trembling. The crown felt warm in her hands, and impossible to put down.
 
@@ -47,11 +47,11 @@ She brought it back to the camp. When Urist saw what she carried, the legendary 
 
 Katrin described the sealed chamber, the unopened door, the crown itself.
 
-Urist examined it carefully, his hands steady despite his evident shock. He touched the runes, tracing them with fingers that had created masterworks of such quality that they had become legendary. And with each rune he traced, his expression shifted—from shock to understanding to something approaching fear.
+Urist examined it carefully, his hands steady despite his evident shock. He touched the runes, tracing them with fingers that had created masterworks of such quality that they had become legendary. And with each rune he traced, his expression shifted, from shock to understanding to something approaching fear.
 
 "This is pre-founding," he said slowly. "This is older than any fortress I've ever heard of. Older than any artifact I've ever seen. This is... I don't know what this is."
 
-That night, Urist called a meeting of the expedition leadership. Drizzle, Katrin, the caravan master, the military commander—everyone who held authority in the new settlement.
+That night, Urist called a meeting of the expedition leadership. Drizzle, Katrin, the caravan master, the military commander, everyone who held authority in the new settlement.
 
 "We have a choice to make," Urist said, placing the crown on the table before them. In the lamplight, it seemed to glow with its own inner luminescence. "We can bring this artifact back to Stellarim, surrender it to Udil and the noble courts, and let them decide what to do with it. Or we can keep it here, secret, and make it the centerstone of our new settlement."
 
@@ -63,7 +63,7 @@ That night, Urist called a meeting of the expedition leadership. Drizzle, Katrin
 
 "Military powers who would view it as worth conquering a settlement for," Urist said. "I know the politics of the dwarven kingdoms, wife. I know how we think. Any fortress holding an artifact this powerful would become a target."
 
-"Or a fortress that powerful would become supreme," Katrin said softly. She was still staring at the crown, unable to look away. "With something like this, with the craftsmanship you could accomplish, Urist—with both of these things combined—you could build something that would never fall."
+"Or a fortress that powerful would become supreme," Katrin said softly. She was still staring at the crown, unable to look away. "With something like this, with the craftsmanship you could accomplish, Urist, with both of these things combined, you could build something that would never fall."
 
 The word 'never' hung in the air.
 

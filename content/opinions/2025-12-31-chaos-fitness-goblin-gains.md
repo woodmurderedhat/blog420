@@ -22,7 +22,7 @@ You want gains but also sleep and snacks. Welcome to chaos fitness: short, punch
 
 ### Nutrition for Gremlins
 
-- Protein in anything: eggs, beans, leftover chicken—don't overthink it.
+- Protein in anything: eggs, beans, leftover chicken, don't overthink it.
 - Hydrate before caffeine; yes, water first, you chaotic legend.
 - Sleep like it's your main quest.
 

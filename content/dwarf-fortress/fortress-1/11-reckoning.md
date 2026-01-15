@@ -11,7 +11,7 @@ series-part: 11
 
 ## The Report to the Kingdom
 
-Udil stood in the throne room of Stellarim, addressing the noble council. Behind her stood maps showing the alliance, the settlements, the artifact location. The nobility of Stellarim—who had once argued about whether a legendary artifact justified investment in a frontier settlement—were now being asked to accept that their fortress was part of something larger.
+Udil stood in the throne room of Stellarim, addressing the noble council. Behind her stood maps showing the alliance, the settlements, the artifact location. The nobility of Stellarim, who had once argued about whether a legendary artifact justified investment in a frontier settlement, were now being asked to accept that their fortress was part of something larger.
 
 "The artifact is not a treasure," Udil said clearly. "It is a responsibility. The settlement we funded, the smith we trusted with expansion, has become the guardian of something that predates dwarven civilization as we know it. Stellarim is now part of that guardianship."
 
@@ -23,7 +23,7 @@ There was silence.
 
 "We're surrendering territory," Baron Ironforge said finally.
 
-"We're choosing not to fight for territory we don't want to fight for," Udil corrected. "And we're gaining something more valuable: knowledge. The artifact—the seal—the ancient understanding behind it, will eventually be shared with Stellarim in full. We will know things that other dwarven fortresses do not. That is worth more than any frontier settlement."
+"We're choosing not to fight for territory we don't want to fight for," Udil corrected. "And we're gaining something more valuable: knowledge. The artifact, the seal, the ancient understanding behind it, will eventually be shared with Stellarim in full. We will know things that other dwarven fortresses do not. That is worth more than any frontier settlement."
 
 The Duchess considered this.
 
@@ -33,7 +33,7 @@ The Duchess considered this.
 
 ## The Doubts of Irondelve
 
-Thorgrim faced a different kind of council when he reported to Irondelve—warriors and strategists who understood only conquest and expansion.
+Thorgrim faced a different kind of council when he reported to Irondelve, warriors and strategists who understood only conquest and expansion.
 
 "You folded," the head of the military council said bluntly. "You took an army to the eastern mountains and came back with a partnership agreement and a garrison command."
 
@@ -43,7 +43,7 @@ Thorgrim faced a different kind of council when he reported to Irondelve—warri
 
 "I came back without unnecessary bloodshed," Thorgrim corrected. "Irondelve's strength lies not in conquest but in understanding when conquest is necessary and when it is not. I chose not to be necessary. That is strength, not weakness."
 
-Lokum stepped forward. "I was there," he said, and his voice carried the weight of legendary status that made even the most belligerent warriors listen. "The legendary smith stood in the depths and did something that no military force could have done. He maintained a seal that protects all of us. That is what our soldiers died protecting over the centuries—the existence of dwarves. And he just guaranteed that existence in a way that conquest never could."
+Lokum stepped forward. "I was there," he said, and his voice carried the weight of legendary status that made even the most belligerent warriors listen. "The legendary smith stood in the depths and did something that no military force could have done. He maintained a seal that protects all of us. That is what our soldiers died protecting over the centuries, the existence of dwarves. And he just guaranteed that existence in a way that conquest never could."
 
 "So you support this arrangement," the warrior said to Lokum.
 
@@ -70,7 +70,7 @@ Stellarim will be sending regular support caravans. The scarcity you have endure
 With respect and admiration,
 Udil Sparkstone"
 
-Mira read the letter three times, and only on the third reading did she allow herself to cry—not from fear this time, but from something that might have been hope.
+Mira read the letter three times, and only on the third reading did she allow herself to cry, not from fear this time, but from something that might have been hope.
 
 ---
 
@@ -78,7 +78,7 @@ Mira read the letter three times, and only on the third reading did she allow he
 
 Urist, recovered from his ordeal, spent his remaining years studying the artifact's full potential. He worked with scholars from Stellarim, with military tacticians from Irondelve, with the engineers of Sparkbrook.
 
-What they discovered was both wonderful and terrible: the artifact was older than the mountains it was found in. It had been created by a civilization that predated dwarves entirely—left as a tool, a key, a warning to whatever civilization eventually found it.
+What they discovered was both wonderful and terrible: the artifact was older than the mountains it was found in. It had been created by a civilization that predated dwarves entirely, left as a tool, a key, a warning to whatever civilization eventually found it.
 
 Urist trained Katrin to eventually assume guardianship of the artifact. She learned not just the mechanics of its power but the responsibility that came with it. She learned to feel the ancient purpose that flowed through the runes, to understand that being legendary was not about personal glory but about service to something greater than oneself.
 
@@ -98,7 +98,7 @@ The three fortresses had grown and changed. The eastern settlement, officially n
 
 Sparkbrook had grown to three times its original size, filled with engineers and defenders who understood that their role was fundamental to the survival of all three fortresses.
 
-Stellarim had become less about expansion and more about knowledge—a fortress of scribes and scholars as much as merchants and crafters.
+Stellarim had become less about expansion and more about knowledge, a fortress of scribes and scholars as much as merchants and crafters.
 
 And Irondelve, instead of continuing its militant expansion, had become the military guarantor of stability in a region that would have otherwise descended into warfare and chaos.
 
@@ -112,7 +112,7 @@ Mira stood with Udil on the ramparts of Stellarim, looking out over the lands be
 
 "Or it seems like the only way that wisdom can pass between generations without being diluted by those who don't understand it," Udil replied.
 
-Across the mountains, in three different fortresses, dwarves worked, built, created, defended—and none of them thought about the three legendary figures who had chosen partnership instead of war, who had built something that would last longer than any conquest ever could.
+Across the mountains, in three different fortresses, dwarves worked, built, created, defended, and none of them thought about the three legendary figures who had chosen partnership instead of war, who had built something that would last longer than any conquest ever could.
 
 Which was exactly as it should be.
 

@@ -80,7 +80,7 @@ export const ArchivePage: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => 
               ? `${joinSegments(opts.basePath!, key)}`
               : `${joinSegments(opts.basePath!, key, "page", String(p + 1))}`
           const slug = pagePath.replace(/^\/+/, "") as FullSlug
-          const html = `<html><body><h1>Archive: ${key} — page ${p + 1}</h1>${list}</body></html>`
+          const html = `<html><body><h1>Archive: ${key} ,  page ${p + 1}</h1>${list}</body></html>`
           yield write({ ctx, content: html, slug, ext: ".html" })
         }
       }

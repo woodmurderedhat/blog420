@@ -4,7 +4,7 @@ title: "Travel on Two Braincells"
 date: 2025-12-31
 author: 420 Navigator
 tags: [travel, budget, humor]
-excerpt: "Backpack, cheap flights, questionable hostel beds—let's roll."
+excerpt: "Backpack, cheap flights, questionable hostel beds, let's roll."
 draft: false
 ---
 

@@ -13,7 +13,7 @@ draft: false
 **A Completely Serious Neuroscientific Screed Written While the Dopamine Is Still Hot**
 
 > _“Bro just trust the vibes.”_  
-> — a sentence spoken moments before the hippocampus evacuated the premises 🏃‍♂️💨
+> ,  a sentence spoken moments before the hippocampus evacuated the premises 🏃‍♂️💨
 
 ---
 

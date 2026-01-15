@@ -21,7 +21,7 @@ Udil Sparkstone retired from administration but remained a voice of strategic wi
 
 They did not die famous. The story of the three fortresses and the artifact was kept deliberately obscure. The dwarves who came after did not know the full history of what their leaders had accomplished.
 
-But they lived in the world that the three had created—a world where three fortresses cooperated instead of warred, where knowledge was preserved instead of conquered, where something ancient and dangerous was kept safely sealed through the efforts of guardians who never expected to be remembered.
+But they lived in the world that the three had created, a world where three fortresses cooperated instead of warred, where knowledge was preserved instead of conquered, where something ancient and dangerous was kept safely sealed through the efforts of guardians who never expected to be remembered.
 
 ---
 
@@ -31,7 +31,7 @@ Katrin McForgemaster became the third keeper of the artifact after her father. S
 
 Erith Pickjaw designed systems so intricate and beautiful that they were studied by engineers from fortresses across the known world. No one knew that the systems were designed around maintaining seals in the deep places, but they learned from her brilliance anyway.
 
-Lokum Steelhammer did not become overseer of the eastern settlement, but he remained its military commander for thirty years, training a new generation of soldiers who understood that the greatest warrior sometimes never fights—they simply stand in readiness to prevent the need for fighting.
+Lokum Steelhammer did not become overseer of the eastern settlement, but he remained its military commander for thirty years, training a new generation of soldiers who understood that the greatest warrior sometimes never fights, they simply stand in readiness to prevent the need for fighting.
 
 ---
 
@@ -55,7 +55,7 @@ She never learned the full secret. But she learned enough to understand that the
 
 She returned to Sparkbrook and began designing new systems, innovations inspired by what she had seen but not quite copying it. Other fortresses began seeking her designs. Her name became legendary.
 
-And in doing so, she continued the work that Erith had started—not by copying, but by standing in the tradition of excellence and building forward from it.
+And in doing so, she continued the work that Erith had started, not by copying, but by standing in the tradition of excellence and building forward from it.
 
 A young warrior from Irondelve was recruited to protect caravans traveling between the three fortresses. He was good at his job, disciplined and thoughtful. He earned the respect of soldiers from all three fortresses.
 
@@ -63,7 +63,7 @@ He never learned why the three fortresses worked together more carefully than an
 
 He eventually became a military commander himself, in a distant fortress, and he implemented the strategies that Irondelve had pioneered. Other fortresses began trying to understand his methods.
 
-And in doing so, he continued the work that Thorgrim had started—not by instruction, but by living the principle and letting others learn from the results.
+And in doing so, he continued the work that Thorgrim had started, not by instruction, but by living the principle and letting others learn from the results.
 
 ---
 
@@ -113,7 +113,7 @@ The three peaks stand eternal in the mountains. The fortresses built within them
 
 Somewhere in the vast span of dwarven civilization, other fortresses face their own choices. They choose conquest or cooperation. They choose knowledge or power. They choose short-term victory or long-term stability.
 
-Most never know that their choices were influenced by an example set three hundred years ago—the example of three legendary figures who chose partnership instead of war.
+Most never know that their choices were influenced by an example set three hundred years ago, the example of three legendary figures who chose partnership instead of war.
 
 And perhaps that is the truest legacy.
 

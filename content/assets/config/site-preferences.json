@@ -1,0 +1,10 @@
+{
+  "compactMode": false,
+  "denseMode": false,
+  "focusMode": false,
+  "reduceMotion": false,
+  "defaults": {
+    "fontSize": "16px",
+    "lineHeight": 1.8
+  }
+}

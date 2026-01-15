@@ -18,7 +18,7 @@ Minimalism is cute until everything feels like a beige waiting room. Time to shi
 
 - Loud affordances: buttons that beg to be smashed, not ghost-text whispers.
 - Flavorful microcopy: replace "Submit" with something that slaps, like "Send it".
-- Useful clutter: if it helps flow, it stays—pretty is optional.
+- Useful clutter: if it helps flow, it stays, pretty is optional.
 
 ### Patterns to Steal
 

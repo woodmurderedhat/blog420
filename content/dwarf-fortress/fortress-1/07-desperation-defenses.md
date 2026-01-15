@@ -71,7 +71,7 @@ One to every trade company and mercenary group she knew of, offering payment for
 
 All of which would arrive too late to matter.
 
-But she also wrote a different kind of letter—a letter to the fortress, to be read if the worst happened.
+But she also wrote a different kind of letter, a letter to the fortress, to be read if the worst happened.
 
 "To the dwarves of Sparkbrook," she wrote. "If you are reading this, then I have either fallen or ordered an evacuation that I did not survive. I want you to know that this fortress was built not through fortune or planning, but through the stubborn refusal to accept failure. Every wall here was built by hands that chose to persist. Every tool was crafted by dwarves who chose to build rather than surrender. You are inheritors of that choice. Whatever comes next, you are worthy of it."
 
@@ -129,7 +129,7 @@ Outside, the forces of Irondelve waited, their siege equipment being assembled, 
 
 In the fortress, dwarves worked with furious intensity, building defenses against an enemy they might not survive.
 
-And somewhere in the mountains to the east, Urist McForgemaster was unaware that his legendary artifact—his crown of power—was about to start a war.
+And somewhere in the mountains to the east, Urist McForgemaster was unaware that his legendary artifact, his crown of power, was about to start a war.
 
 ---
 

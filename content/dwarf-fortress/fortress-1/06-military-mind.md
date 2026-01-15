@@ -29,7 +29,7 @@ Lokum came to stand beside his commander, looking at the maps they had studied f
 
 "You're thinking about negotiation," Lokum said.
 
-"I'm thinking about what happens if we succeed in conquering the eastern settlement," Thorgrim said. "We kill most of the dwarves—forty to sixty of them, including some workers and civilians. We capture the artifact. Then what?"
+"I'm thinking about what happens if we succeed in conquering the eastern settlement," Thorgrim said. "We kill most of the dwarves, forty to sixty of them, including some workers and civilians. We capture the artifact. Then what?"
 
 "We bring it here to Irondelve. We become the fortress in possession of a legendary artifact."
 
@@ -41,7 +41,7 @@ Lokum came to stand beside his commander, looking at the maps they had studied f
 
 "That's merciful," Lokum said, and he didn't sound approving.
 
-"It's practical," Thorgrim corrected. "If we offer them a way to save themselves without resistance, most will take it. Urist McForgemaster is talented, but he's not a warrior. He'll calculate that the cost of resistance is too high. And if he surrenders the artifact voluntarily, Stellarim can't claim we stole it—they can only claim that Urist made a pragmatic choice to align with the stronger military power."
+"It's practical," Thorgrim corrected. "If we offer them a way to save themselves without resistance, most will take it. Urist McForgemaster is talented, but he's not a warrior. He'll calculate that the cost of resistance is too high. And if he surrenders the artifact voluntarily, Stellarim can't claim we stole it, they can only claim that Urist made a pragmatic choice to align with the stronger military power."
 
 "You're planning to make Irondelve the military guardian of the artifact," Lokum said, understanding dawning. "To position ourselves as the essential force that the eastern settlement needs."
 
@@ -61,13 +61,13 @@ Lokum worked with the supply lines, calculating what they would need to sustain 
 
 The soldiers trained for maneuvers designed to impress rather than annihilate: displays of force, shows of discipline, demonstrations of military superiority that would convince Urist that resistance was impossible.
 
-And Thorgrim wrote the letter himself—a document that was invitation and threat wrapped together in careful language.
+And Thorgrim wrote the letter himself, a document that was invitation and threat wrapped together in careful language.
 
 "To Urist McForgemaster, Founder of the Eastern Settlement," it began.
 
 "It has come to my attention that your settlement harbors a legendary artifact of considerable power. This artifact, in the hands of an unfortified settlement, represents not an opportunity but a liability. Rival forces will seek it. Thieves will hunger for it. Enemies will come to claim it."
 
-"Irondelve offers an alternative. Allow us to garrison a military force at your settlement—not to control it, but to protect it. In exchange, the artifact remains under our mutual protection. Your settlement grows. Your craftsmanship flourishes. Irondelve provides the military security that prevents rival fortresses from coveting what you have built."
+"Irondelve offers an alternative. Allow us to garrison a military force at your settlement, not to control it, but to protect it. In exchange, the artifact remains under our mutual protection. Your settlement grows. Your craftsmanship flourishes. Irondelve provides the military security that prevents rival fortresses from coveting what you have built."
 
 "You have ten days to respond. After that, we will assume your answer is no, and we will take the artifact and the settlement by force."
 

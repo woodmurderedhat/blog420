@@ -3,7 +3,7 @@ layout: post
 title: "Russia-Ukraine War: A Snapshot of 2026 (As Consumed By The Commentariat)"
 author: 420 Navigator
 tags: [geopolitics, russia, ukraine, war, media]
-excerpt: "A real war gets turned into a moral personality quiz—by people safely watching from the feed."
+excerpt: "A real war gets turned into a moral personality quiz, by people safely watching from the feed."
 created: 2026-01-06
 published: 2026-01-06
 modified: 2026-01-06
@@ -16,11 +16,11 @@ Somewhere in 2026, a person is sitting in a heated apartment, tapping out a take
 
 This is the uncomfortable thing we’ve normalized: a war with real bodies, real amputations, real terrified nights, and real families learning new definitions of the word “missing,” has been turned into a recurring content franchise. We don’t just “follow” the conflict. We consume it. We turn it into identity. We shop for the correct opinion the way we shop for shoes: something that signals taste, values, and social belonging.
 
-My one main target is the spectator-culture around this war—the way people act when they think no one is judging them, even though everyone is. Not Russia. Not Ukraine. Not diplomats. Not generals. The audience. The commentary class. The smug little choir of armchair strategists, including the part of my own brain that wants applause more than understanding.
+My one main target is the spectator-culture around this war, the way people act when they think no one is judging them, even though everyone is. Not Russia. Not Ukraine. Not diplomats. Not generals. The audience. The commentary class. The smug little choir of armchair strategists, including the part of my own brain that wants applause more than understanding.
 
 ## How The War Becomes A Personality
 
-The war has been grinding on for years. Attrition isn’t cinematic, so we compensate by making it dramatic in ways that are emotionally satisfying. We pick our heroes, villains, and side characters. We choose the tone we’d like the world to have—triumphant, tragic, righteous, cynical—and then we get mad when reality refuses to perform.
+The war has been grinding on for years. Attrition isn’t cinematic, so we compensate by making it dramatic in ways that are emotionally satisfying. We pick our heroes, villains, and side characters. We choose the tone we’d like the world to have, triumphant, tragic, righteous, cynical, and then we get mad when reality refuses to perform.
 
 If you want to see how this works, watch what happens when the frontline barely moves.
 
@@ -40,7 +40,7 @@ And because the internet rewards certainty, nuance becomes a career-ending disea
 
 If you squint, you can see what the public wants: a scoreboard.
 
-We track places the way people track fantasy football stats—Pokrovsk, Kupyansk, Donetsk, Kharkiv, Zaporizhia—names turned into tokens in a debate. In the real world, these are towns where people still have kitchens, pets, grandparents, and the annoying neighbor they secretly miss when the building gets hit.
+We track places the way people track fantasy football stats, Pokrovsk, Kupyansk, Donetsk, Kharkiv, Zaporizhia, names turned into tokens in a debate. In the real world, these are towns where people still have kitchens, pets, grandparents, and the annoying neighbor they secretly miss when the building gets hit.
 
 Online, they’re a performance stage. We talk about “incremental gains” like we’re describing market share.
 
@@ -52,7 +52,7 @@ I’m not saying the military reality doesn’t matter. It matters a lot. But th
 
 Air and drone warfare has an ugly genius: it allows violence to be delivered at a distance while being consumed at a distance.
 
-When strikes hit infrastructure—energy facilities, ports, industrial sites—the harm isn’t only the explosion. It’s the second-order misery: the cold apartments, the dead elevators, the spoiled food, the hospitals running on fumes, the exhausted people doing daily arithmetic on fear.
+When strikes hit infrastructure, energy facilities, ports, industrial sites, the harm isn’t only the explosion. It’s the second-order misery: the cold apartments, the dead elevators, the spoiled food, the hospitals running on fumes, the exhausted people doing daily arithmetic on fear.
 
 But the audience tends to fixate on the tech, because tech has vibes. Drones are sleek. Missiles are dramatic. Infrastructure repair is boring. Refugee administration is boring. Trauma care is boring. The long tail of suffering doesn’t go viral unless it comes with footage.
 
@@ -82,7 +82,7 @@ This is the same brain pattern that ruins relationships: “If you really cared,
 
 Meanwhile, millions need aid. Displacement persists. Blackouts stretch into the kind of long darkness that makes you forget what normal life felt like.
 
-Numbers get thrown around—casualties, displaced people, aid requirements—until they become background noise. And because numbers are too big to feel, we replace feeling with performance.
+Numbers get thrown around, casualties, displaced people, aid requirements, until they become background noise. And because numbers are too big to feel, we replace feeling with performance.
 
 We post flags. We post slogans. We police language. We argue about whether certain words are allowed, as if the correct vocabulary is a substitute for actually improving anything.
 
@@ -104,7 +104,7 @@ Companies bargain with it for profit.
 
 Audiences bargain with it for identity.
 
-And some of us bargain with it for the cheap thrill of moral certainty—the feeling that we’re on the correct side of history, which is the most addictive drug on the internet.
+And some of us bargain with it for the cheap thrill of moral certainty, the feeling that we’re on the correct side of history, which is the most addictive drug on the internet.
 
 ## Media Bias, Or: Pick Your Comfort Food
 
@@ -134,7 +134,7 @@ We want to be seen as good people with correct opinions. We want the reward of r
 
 And the most damning part is this: even if you are sincerely on the side of justice, you can still behave like an asshole about it.
 
-So maybe the best “snapshot” of 2026 isn’t a map line or a talking point. Maybe it’s the image of all of us—comfortable, safe, and judgmental—refreshing a feed for the next update so we can feel something sharp and simple.
+So maybe the best “snapshot” of 2026 isn’t a map line or a talking point. Maybe it’s the image of all of us, comfortable, safe, and judgmental, refreshing a feed for the next update so we can feel something sharp and simple.
 
 Not because we’re evil. Because we’re human.
 

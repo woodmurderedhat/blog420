@@ -15,9 +15,9 @@ Irondelve's army arrived on schedule, establishing a camp three miles from Urist
 
 Thorgrim requested a parley. Urist accepted.
 
-They met at a neutral point between the two camps—a cleared area of grassland with only a few guards on either side. Thorgrim came with Lokum. Urist came with Drizzle and Katrin.
+They met at a neutral point between the two camps, a cleared area of grassland with only a few guards on either side. Thorgrim came with Lokum. Urist came with Drizzle and Katrin.
 
-For a moment, the four of them simply looked at each other. Two legends—Urist the legendary smith, Lokum the legendary warrior. And two others who carried the weight of decisions that affected thousands.
+For a moment, the four of them simply looked at each other. Two legends, Urist the legendary smith, Lokum the legendary warrior. And two others who carried the weight of decisions that affected thousands.
 
 "Legendary smith," Thorgrim said, offering a nod of respect. "I am Thorgrim Battlemaster. This is Lokum Steelhammer, my first commander."
 
@@ -99,7 +99,7 @@ Thorgrim stood and walked to the map, looking at the position of his army, of Sp
 
 "Yes," Urist said. "On one condition: that what we learn from it is shared with Sparkbrook, with Stellarim, with any dwarven settlement that wishes to preserve and study it. The artifact is ancient. It belongs to all dwarves, not just one fortress."
 
-Lokum made a small noise—whether approval or protest, Urist couldn't tell.
+Lokum made a small noise, whether approval or protest, Urist couldn't tell.
 
 Thorgrim was quiet for a very long time.
 

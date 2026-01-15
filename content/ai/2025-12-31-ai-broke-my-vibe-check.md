@@ -22,7 +22,7 @@ AI is the gremlin in the group chat that never sleeps, and everyone keeps expect
 
 ### How to Work With the Gremlin
 
-- Write prompts like you're texting a friend who owes you $20—direct, a little spicy, zero fluff.
+- Write prompts like you're texting a friend who owes you $20, direct, a little spicy, zero fluff.
 - Iterate fast: ask, tweak, bully it kindly, repeat.
 - Add your taste: the bot gives you drywall paste, you season it with your brain.
 

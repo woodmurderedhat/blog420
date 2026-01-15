@@ -12,21 +12,21 @@ draft: false
 
 Here’s the part nobody likes: the Venezuela “flashpoint” isn’t just about sovereignty, sanctions, or whether the UN has the spine of a wet paper bag. It’s about what _we_ turn into when we think we’re only being judged by people who already agree with us.
 
-You can watch it happen in real time. A country with real human beings—people who want electricity that stays on, medicine that exists, a job that pays, and a future that doesn’t feel like a prank—becomes a moral gym for outsiders. We don’t go there to help. We go there to lift rhetorical weights and admire ourselves in the mirror.
+You can watch it happen in real time. A country with real human beings, people who want electricity that stays on, medicine that exists, a job that pays, and a future that doesn’t feel like a prank, becomes a moral gym for outsiders. We don’t go there to help. We go there to lift rhetorical weights and admire ourselves in the mirror.
 
 The main target here isn’t “America” or “the UN” or “Maduro.” The main target is the modern spectator sport of geopolitical virtue: the way we use other people’s disasters as content, identity, and a convenient excuse to never shut up.
 
 ## Step One: The Raid, The Takes, The Dopamine
 
-Let’s say a dramatic military operation happens: naval interdictions, a sudden capture, officials moved across borders, the whole “history book speedrun” vibe. On paper, you get serious questions—legal ones, strategic ones, humanitarian ones.
+Let’s say a dramatic military operation happens: naval interdictions, a sudden capture, officials moved across borders, the whole “history book speedrun” vibe. On paper, you get serious questions, legal ones, strategic ones, humanitarian ones.
 
 In practice? We treat it like a new season dropped without warning.
 
 The internet fills up with people who have never read the UN Charter but are suddenly quoting it like it’s scripture. Others announce that international law is “basically vibes,” which is a cute way of saying, “I am comfortable with power as long as it’s my power.”
 
-And look—I’m not above it. I’m also the kind of idiot who feels a tiny, shameful thrill when something “big” happens, because big events give you the illusion that you’re living in a story instead of just… living. That’s the hook. You can feel righteous _and_ entertained. Two-for-one. No refund.
+And look, I’m not above it. I’m also the kind of idiot who feels a tiny, shameful thrill when something “big” happens, because big events give you the illusion that you’re living in a story instead of just… living. That’s the hook. You can feel righteous _and_ entertained. Two-for-one. No refund.
 
-Here’s the quiet trick: when violence becomes a plot twist, civilians become extras. You can tell because we only mention them as a category—“Venezuelans,” “refugees,” “the humanitarian situation”—like they’re a weather report. “Chance of suffering: high.”
+Here’s the quiet trick: when violence becomes a plot twist, civilians become extras. You can tell because we only mention them as a category, “Venezuelans,” “refugees,” “the humanitarian situation”, like they’re a weather report. “Chance of suffering: high.”
 
 ## Step Two: The UN, Misread On Purpose
 
@@ -65,7 +65,7 @@ One camp says: “He’s a dictator, not a legitimate head of state.” Another 
 
 But neither camp, online anyway, tends to be honest about the trade-offs.
 
-If you normalize unilateral action because you think the target is awful, you are also normalizing unilateral action for the next target—which may be your friend, your ally, or your own country when the vibe shifts.
+If you normalize unilateral action because you think the target is awful, you are also normalizing unilateral action for the next target, which may be your friend, your ally, or your own country when the vibe shifts.
 
 If you insist on process above all, you are also insisting that people who control violence and resources can keep controlling them as long as they do it behind a flag.
 
@@ -89,10 +89,10 @@ Most of us would rather argue.
 
 Here is the uncomfortable punchline: the flashpoint isn’t only in Caracas or New York or Washington. It’s in the parts of our brains that crave moral certainty, clean villains, and the sweet relief of being “right.”
 
-We are living in an era where cruelty can be repackaged as policy and apathy can be repackaged as realism. And in the middle, ordinary people get turned into a rhetorical resource—mined for tragedy whenever we need to win an argument.
+We are living in an era where cruelty can be repackaged as policy and apathy can be repackaged as realism. And in the middle, ordinary people get turned into a rhetorical resource, mined for tragedy whenever we need to win an argument.
 
 So yes: you can believe a regime is criminal. You can believe the UN is compromised. You can believe the rules are sacred. You can believe the rules are bullshit. You can even believe all of that at once, because reality is complicated and humans are inconsistent.
 
 Just don’t pretend your hot take is humanitarian action. Don’t pretend your timeline dunk is solidarity. Don’t pretend your certainty is wisdom. That’s the deal.
 
-Because the only thing worse than a broken international system is a world full of spectators who treat that brokenness like entertainment—and then act shocked when the consequences show up.
+Because the only thing worse than a broken international system is a world full of spectators who treat that brokenness like entertainment, and then act shocked when the consequences show up.

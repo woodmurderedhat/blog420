@@ -15,13 +15,13 @@ Sparkbrook had been founded five years ago as an act of hope bordering on madnes
 
 They had nearly all died instead.
 
-The first winter had been catastrophic. Poor planning, limited supplies, an unexpected siege by goblins—the fortress had been on the edge of complete collapse when reinforcements finally arrived from the parent settlement. Seventeen dwarves had perished.
+The first winter had been catastrophic. Poor planning, limited supplies, an unexpected siege by goblins, the fortress had been on the edge of complete collapse when reinforcements finally arrived from the parent settlement. Seventeen dwarves had perished.
 
 But the survivors had persisted. And slowly, gradually, impossibly, Sparkbrook had grown.
 
 By Year 150, it held a population of forty-seven dwarves. The fortress was cramped, its layout awkward and inefficient (built by necessity, not design), its defenses makeshift and frequently in need of repair. The dwarves here lived with a constant awareness of scarcity: every stone, every scrap of food, every tool was precious and finite.
 
-Mira Stonecarver stood in what was generously called the main hall—a rough chamber carved from stone with minimal ornamentation, functioning as meeting place, dining area, and emergency refuge. She was forty-two years old, strong-backed, with hands that bore the calluses of someone who had swung a pickaxe and a mason's hammer for most of her life.
+Mira Stonecarver stood in what was generously called the main hall, a rough chamber carved from stone with minimal ornamentation, functioning as meeting place, dining area, and emergency refuge. She was forty-two years old, strong-backed, with hands that bore the calluses of someone who had swung a pickaxe and a mason's hammer for most of her life.
 
 She was also the fortress overseer, a role she had never sought and had been forced into after the previous leader suffered a psychological break. Now, four years into her tenure, she bore the weight of every dwarven life in Sparkbrook like a physical burden.
 
@@ -35,7 +35,7 @@ Mira closed her eyes. It was always like this. Every decision was a calculation 
 
 "We'll reduce rations by five percent for everyone except the soldiers and laborers," Mira decided. "They need to maintain strength for their work. Everyone else tightens their belts."
 
-Oska made a note. He didn't protest—he knew as well as Mira that they were managing scarcity, not solving it.
+Oska made a note. He didn't protest, he knew as well as Mira that they were managing scarcity, not solving it.
 
 ---
 
@@ -43,7 +43,7 @@ Oska made a note. He didn't protest—he knew as well as Mira that they were man
 
 As Oska left, another dwarf entered the hall: Erith Pickjaw, Sparkbrook's chief engineer and, in Mira's opinion, the only reason the fortress still stood.
 
-Erith was brilliant in the way that some dwarves were brilliant—not from training or study, but from a kind of intuitive understanding of how mechanisms worked, how water flowed, how pressure built and released. In five years, Erith had transformed Sparkbrook from a barely-defensible hole in the ground into something approaching a fortress.
+Erith was brilliant in the way that some dwarves were brilliant, not from training or study, but from a kind of intuitive understanding of how mechanisms worked, how water flowed, how pressure built and released. In five years, Erith had transformed Sparkbrook from a barely-defensible hole in the ground into something approaching a fortress.
 
 The defensive walls now held multiple layers. Water had been diverted from the underground river to create a moat and a fallback water supply. Mechanisms had been installed to control stone-fall traps and seal breach points. The workshop areas had been reorganized for maximum efficiency. It was Erith's work that kept the fortress alive as much as any dwarf's.
 
@@ -51,7 +51,7 @@ The defensive walls now held multiple layers. Water had been diverted from the u
 
 "Tell me the problem," Mira said.
 
-"The main supports in the deep levels are showing stress fractures. I think there was minor seismic activity—nothing dramatic, but enough to put strain on the load-bearing walls. If we ignore it, in two to three years the entire eastern wing could collapse."
+"The main supports in the deep levels are showing stress fractures. I think there was minor seismic activity, nothing dramatic, but enough to put strain on the load-bearing walls. If we ignore it, in two to three years the entire eastern wing could collapse."
 
 Mira felt her stomach drop. "How much work to repair it?"
 
@@ -59,11 +59,11 @@ Mira felt her stomach drop. "How much work to repair it?"
 
 "Which means we lose resources we can't afford to lose," Mira said flatly.
 
-"Yes," Erith confirmed. "Which is where the solution comes in. I received word from the trading post—there's a caravan from the western settlements arriving in two weeks. A large one. If we negotiate correctly, we might be able to import additional food supplies and trade goods to tide us over the repair period."
+"Yes," Erith confirmed. "Which is where the solution comes in. I received word from the trading post, there's a caravan from the western settlements arriving in two weeks. A large one. If we negotiate correctly, we might be able to import additional food supplies and trade goods to tide us over the repair period."
 
 "From where? We don't have the capital for major imports."
 
-"No," Erith agreed. "But we have something better. We have ore. The deep vein you authorized me to explore three months ago? It's richer than initial surveys suggested. We could export processed ore—bars of steel, copper, tin—at rates that would provide significant trade value."
+"No," Erith agreed. "But we have something better. We have ore. The deep vein you authorized me to explore three months ago? It's richer than initial surveys suggested. We could export processed ore, bars of steel, copper, tin, at rates that would provide significant trade value."
 
 Mira felt a flicker of hope. "How soon can you process it?"
 

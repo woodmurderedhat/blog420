@@ -51,7 +51,7 @@ It was a show of force designed to demoralize, and it worked. Watching the siege
 
 Tefur, the military commander, organized the defense with what optimism he could muster.
 
-The plan was simple: hold the gates as long as possible. When the gates fell—and they would fall—retreat to the first sealed doors. Hold them. Fall back to the secondary positions. Use the maze that Erith had created to slow the enemy advance. Kill as many as possible. Die slowly rather than quickly.
+The plan was simple: hold the gates as long as possible. When the gates fell, and they would fall, retreat to the first sealed doors. Hold them. Fall back to the secondary positions. Use the maze that Erith had created to slow the enemy advance. Kill as many as possible. Die slowly rather than quickly.
 
 It wasn't victory. It was just maximizing the cost of defeat.
 
@@ -121,7 +121,7 @@ Thorgrim wrote back to Urist personally:
 
 It was signed simply: "Thorgrim Battlemaster, Commander of Irondelve."
 
-Urist received the letter at his camp in the eastern mountains. He read it with Drizzle beside him, and with the crown visible on the table before them—gleaming with its own inner light, beautiful and terrible and utterly impossible to deny.
+Urist received the letter at his camp in the eastern mountains. He read it with Drizzle beside him, and with the crown visible on the table before them, gleaming with its own inner light, beautiful and terrible and utterly impossible to deny.
 
 "Now," Drizzle said quietly, "the real negotiation begins."
 

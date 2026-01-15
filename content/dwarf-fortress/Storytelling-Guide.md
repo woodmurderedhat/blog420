@@ -1,10 +1,10 @@
 # Dwarf Fortress Storytelling Guide: From Gameplay to Fiction
 
-Welcome to the ultimate guide for turning your Dwarf Fortress adventures into compelling, readable fiction. Whether you've just lost your first fortress to a goblin siege or you're managing a multi-year dynasty, this guide will help you capture those emergent narratives and transform them into stories that captivate readers—even those who've never heard of Dwarf Fortress.
+Welcome to the ultimate guide for turning your Dwarf Fortress adventures into compelling, readable fiction. Whether you've just lost your first fortress to a goblin siege or you're managing a multi-year dynasty, this guide will help you capture those emergent narratives and transform them into stories that captivate readers, even those who've never heard of Dwarf Fortress.
 
 ## Why Tell Dwarf Fortress Stories?
 
-Dwarf Fortress is a game of **emergent storytelling**. Every fortress generates unique tales: legendary dwarves performing impossible feats, catastrophic failures born from tiny mistakes, and moments of triumph carved out of chaos. The game doesn't tell you these stories—_you live them_. This guide helps you _tell them_.
+Dwarf Fortress is a game of **emergent storytelling**. Every fortress generates unique tales: legendary dwarves performing impossible feats, catastrophic failures born from tiny mistakes, and moments of triumph carved out of chaos. The game doesn't tell you these stories, _you live them_. This guide helps you _tell them_.
 
 Your stories will:
 
@@ -22,7 +22,7 @@ Before diving into storytelling, here's a primer on key terms readers unfamiliar
 ### Core Concepts
 
 **Fortress**
-A dwarven settlement you build and manage. Think of it as your main character—it has a personality, history, and fate. Fortresses can thrive for decades or collapse in moments.
+A dwarven settlement you build and manage. Think of it as your main character, it has a personality, history, and fate. Fortresses can thrive for decades or collapse in moments.
 
 **Dwarves**
 The protagonists of your stories. Each dwarf has a name, skills, personality traits, and history. They fall in love, go insane, become heroes, or die ignominiously.
@@ -33,7 +33,7 @@ The primary play mode where you manage a fortress in real-time (paused or unpaus
 ### Gameplay Mechanics
 
 **Mood (Fey Mood)**
-When a dwarf is seized by inspiration, they enter a "fey mood"—a creative frenzy. They might create a legendary artifact (masterwork) or demand impossible resources. If denied, they can tantrum, break, or go berserk. This is storytelling gold.
+When a dwarf is seized by inspiration, they enter a "fey mood", a creative frenzy. They might create a legendary artifact (masterwork) or demand impossible resources. If denied, they can tantrum, break, or go berserk. This is storytelling gold.
 
 **Legend**
 A dwarf or artifact of exceptional renown. Legends might be legendary warriors who've defeated entire armies, or legendary crafters who've created artifacts of immense beauty and power.
@@ -228,16 +228,16 @@ Match your tone to the story. A fortress in decline feels different than one in 
 
 ### Technique 6: Create Emotional Stakes
 
-Don't just describe what happened—explain why it _matters_.
+Don't just describe what happened, explain why it _matters_.
 
 > _"Urist McForgemaster wasn't just any dwarf. He was the one who saved the fortress during the first siege. He trained every soldier. He had a wife and three children who believed he was invincible. And now he lay in the hospital, paralyzed from the waist down, staring at the ceiling with eyes that saw nothing."_
 
 ### Technique 7: Use Specific Details
 
-Generic descriptions feel flat. Dwarf Fortress is full of specific, weird details—use them.
+Generic descriptions feel flat. Dwarf Fortress is full of specific, weird details, use them.
 
 **Instead of:** "The fortress was under attack."
-**Try:** "The goblins came from the east, three squads of them, their leather armor marked with the symbol of the Iron Throne. They carried wooden spears and steel swords—steel stolen from _their own civilization_, melted down and reforged. It was insulting."
+**Try:** "The goblins came from the east, three squads of them, their leather armor marked with the symbol of the Iron Throne. They carried wooden spears and steel swords, steel stolen from _their own civilization_, melted down and reforged. It was insulting."
 
 ---
 
@@ -273,7 +273,7 @@ Legend: @ = dwarf, # = wall, . = floor, ~ = magma
 - Place visuals near related text
 - Add captions explaining what you're showing
 - Use visuals to break up long text blocks
-- Don't overload—one image per 300-500 words is a good ratio
+- Don't overload, one image per 300-500 words is a good ratio
 
 ---
 
@@ -334,7 +334,7 @@ Here's a complete example of a Dwarf Fortress story to inspire you:
 
 #### Opening
 
-Three generations ago, Urist McThorgrim led the first party of settlers into the mountainside. He found a vein of adamantine and made his fortune. His children built halls of marble and gold. His grandchildren raised armies. By Year 123 of the Third Age, Stellarim stood as the greatest fortress in the known world—or so its nobility believed.
+Three generations ago, Urist McThorgrim led the first party of settlers into the mountainside. He found a vein of adamantine and made his fortune. His children built halls of marble and gold. His grandchildren raised armies. By Year 123 of the Third Age, Stellarim stood as the greatest fortress in the known world, or so its nobility believed.
 
 But fortresses, like dwarves, are fragile things.
 
@@ -342,11 +342,11 @@ But fortresses, like dwarves, are fragile things.
 
 In the spring of Year 124, Urist McForgemaster, seventh-generation descendant of the original Urist McThorgrim, entered a fey mood. He was a master of craftsmanship, skilled in adamantine working and artifact creation. For three months, he locked himself in his workshop deep beneath the fortress. The forges burned night and day. Dwarves hauled raw materials in, and no one came out.
 
-When he emerged, he carried the **Spire of Eternal Flame**—an ornate crown of adamantine, each facet encrusted with rubies and fire opals. It was, without question, the greatest artifact ever created in Stellarim. The fortress celebrated. The baron himself placed the crown in the vault of honor, and every dwarf in Stellarim felt the weight of its presence—the weight of immortal fame.
+When he emerged, he carried the **Spire of Eternal Flame**, an ornate crown of adamantine, each facet encrusted with rubies and fire opals. It was, without question, the greatest artifact ever created in Stellarim. The fortress celebrated. The baron himself placed the crown in the vault of honor, and every dwarf in Stellarim felt the weight of its presence, the weight of immortal fame.
 
 Urist McForgemaster was now legendary.
 
-But legend, it seemed, came with a price. Three months later, his wife gave birth to twins. He loved them desperately. Then, one winter morning, he woke to find his wife dead—a simple infection, easily treatable, but she had not sought help. No one knew why. In his grief, Urist descended into the lower levels of the fortress and did not return for weeks.
+But legend, it seemed, came with a price. Three months later, his wife gave birth to twins. He loved them desperately. Then, one winter morning, he woke to find his wife dead, a simple infection, easily treatable, but she had not sought help. No one knew why. In his grief, Urist descended into the lower levels of the fortress and did not return for weeks.
 
 #### The Siege
 
@@ -356,7 +356,7 @@ The military commander, a battle-hardened female dwarf named Edna Ironhelm, orga
 
 That was when Urist McForgemaster emerged from the depths.
 
-He was no soldier—his legendary skills lay in craftsmanship, not combat. But he had been forging weapons in his isolation, and he understood the geometry of death in a way his peers did not. He took the militia personally. He led them through the siege tunnels. He killed seventeen goblins in pitched combat, his face spattered with blood, his breath ragged, laughing like a madman.
+He was no soldier, his legendary skills lay in craftsmanship, not combat. But he had been forging weapons in his isolation, and he understood the geometry of death in a way his peers did not. He took the militia personally. He led them through the siege tunnels. He killed seventeen goblins in pitched combat, his face spattered with blood, his breath ragged, laughing like a madman.
 
 The surviving goblins fled.
 
@@ -368,7 +368,7 @@ They celebrated for a week. The taverns overflowed with ale. Urist McForgemaster
 
 But Urist accepted nothing.
 
-Instead, he returned to his workshop. He began forging weapons again—not masterworks, not legendary items, but simple steel swords, spears, and armor. He trained new soldiers. He set up defensive positions. He prepared for a siege that might never come.
+Instead, he returned to his workshop. He began forging weapons again, not masterworks, not legendary items, but simple steel swords, spears, and armor. He trained new soldiers. He set up defensive positions. He prepared for a siege that might never come.
 
 When his brother asked why he worked so tirelessly, Urist's response was hollow:
 
@@ -376,11 +376,11 @@ When his brother asked why he worked so tirelessly, Urist's response was hollow:
 
 #### Reflection
 
-Years later, when Urist McForgemaster finally passed away—not in combat, but peacefully in his sleep—the fortress mourned. He was given a tomb of honor in the deepest chamber, near the vault of adamantine. The Spire of Eternal Flame rested on the pedestal above his tomb.
+Years later, when Urist McForgemaster finally passed away, not in combat, but peacefully in his sleep, the fortress mourned. He was given a tomb of honor in the deepest chamber, near the vault of adamantine. The Spire of Eternal Flame rested on the pedestal above his tomb.
 
 But Stellarim never truly recovered from the lessons Urist taught it. The fortress became grimly efficient, all joy drained, all play abandoned. It became a war machine. And while it never fell to siege, it never prospered again either.
 
-Some said Urist's legendary status cursed the fortress. Others said he simply saw too clearly the fragility of civilization, the single thread upon which all prosperity hung. Either way, his presence lingered long after his death—a reminder that heroes, like all dwarves, are mortal, and their victories often carry the seeds of future sorrows.
+Some said Urist's legendary status cursed the fortress. Others said he simply saw too clearly the fragility of civilization, the single thread upon which all prosperity hung. Either way, his presence lingered long after his death, a reminder that heroes, like all dwarves, are mortal, and their victories often carry the seeds of future sorrows.
 
 ---
 
@@ -389,7 +389,7 @@ Some said Urist's legendary status cursed the fortress. Others said he simply sa
 1. **Write regularly.** Capture stories while your memory is fresh.
 2. **Embrace failure.** Your worst moments make the best stories.
 3. **Slow down for emotional beats.** Let readers feel the weight of important moments.
-4. **Trust your reader.** You don't need to explain every mechanic—context makes it clear.
+4. **Trust your reader.** You don't need to explain every mechanic, context makes it clear.
 5. **Have fun.** If you're not enjoying the process, your reader won't enjoy the story.
 6. **Share your work.** Post on forums, blogs, or communities. Other Dwarf Fortress players will understand and appreciate your stories.
 

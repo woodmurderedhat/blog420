@@ -527,7 +527,7 @@ Before you share your story, review this checklist:
 - **Show, don't tell.** Describe actions and dialogue; avoid explanations.
 - **Use sensory details.** What do dwarves see, hear, smell, feel, taste?
 - **Build emotion.** Help readers care about your dwarves' fates.
-- **Embrace weirdness.** Dwarf Fortress is weird—use that!
+- **Embrace weirdness.** Dwarf Fortress is weird, use that!
 - **Trust your reader.** You don't need to explain every game mechanic.
 - **Slow down for important moments.** Let tension breathe.
 - **Have fun.** If you enjoy writing, readers enjoy reading.
