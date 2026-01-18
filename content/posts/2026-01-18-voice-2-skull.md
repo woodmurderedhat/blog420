@@ -10,9 +10,10 @@ published: 2026-01-18
 modified: 2026-01-18
 draft: false
 ---
+
 # The Comforting Fantasy of Being Targeted
 
-There’s a particular calm that settles over people when they decide they’re being targeted. Not *concerned*. Not *worried*. Calm. Almost relieved. Like finally realizing the reason your house smells weird isn’t because you forgot to take out the trash for three days, but because someone outside is piping chemicals into your vents on purpose.
+There’s a particular calm that settles over people when they decide they’re being targeted. Not _concerned_. Not _worried_. Calm. Almost relieved. Like finally realizing the reason your house smells weird isn’t because you forgot to take out the trash for three days, but because someone outside is piping chemicals into your vents on purpose.
 
 That calm belongs to adults who believe they are under attack by something vast, advanced, and strangely intimate. Satellites. Energy pulses. Voices that somehow bypass the ears but never seem to interrupt a podcast.
 
@@ -20,7 +21,7 @@ They’re not whispering about it, either. They’re confident. Weirdly proud. A
 
 And to be clear, this isn’t about whether governments experiment with weapons, or whether militaries lie, or whether technology does unsettling things behind closed doors. Of course they do. That’s not the joke.
 
-The joke is what people *do* once they decide they’re important enough to be singled out.
+The joke is what people _do_ once they decide they’re important enough to be singled out.
 
 Because when people think no one is judging them, when they believe the only eyes on them belong to shadowy agencies with unlimited budgets, they reveal something embarrassing: they like the idea.
 
@@ -38,13 +39,13 @@ This belief ages well, too. It adapts. It incorporates new terminology. New pate
 
 And once someone crosses that line, they start behaving less like a person under threat and more like someone auditioning for recognition.
 
-They document *everything*. Headaches, static, dreams, emotions, the way the air feels when they wake up annoyed. They narrate their inner lives with the confidence of people who have never once wondered if their experience might be unremarkable.
+They document _everything_. Headaches, static, dreams, emotions, the way the air feels when they wake up annoyed. They narrate their inner lives with the confidence of people who have never once wondered if their experience might be unremarkable.
 
 Any explanation that suggests stress, trauma, or the basic fact that modern life grinds people into powder is rejected instantly. That would mean they’re just another tired adult with unresolved issues and a phone addiction. That would mean nothing special is happening.
 
 Being depressed is shameful. Being targeted is heroic.
 
-They don’t ask whether something is happening. They ask why no one is paying enough attention to it happening *to them*. The complaint is never “this is terrifying.” It’s “this isn’t being taken seriously.”
+They don’t ask whether something is happening. They ask why no one is paying enough attention to it happening _to them_. The complaint is never “this is terrifying.” It’s “this isn’t being taken seriously.”
 
 And here’s the uncomfortable part: a lot of these people would be genuinely upset if the whole thing were disproven tomorrow.
 
@@ -76,7 +77,7 @@ Different groups pick different enemies. Same emotional math.
 
 What makes the targeted identity especially ripe for mockery is how naked the bargain is.
 
-*Give me certainty, and I’ll give you responsibility.*
+_Give me certainty, and I’ll give you responsibility._
 
 People take that deal constantly. Quietly. Gladly. With both hands.
 
