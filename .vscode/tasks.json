@@ -21,6 +21,22 @@
       "command": "npm install",
       "problemMatcher": [],
       "group": "build"
+    },
+    {
+      "label": "run-check",
+      "type": "shell",
+      "command": "npm run check",
+      "group": "build"
+    },
+    {
+      "label": "run-test",
+      "type": "shell",
+      "command": "npm test"
+    },
+    {
+      "label": "run-format",
+      "type": "shell",
+      "command": "npm run format"
     }
   ]
 }
