@@ -511,6 +511,8 @@ tbody,
 li,
 p {
   line-height: 1.6rem;
+  /* Ensure paragraphs have readable spacing even if a global reset removes default margins */
+  margin: 0 0 1.2rem;
 }
 
 .table-container {

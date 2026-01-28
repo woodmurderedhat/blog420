@@ -39,6 +39,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Make sure paragraphs have breathing room site-wide */
+p {
+  margin: 0 0 1.2rem;
+}
+
 /* Keep pixel rendering for images only */
 .post-content img,
 .post-content figure img {
