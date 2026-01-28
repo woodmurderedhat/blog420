@@ -19,6 +19,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "new-post": "node scripts/add-post-metadata.mjs",
     "profile": "0x -D prof node ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
